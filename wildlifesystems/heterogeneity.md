@@ -1,2 +1,0 @@
-# Heterogeneity in sensor networks
-
