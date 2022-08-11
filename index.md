@@ -10,9 +10,19 @@ I currently work on the [Urban Nature Project](https://www.nhm.ac.uk/about-us/ur
 
 [audioBlast!](https://audioblast.org): discovering and searching of bioacoustic and ecoacoustic datasets
 
+### R bioacoustics tools
+[SonicScrewdriveR](https://github.com/edwbaker/sonicscrewdriver): multi-tool for bioacoustics in R
+
+[tdsc](https://github.com/edwbaker/tdsc): time-domain signal coding in R
+
+[zcjs-r](https://github.com/BioAcoustica/zcjs-r): visualise zero-crossing files in R and Shiny using the [zcjs](https://github.com/BioAcoustica/zcjs) library
+
 ## Publications
 [Google Scholar](https://scholar.google.com/citations?user=44XAtwYAAAAJ): scientific papersand reports
 
 [Medium](https://edwbaker.medium.com/): longer form writing
 
 [Blog](https://pblog.ebaker.me.uk): shorter articles
+
+## Find me elsewhere
+[linktr.ee/edwbaker](https://linktr.ee/edwbaker)
