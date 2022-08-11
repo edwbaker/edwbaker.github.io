@@ -4,7 +4,7 @@ I currently work on the [Urban Nature Project](https://www.nhm.ac.uk/about-us/ur
 ## Current projects
 [Urban Nature Project](https://www.nhm.ac.uk/about-us/urban-nature-project.html): monitoring and understanding urban biodiversity in the UK
 
-[WildlifeSystems](https://wildlife.systems): devices more monitoring biodiversity as part of large, dense sensor networks
+[WildlifeSystems](https://wildlife.systems): devices for monitoring biodiversity as part of large, dense sensor networks
 
 [BioAcoustica](https://bio.acousti.ca): repository for bioacoustic data
 
