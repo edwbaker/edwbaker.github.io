@@ -18,7 +18,7 @@ I currently work on the [Urban Nature Project](https://www.nhm.ac.uk/about-us/ur
 [zcjs-r](https://github.com/BioAcoustica/zcjs-r): visualise zero-crossing files in R and Shiny using the [zcjs](https://github.com/BioAcoustica/zcjs) library
 
 ## Publications
-[Google Scholar](https://scholar.google.com/citations?user=44XAtwYAAAAJ): scientific papersand reports
+[Google Scholar](https://scholar.google.com/citations?user=44XAtwYAAAAJ): scientific papers and reports
 
 [Medium](https://edwbaker.medium.com/): longer form writing
 
