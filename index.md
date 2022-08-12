@@ -24,5 +24,12 @@ I currently work on the [Urban Nature Project](https://www.nhm.ac.uk/about-us/ur
 
 [Blog](https://pblog.ebaker.me.uk): shorter articles
 
+## Roles and responsibilities
+Convenor TDWG AudubonCore Maintenance Group
+
+Vice-chair (Phasmida) IUCN Grasshopper Specialist Group
+
+Science Committee Lyme Regis Fossil Festival
+
 ## Find me elsewhere
 [linktr.ee/edwbaker](https://linktr.ee/edwbaker)
