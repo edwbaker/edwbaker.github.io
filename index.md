@@ -8,12 +8,12 @@ I currently work on the [Urban Nature Project](https://www.nhm.ac.uk/about-us/ur
 
 [BioAcoustica](https://bio.acousti.ca): repository for bioacoustic data
 
-[SonicScrewdriveR](https://sonicscrewdriver.ebaker.me.uk): analysis and visualising tools for bioacoustics and ecoacoustics
+[SonicScrewdriveR](): analysis and visualising tools for bioacoustics and ecoacoustics
 
 [audioBlast!](https://audioblast.org): discovering and searching of bioacoustic and ecoacoustic datasets
 
 ### R bioacoustics tools
-[SonicScrewdriveR](https://github.com/edwbaker/sonicscrewdriver): multi-tool for bioacoustics in R
+[SonicScrewdriveR](https://sonicscrewdriver.ebaker.me.uk)): multi-tool for bioacoustic analysis and visualisation in R
 
 [tdsc](https://github.com/edwbaker/tdsc): time-domain signal coding in R
 
