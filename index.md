@@ -8,8 +8,6 @@ I currently work on the [Urban Nature Project](https://www.nhm.ac.uk/about-us/ur
 
 [BioAcoustica](https://bio.acousti.ca): repository for bioacoustic data
 
-[SonicScrewdriveR](): analysis and visualising tools for bioacoustics and ecoacoustics
-
 [audioBlast!](https://audioblast.org): discovering and searching of bioacoustic and ecoacoustic datasets
 
 ### R bioacoustics tools
