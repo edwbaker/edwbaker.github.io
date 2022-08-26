@@ -11,7 +11,7 @@ I currently work on the [Urban Nature Project](https://www.nhm.ac.uk/about-us/ur
 [audioBlast!](https://audioblast.org): discovering and searching of bioacoustic and ecoacoustic datasets
 
 ### R bioacoustics tools
-[SonicScrewdriveR](https://sonicscrewdriver.ebaker.me.uk)): multi-tool for bioacoustic analysis and visualisation in R
+[SonicScrewdriveR](https://sonicscrewdriver.ebaker.me.uk): multi-tool for bioacoustic analysis and visualisation in R
 
 [tdsc](https://github.com/edwbaker/tdsc): time-domain signal coding in R
 
