@@ -1,5 +1,5 @@
 layout: page
 title: "Sensor Networks"
-permalink: /sensor-networks
+permalink: /sensor-networks/
 
 # Sensor Networks
