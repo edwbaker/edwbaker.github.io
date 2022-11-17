@@ -31,6 +31,8 @@ Convenor TDWG AudubonCore Maintenance Group
 
 Vice-chair (Phasmida) IUCN Grasshopper Specialist Group
 
+Editor _Phasmid Studies_
+
 Science Committee Lyme Regis Fossil Festival
 
 ## Find me elsewhere
