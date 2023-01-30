@@ -6,3 +6,8 @@
 - NatSCA Lunchtime Talks: Bioacoustics and Collections (online)
 - Soil Acoustics Workshop (AMC)
 - Acoustics collection tour for The Acoustic Tunnel
+
+## Teaching
+
+### January 2023
+- Arthropod bioacoustics, UCL
