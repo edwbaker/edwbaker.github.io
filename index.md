@@ -42,7 +42,7 @@ Science Committee Lyme Regis Fossil Festival
 
 MSc Taxonomy, Biodiversity & Evolution (Imperial College and Natural History Museum)
 
-MSc Ecology & Data Science (University College Londn and Natural History Museum)
+MSc Ecology & Data Science (University College London and Natural History Museum)
 
 ## Find me elsewhere
 [linktr.ee/edwbaker](https://linktr.ee/edwbaker)
