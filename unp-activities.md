@@ -10,4 +10,7 @@
 ## Teaching
 
 ### January 2023
-- Arthropod bioacoustics, UCL
+- Arthropod bioacoustics. UCL Ecology and Data science MSc
+
+### February 2023
+- Acoustic identification. Imperial College / Natural History Museum Taxonomy, Biodiversity & Evolution MSc
