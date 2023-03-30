@@ -10,6 +10,12 @@
 - Soil Acoustics Workshop (AMC)
 - Acoustics collection tour for The Acoustic Tunnel
 
+### March 2023
+ - Filming for Nature Overheard
+
+### May 2023
+ - British Naturalists Association talk
+
 ## Teaching
 
 ### January 2023
