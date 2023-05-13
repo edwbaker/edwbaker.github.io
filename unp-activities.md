@@ -18,6 +18,7 @@
 - Filming for Nature Overheard (+ Acoustics Collection Tour)
 
 ### May 2023
+- Video for Nature Overheard event for teachers
 - British Naturalists Association talk
 
 ## Teaching
