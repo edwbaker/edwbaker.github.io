@@ -1,1 +1,1 @@
-# Some notes on Prophalangopsis obscura
+# Some notes on _Prophalangopsis obscura_ (Walker, 1869)
