@@ -19,7 +19,7 @@
 
 ### May 2023
 - Video for Nature Overheard event for teachers
-- British Naturalists Association talk
+- [British Naturalists Association talk](/talks/2023-05-BNU)
 
 ## Teaching
 
