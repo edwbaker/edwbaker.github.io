@@ -9,7 +9,7 @@
 - NatSCA Lunchtime Talks: Bioacoustics and Collections (online)
 - Soil Acoustics Workshop (AMC)
 - Acoustics collection tour ([The Acoustic Tunnel](https://the-acoustic-tunnel.com/))
-- AI for Natural History event at Natural History Museum
+- [AI for Natural History](/talks/2022-11-AI) event at Natural History Museum
 
 ### February 2023
 - Acoustics Collection Tour (Laura)
