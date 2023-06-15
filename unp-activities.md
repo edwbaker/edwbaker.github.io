@@ -5,6 +5,9 @@
 
 ## Outreach
 
+### June 2023
+- AWS Summit (2x Urban Nature Hub Ask an Expert sessions)
+
 ### May 2023
 - Video for Nature Overheard event for teachers
 - [British Naturalists Association talk](/talks/2023-05-BNU)
