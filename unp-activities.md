@@ -7,6 +7,7 @@
 
 ### June 2023
 - AWS Summit (2x Urban Nature Hub Ask an Expert sessions)
+- [Insect Orchestra](https://www.nhm.ac.uk/discover/insect-sounds.html) article for NHM website
 
 ### May 2023
 - Video for Nature Overheard event for teachers
