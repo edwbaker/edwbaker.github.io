@@ -8,7 +8,6 @@
 ### June 2023
 - AWS Summit (2x Urban Nature Hub Ask an Expert sessions)
 - [Insect Orchestra](https://www.nhm.ac.uk/discover/insect-sounds.html) article for NHM website
-- Soil microphone tests at London Zoo
 
 ### May 2023
 - Video for Nature Overheard event for teachers
@@ -26,6 +25,10 @@
 - Acoustics collection tour ([The Acoustic Tunnel](https://the-acoustic-tunnel.com/))
 - [AI for Natural History](/talks/2022-11-AI) event at Natural History Museum
 
+## Trials and collaborations
+
+### June 2023
+- Soil microphone tests at London Zoo
 
 ## Teaching
 
@@ -34,3 +37,4 @@
 
 ### January 2023
 - Arthropod bioacoustics. UCL Ecology and Data science MSc
+
