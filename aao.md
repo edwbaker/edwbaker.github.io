@@ -1,5 +1,6 @@
 
 # Automated Acoustic Observatories
+
 ## Non-invasive long term monitoring of acoustic species
 
 Monitoring species to establish presence/absence and population size is expensive and time-consuming, yet crucial when studying the impacts of climate change on terrestrial ecosystems. Automatic acoustic observatories (AAO) are devices that passively collect and classify sounds to enable species identification in the field but they must be trained prior to going into the field.
