@@ -6,6 +6,12 @@
 
 ## Outreach
 
+### September 2023
+
+- [Bioacoustics in the Urban Nature Project](/talks/2023-09-RSPB)
+- City Nature Challenge, Claypits Nature Reserve, Glasgow
+- Meet project partners in Glasgow
+
 ### June 2023
 
 - AWS Summit (2x Urban Nature Hub Ask an Expert sessions)
