@@ -8,7 +8,7 @@ I am currently an Acoustic Biology Researcher at Natural History Museum, London,
 
 [Urban Nature Project](https://www.nhm.ac.uk/about-us/urban-nature-project.html): monitoring and understanding urban biodiversity in the UK
 
-- [Nature Overheard](https://ebaker.me.uk/nature-overheard): Community Science project including acoustic monitoring.
+[Nature Overheard](https://ebaker.me.uk/nature-overheard): Community Science project including acoustic monitoring.
 
 [WildlifeSystems](https://wildlife.systems): devices for monitoring biodiversity as part of large, dense sensor networks
 
