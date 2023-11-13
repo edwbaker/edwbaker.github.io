@@ -6,6 +6,10 @@
 
 ## Outreach
 
+### October 2023
+
+- [International Bioacoustics Congress (Hokkaido University, Sapporo, Japan)](talks/2023-IBAC)
+
 ### September 2023
 
 - [Bioacoustics in the Urban Nature Project](/talks/2023-09-RSPB)

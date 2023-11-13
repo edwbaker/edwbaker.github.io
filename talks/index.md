@@ -2,6 +2,8 @@
 
 ## 2023
 
+- [28/10/2023 - IBAC Sapporo, Japan](talks/2023-IBAC) - Infrastructures for multi-scale bioacoustics analysis
+
 - [29/09/2023 - RSPB at Kelvingrive Museum](/talks/2023-09-RSPB) - Bioacoustics in the Urban Nature Project
 
 - [15/05/2023 - British Naturalists' Union](/talks/2023-05-BNU) - Bioacoustics: A (very) brief overview
