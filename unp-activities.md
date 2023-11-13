@@ -6,6 +6,10 @@
 
 ## Outreach
 
+### November 2023
+
+- [09/11/2023 - Garden science: sounds, sensors and network](talks/2023-11-GS)
+
 ### October 2023
 
 - [International Bioacoustics Congress (Hokkaido University, Sapporo, Japan)](talks/2023-IBAC)
