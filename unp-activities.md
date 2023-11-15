@@ -28,7 +28,7 @@
 ### May 2023
 
 - Video for Nature Overheard event for teachers
-- [British Naturalists Union talk](/talks/2023-05-BNU)
+- [British Naturalists Association talk](/talks/2023-05-BNA)
 
 ### March 2023
 
