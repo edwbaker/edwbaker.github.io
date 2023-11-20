@@ -6,4 +6,4 @@
 
 ## General acoustics
 
-= [Linux audio recipes](/notes/linux-audio-recipes)
+- [Linux audio recipes](/notes/linux-audio-recipes)
