@@ -18,7 +18,7 @@ ffmpeg -i stero.wav -ac 1 mono.wav
 ffmpeg -i high.wav -ar 44100 low.wav
 ````
 
-## Chnage bit depth of wav file
+## Change bit depth of wav file
 
 ````
 ffmpeg -i high.wav -c:a pcm_s16le low.wav
