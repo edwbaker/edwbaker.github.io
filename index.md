@@ -38,15 +38,13 @@ I am currently an Acoustic Biology Researcher at Natural History Museum, London,
 
 ## Roles and responsibilities
 
-Convenor TDWG AudubonCore Maintenance Group
+Convenor TDWG AudiovisualCore Maintenance Group [GitHub](https://github.com/tdwg/ac)
 
 Co-convenor Royal Entomological Society Orthoptera Special Interest Group
 
 Vice-chair (Phasmida) IUCN Grasshopper Specialist Group
 
 Editor _Phasmid Studies_
-
-Science Committee Lyme Regis Fossil Festival
 
 ## Teaching
 
