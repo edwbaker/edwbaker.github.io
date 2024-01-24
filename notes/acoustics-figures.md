@@ -1,5 +1,7 @@
 # Acoustic figures
 
+Acoustic figures and diagrams using R.
+
 ## Wave in air
 
 ![A wave in air](/imgs/wave-in-air.png)
