@@ -33,7 +33,7 @@ for f in raw/*;
 do
   ffmpeg -i "${f}" -vn -c:a pcm_s16le -ar 44100 "wav/${f#raw/}.wav";
 done
-```
+````
 
 ## Concatenating files
 
