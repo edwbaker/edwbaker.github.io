@@ -31,7 +31,7 @@ Source files in `raw`, output files in `wav`, convert to 16 bit 44.1kHz Wave fil
 ````bash
 for f in raw/*;
 do
-	ffmpeg -i "${f}" -vn -c:a pcm_s16le -ar 44100 "wav/${f#raw/}.wav";
+  ffmpeg -i "${f}" -vn -c:a pcm_s16le -ar 44100 "wav/${f#raw/}.wav";
 done
 ```
 
