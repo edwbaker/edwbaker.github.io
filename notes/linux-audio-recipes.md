@@ -4,11 +4,11 @@ Most of these should work on other Unix-like systems such as macOS.
 
 ## Tools
 
-### sox: Sound Exchange
+### sox: Sound eXchange
 
-#### Installation
+#### sox Installation
 
-##### macOS
+##### sox installation on macOS
 
 ````bash
 brew install sox
@@ -16,7 +16,9 @@ brew install sox
 
 ### ffmpeg
 
-##### macOS
+#### ffmpeg installation
+
+##### ffmpeg installation on macOS
 
 ````bash
 brew install ffmpeg
@@ -49,6 +51,14 @@ for f in raw/*;
 do
   ffmpeg -i "${f}" -vn -c:a pcm_s16le -ar 44100 "wav/${f#raw/}.wav";
 done
+````
+
+## Normalisation
+
+Normalisation to-0.1dB
+
+````bash
+sox in_file out_file norm -0.1
 ````
 
 ## Splitting a file
