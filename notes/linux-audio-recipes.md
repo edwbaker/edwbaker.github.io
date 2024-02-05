@@ -1,10 +1,22 @@
 # Linux audio recipes
 
+Most of these should work on other Unix-like systems such as macOS.
+
 ## Tools
 
 ### sox: Sound Exchange
 
+#### Instlallation
+
+##### macOS
+
+brew install sox
+
 ### ffmpeg
+
+##### macOS
+
+brew install ffmpeg
 
 ## Mix stero to mono
 
@@ -33,6 +45,14 @@ for f in raw/*;
 do
   ffmpeg -i "${f}" -vn -c:a pcm_s16le -ar 44100 "wav/${f#raw/}.wav";
 done
+````
+
+## Splitting a file
+
+Split a file into 6 second chunks
+
+````bash
+sox in_file out_file trim 0 6 : newfile : restart
 ````
 
 ## Concatenating files
