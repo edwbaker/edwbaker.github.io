@@ -6,17 +6,21 @@ Most of these should work on other Unix-like systems such as macOS.
 
 ### sox: Sound Exchange
 
-#### Instlallation
+#### Installation
 
 ##### macOS
 
+````bash
 brew install sox
+````
 
 ### ffmpeg
 
 ##### macOS
 
+````bash
 brew install ffmpeg
+````
 
 ## Mix stero to mono
 
