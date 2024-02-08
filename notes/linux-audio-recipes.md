@@ -81,7 +81,11 @@ ffmpeg -i high.wav -c:a pcm_s16le low.wav
 ## Convert file type
 
 ````bash
-sox in.wav out.mp3
+ffmpeg in_file.wav out_file.mp3
+````
+
+````bash
+sox in_file.wav out_file.mp3
 ````
 
 ## Converting an entire folder
