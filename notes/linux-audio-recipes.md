@@ -10,6 +10,8 @@ Most of these should work on other Unix-like systems such as macOS.
 
 ##### sox installation on macOS
 
+First [install homebrew](https://docs.brew.sh/Installation).
+
 ````bash
 brew install sox
 ````
@@ -19,6 +21,8 @@ brew install sox
 #### ffmpeg installation
 
 ##### ffmpeg installation on macOS
+
+First [install homebrew](https://docs.brew.sh/Installation).
 
 ````bash
 brew install ffmpeg
