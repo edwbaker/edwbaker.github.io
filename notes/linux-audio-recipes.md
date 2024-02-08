@@ -155,14 +155,17 @@ This uses sox to concatenate any matching wave files in a directory.
 *Note that the wav file format is limited to 4GB due to a 32-bit header.*
 
 ````bash
+# Delete temp.wav if it exists
 if test -f temp.wav; then
   rm temp.wav
 fi
 
+# Delete out.wav if it exists
 if test -f out.wav; then
   rm out.wav
 fi
-                                                                                                                         
+
+# List Wave files and sort by name                                                                                     
 ls *.wav | sort -n | while read l;
 do     
    echo "$l"                                                                                                                                                          
