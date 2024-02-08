@@ -8,6 +8,12 @@ Most of these should work on other Unix-like systems such as macOS.
 
 #### sox Installation
 
+##### sox installation on Ubunu and other Debian derivatives
+
+````bash
+sudo apt install sox
+````
+
 ##### sox installation on macOS
 
 First [install homebrew](https://docs.brew.sh/Installation).
@@ -19,6 +25,12 @@ brew install sox
 ### ffmpeg
 
 #### ffmpeg installation
+
+##### ffmpeg installation on Ubunu and other Debian derivatives
+
+````bash
+sudo apt install ffmpeg
+````
 
 ##### ffmpeg installation on macOS
 
