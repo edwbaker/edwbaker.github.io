@@ -68,6 +68,7 @@ ffmpeg -i high.wav -ar 44100 low.wav
 ````bash
 sox high.wav -r 44100 low.wav
 sox high.wav low.wav rate 44100
+
 sox high.wav -r 48k low.wav
 sox high.wav low.wav rate 48k
 ````
