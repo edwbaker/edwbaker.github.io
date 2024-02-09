@@ -57,7 +57,30 @@ man ffmpeg
 ## Getting audio file information
 
 ````bash
+sox --info file
+soxi file
+````
+
+````bash
 sox file.mp3 -n stat
+````
+
+## Playing audio
+
+The `play` command is provided by `sox`.
+
+### Play an audio file
+
+````bash
+play in_file
+````
+
+### Play an audio file with n dB of volume reduction
+
+The `play` command is provided by `sox`.
+
+````bash
+play in_file gain -n
 ````
 
 ## Manipulating channels
@@ -65,6 +88,9 @@ sox file.mp3 -n stat
 ### Mix stero to mono
 
 ````bash
+sox stereo.wav -c 1 mono.wav
+sox stereo.wav mono.wav channels 
+
 ffmpeg -i stero.wav -ac 1 mono.wav
 ````
 
@@ -73,6 +99,25 @@ ffmpeg -i stero.wav -ac 1 mono.wav
 ````bash
 sox in_file.wav out_left.wav remix 1
 sox in_file.wav out_right.wav remix 2
+````
+
+### Combine two mono files to stereo
+
+````bash
+sox -M left_file_ right_file_ stereo_file
+````
+
+### Combine files by mixing
+
+````bash
+sox -m in_file_1 in_file_2 in_file_3 out_file
+````
+
+### Extract select channels from multichannel file
+
+````bash
+# Extract channels 2, 4, and 5
+sox in_file out_file remix 2 4 5
 ````
 
 ## Manipulating sample rate
@@ -89,6 +134,14 @@ sox high.wav low.wav rate 44100
 
 sox high.wav -r 48k low.wav
 sox high.wav low.wav rate 48k
+````
+
+## Manipulating bitrate (mp3)
+
+### Convert to 256kbps
+
+````bash
+sox in_file -C 256 output.mp3
 ````
 
 ## Manipulating bit depth
@@ -123,6 +176,12 @@ sox in_file.wav out_file.mp3
 ````
 
 ## Normalisation
+
+### Normalisation of amplitude
+
+````bash
+sox in_file out_file norm
+````
 
 ### Normalisation of amplitude to -0.1dB
 
@@ -168,6 +227,12 @@ sox in_file out_file trim 0 -n
 
 ## Concatenating files
 
+### Concatenating a small number of files
+
+````bash
+sox in_file_1 in_file_2 in_file_3 out_file
+````
+
 ### Concatenating large numbers of files
 
 This uses sox to concatenate any matching wave files in a directory.
@@ -207,4 +272,55 @@ done
 ````bash
 #n can be a decimal value
 sox in.wav out.wav speed n
+````
+
+## Generating noise
+
+### Generate n seconds of white noise
+
+````bash
+sox -n output.wav synth 1 noise
+````
+
+### Generate n seconds of pink noise
+
+````bash
+sox -n output.wav synth 1 pinknoise
+````
+
+## Generating sine waves
+
+### Generate n seconds of 440Hz sine tone
+
+````bash
+sox -n output.wav synth 1 sine 440
+````
+
+### Generate an n second swept sine from 2Hz to 20kHz
+
+````bash
+sox -n swept-sine.wav synth 10 sine 2/20000
+````
+
+## Generating a Dirac delta function (Dirac impulse) with tail padding
+
+````bash
+sox -n -r 48000 impulse.wav synth 1s square pad 0 47999s
+````
+
+## Miscellaneous transformations
+
+### Reversing audio
+
+````bash
+sox in_file out_file reverse
+````
+
+## Visualisation
+
+### Spectrogram
+
+````bash
+sox speech.wav -n spectrogram
+# Output is spectrogram.png
 ````
