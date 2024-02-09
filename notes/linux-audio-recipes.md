@@ -303,7 +303,7 @@ sox -n swept-sine.wav synth 10 sine 2/20000
 ## Generating a Dirac delta function (Dirac impulse) with tail padding
 
 ````bash
-sox -n -r 48000 impulse.wav synth 1s square pad 0 47999s
+sox -n -r 48000 dirac.wav synth 1s square pad 0 47999s
 ````
 
 ## Miscellaneous transformations
