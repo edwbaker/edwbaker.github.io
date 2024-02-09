@@ -53,6 +53,10 @@
 
 ## Teaching
 
+### February 2024
+
+- Acoustic identification. Imperial College / Natural History Museum Taxonomy, Biodiversity & Evolution MSc
+
 ### February 2023
 
 - Acoustic identification. Imperial College / Natural History Museum Taxonomy, Biodiversity & Evolution MSc
@@ -60,4 +64,3 @@
 ### January 2023
 
 - Arthropod bioacoustics. UCL Ecology and Data science MSc
-
