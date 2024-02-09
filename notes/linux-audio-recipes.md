@@ -8,16 +8,6 @@ Unless you are unusually curious, the best way to use this guide is by seaching 
 
 The two most common command line tools are Sound eXchange (sox) and FFmpeg, which share a great deal of basic functionality. These are widely availabe on Unix-like operating systems (and even Windows).
 
-### Getting help
-
-Both sox and ffmpeg come with extensive documentation.
-
-````bash
-man sox
-
-man ffmpeg
-````
-
 ### sox: Sound eXchange
 
 #### sox Installation
@@ -52,6 +42,16 @@ First [install homebrew](https://docs.brew.sh/Installation).
 
 ````bash
 brew install ffmpeg
+````
+
+### Getting help
+
+Both sox and ffmpeg come with extensive documentation.
+
+````bash
+man sox
+
+man ffmpeg
 ````
 
 ## Getting audio file information
