@@ -1,12 +1,14 @@
 # Linux audio recipes
 
+This is a collection of small techniques for manipulating audio data on the command line. They have been compiled over a number of years from my work on bioacoustic and ecoacoustic datsets, although they should prove useful to anyone who works with audio files.
+
 Most of these should work on other Unix-like systems such as macOS.
 
 Unless you are unusually curious, the best way to use this guide is by seaching (`Ctrl+F`) in your web browser for what you are trying to achieve.
 
 ## Tools
 
-The two most common command line tools are Sound eXchange (sox) and FFmpeg, which share some basic functionality. These are widely availabe on Unix-like operating systems (and even Windows). FFmpeg is primarily a tool for video (which is often a useful tool for the acoustician) although it can also be used to maniulate audio.
+The two most common command line tools are Sound eXchange (sox) and FFmpeg, which share some basic functionality. These are widely availabe on Unix-like operating systems (and even Windows). FFmpeg is primarily a tool for video (which is often a useful tool for the acoustician) although it can also be used to manipulate audio.
 
 ### sox: Sound eXchange
 
