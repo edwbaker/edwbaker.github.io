@@ -77,8 +77,6 @@ play in_file
 
 ### Play an audio file with n dB of volume reduction
 
-The `play` command is provided by `sox`.
-
 ````bash
 play in_file gain -n
 ````
