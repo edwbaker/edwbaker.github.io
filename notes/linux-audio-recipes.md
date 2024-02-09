@@ -321,6 +321,5 @@ sox in_file out_file reverse
 ### Spectrogram
 
 ````bash
-sox speech.wav -n spectrogram
-# Output is spectrogram.png
+sox in_file -n spectrogram -o out_file.png
 ````
