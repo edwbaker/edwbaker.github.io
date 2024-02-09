@@ -6,7 +6,7 @@ Unless you are unusually curious, the best way to use this guide is by seaching 
 
 ## Tools
 
-The two most common command line tools are Sound eXchange (sox) and FFmpeg, which share a great deal of basic functionality. These are widely availabe on Unix-like operating systems (and even Windows).
+The two most common command line tools are Sound eXchange (sox) and FFmpeg, which share some basic functionality. These are widely availabe on Unix-like operating systems (and even Windows). FFmpeg is primarily a tool for video (which is often a useful tool for the acoustician) although it can also be used to maniulate audio.
 
 ### sox: Sound eXchange
 
