@@ -6,6 +6,10 @@
 
 ## Outreach
 
+### February 2024
+
+- UKAN+ Outreach grant for Nature's Voice activity
+
 ### November 2023
 
 - [09/11/2023 - Garden science: sounds, sensors and network](talks/2023-11-GS)
@@ -56,6 +60,8 @@
 ### February 2024
 
 - Acoustic identification. Imperial College / Natural History Museum Taxonomy, Biodiversity & Evolution MSc
+
+- Arthopod Bioacoustics and Bioacoustics at the Natural History Museum. UCL Ecology and Data Science MSc.
 
 ### February 2023
 
