@@ -189,7 +189,7 @@ sox in_file out_file norm
 sox in_file out_file norm -0.1
 ````
 
-## Mapiluting amplitude/volume
+## Manipulating amplitude/volume
 
 ### Increase volume
 
