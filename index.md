@@ -10,6 +10,8 @@ I am currently an Acoustic Biology Researcher at Natural History Museum, London,
 
 - [Nature Overheard](https://ebaker.me.uk/nature-overheard): Community Science project including acoustic monitoring.
 
+- [FlyTunes](/flytunes): Crowd-sourcing training sets of audio clips for machine learning.
+
 [WildlifeSystems](https://wildlife.systems): devices for monitoring biodiversity as part of large, dense sensor networks
 
 [BioAcoustica](https://bio.acousti.ca): repository for bioacoustic data
