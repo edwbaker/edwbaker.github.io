@@ -2,9 +2,9 @@
 
 ![Reconstruction of _Prophalangopsis obscura_](/imgs/prophalangopsis.jpg)
 
-Reconstructed song of _Prophalangopsis obscura_ from Woodrow _et. al._ (2022)
-
 {% include audio.html src="/sounds/20222_Prophalangopsis.wav" type="audio/wav" %}
+
+Reconstructed image and song of _Prophalangopsis obscura_ from Woodrow _et. al._ (2022)
 
 ## History of the genus _Prophalangopsis_ and the type specimen of _Tarraga obscura_
 
