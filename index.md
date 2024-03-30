@@ -6,7 +6,7 @@ I am currently an Acoustic Biology Researcher at Natural History Museum, London,
 
 ![_Horatosphaga raggei_](/imgs/h_raggei.jpg)
 
-{% include audio.html src="h_raggei.wav" type="audio/wav" %}
+{% include audio.html src="/sounds/h_raggei.wav" type="audio/wav" %}
 
 _Horatosphaga raggei_ a new species, first identified from its song, that I helped to describe.
 
