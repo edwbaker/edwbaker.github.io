@@ -6,6 +6,10 @@
 
 ## Outreach
 
+### March 2024
+
+- Seminar at University of Hull
+
 ### February 2024
 
 - UKAN+ Outreach grant for Nature's Voice activity

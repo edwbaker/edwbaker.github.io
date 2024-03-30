@@ -1,5 +1,9 @@
 # Talks
 
+## 2024
+
+- [27/03/2024 - Next generation monitoring at the Natural History Museum](talks/2024-Hull) - Seminar at the University of Hull
+
 ## 2023
 
 - [09/11/2023 - Garden science: sounds, sensors and network](talks/2023-11-GS) - NHM Internal workshop on Gardens Science
