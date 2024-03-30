@@ -1,5 +1,7 @@
 # Nature Overheard
 
+![NatureOverheard Logo](/imgs/natureoverheard.jpg)
+
 ## What’s it about?
 
 Insects are important for a healthy environment, but noise can make it hard for them to communicate with each other. They may have to change their sounds to be heard in noisy places.  
