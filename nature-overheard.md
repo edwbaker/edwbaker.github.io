@@ -6,10 +6,6 @@ Insects are important for a healthy environment, but noise can make it hard for 
 
 Join us to collect data to better understand how road noise affect insects through the Nature Overheard survey. Or take part in other activities to support this research while you build your own scientific skills and knowledge.
 
-{% include youtube.html id="5z5BRXGTO9w" %}
-
-Here I am giving instructions for taking part in the survery...
-
 {% include youtube.html id="bni4nxe3enI" %}
 
 ## Links
