@@ -1,5 +1,10 @@
 # Some notes on _Prophalangopsis obscura_ (Walker, 1869)
 
+Reconstrcuted song of _Prophalangopsis obscura_ from Woodrow _et. al._ (2022)
+
+{% include audio.html src="/sounds/20222_Prophalangopsis.wav" type="audio/wav" %}
+
+
 ## History of the genus _Prophalangopsis_ and the type specimen of _Tarraga obscura_
 
 The genus _Tarraga_ was first erected by Walker (1869), unfortunately using a preoccupied name the same author erected a year previously within the Blattodea (Walker, 1868). This was later corrected by the nomen novum _Prophalangopsis_ Walker, 1871. The type species is _Tarraga obscura_ Walker, 1869. The genus has remained accepted and monotypic ever since, indicating the unique interest of its sole species, which has received considerable interest in relation to the evolutionary history of the Ensifera (e.g. Zeuner, 1939; Desutter-Grandcolas, 2003). The enigmatic nature of the type specimen has been compounded by no further confirmed specimens being discovered in over 150 years.
