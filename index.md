@@ -4,6 +4,12 @@ I am currently an Acoustic Biology Researcher at Natural History Museum, London,
 
 [🦗.fm](https://🦗.fm/) - my work on museum sound collections and the bioacoustics of Orthoptera.
 
+![_Horatosphaga raggei_](/imgs/h_raggei.jpg)
+
+{% include audio.html src="h_raggei.wav" type="audio/wav" %}
+
+_Horatosphaga raggei_ a new species, first identified from its song, that I helped to describe.
+
 ## Current projects
 
 [Urban Nature Project](https://www.nhm.ac.uk/about-us/urban-nature-project.html): monitoring and understanding urban biodiversity in the UK
