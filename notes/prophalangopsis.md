@@ -1,5 +1,7 @@
 # Some notes on _Prophalangopsis obscura_ (Walker, 1869)
 
+![Reconstruction of _Prophalangopsis obscura_](/imgs/prophalangopsis.jpg)
+
 Reconstructed song of _Prophalangopsis obscura_ from Woodrow _et. al._ (2022)
 
 {% include audio.html src="/sounds/20222_Prophalangopsis.wav" type="audio/wav" %}
