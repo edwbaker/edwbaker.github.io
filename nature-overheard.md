@@ -1,5 +1,11 @@
 # Nature Overheard
 
+## What’s it about?
+
+Insects are important for a healthy environment, but noise can make it hard for them to communicate with each other. They may have to change their sounds to be heard in noisy places.  
+
+Join us to collect data to better understand how road noise affect insects through the Nature Overheard survey. Or take part in other activities to support this research while you build your own scientific skills and knowledge.
+
 {% include youtube.html id="bni4nxe3enI" %}
 
 ## Links
