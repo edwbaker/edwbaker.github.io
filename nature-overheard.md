@@ -1,6 +1,6 @@
 # Nature Overheard
 
-![NatureOverheard Logo](/imgs/natureoverheard.jpg)
+<img src="/imgs/natureoverheard.jpg" alt="Nature Overheard banner" width="753" height="435" />
 
 ## What’s it about?
 
