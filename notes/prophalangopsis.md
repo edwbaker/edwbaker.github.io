@@ -1,6 +1,6 @@
 # Some notes on _Prophalangopsis obscura_ (Walker, 1869)
 
-![Reconstruction of _Prophalangopsis obscura_](/imgs/prophalangopsis.jpg)
+<img src="/imgs/prophalangopsis.jpg" alt="Reconstruction of Prophalangopsis obscura" width="1160" height="600"/>
 
 {% include audio.html src="/sounds/20222_Prophalangopsis.wav" type="audio/wav" %}
 
