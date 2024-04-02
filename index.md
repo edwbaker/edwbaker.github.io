@@ -4,7 +4,7 @@ I am currently an Acoustic Biology Researcher at Natural History Museum, London,
 
 [🦗.fm](https://🦗.fm/) - my work on museum sound collections and the bioacoustics of Orthoptera.
 
-![_Horatosphaga raggei_](/imgs/h_raggei.jpg)
+<img src="/imgs/h_raggei.jpg" alt="Photograph of Horatopshaga raggei" width="853" height="465" />
 
 {% include audio.html src="/sounds/h_raggei.wav" type="audio/wav" %}
 
