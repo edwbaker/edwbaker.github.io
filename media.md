@@ -2,7 +2,7 @@
 
 - Women’s Institute online (2021) Talk on machine learning and knowledge engineering for insect monitoring, with particular reference to agricultural threats and invasive species.
 
-- Countryfile (May 2021) Discussing the use of acoustic devices (AudioMoth) to monitor the impact of biodiversity actions within a community garden project in Bristol. 
+- Countryfile (May 2021) Discussing the use of acoustic devices (AudioMoth) to monitor the impact of biodiversity actions within a community garden project in Bristol.
 
 <img src="/imgs/countryfile.jpg" alt="Ed Baker on Countryfile" width="732" height="562" />
 
