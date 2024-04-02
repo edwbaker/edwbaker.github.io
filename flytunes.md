@@ -2,7 +2,7 @@
 
 [FlyTunes](https://www.zooniverse.org/projects/nhmcommunityscience/flytunes) is a crowd-sourcing project on the Zooniverse platform to tag short clips of soundscape audio with their contents. These clips are taken from urban settings and will be used to train machine learning models to identify different types of sounds in environments with relatively high levels of anthropogenic noise.
 
-![FlyTunes banner](/imgs/flytunes.jpg)
+<img src="/imgs/flytunes.jpg" alt="FlyTunes banner" width="753" height="435" />
 
 {% include audio.html src="/sounds/2024-flytunes.mp3" type="audio/mpeg" %}
 
