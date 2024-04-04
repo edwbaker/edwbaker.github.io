@@ -27,5 +27,7 @@ _Biology_, _Chemistry_, _Physics_, _Mathematics_, _English Language_, _English L
 
 ## Work
 
-__Acoustic Biology Researcher__ _Natural History Museum, London_  
+__Acoustic Biology Researcher (2022-)__  
+_Natural History Museum, London_
+
 Leading the development and deployment of an urban acoustic network in the Museum’s grounds and at partner sites nationwide and developing machine learning models for the identification and monitoring of biodiversity (in particular, making use of the Museum’s collection of recorded insect sounds). Science lead on the Nature Overheard citizen science project that was co-designed with school children and investigates the impacts of road noise on biodiversity. Developing sound libraries to enable the acoustic monitoring of new insect groups, including pollinators.
