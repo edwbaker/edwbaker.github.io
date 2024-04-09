@@ -20,4 +20,6 @@
 
 <img src="/imgs/ri-xmas.jpg" alt="Royal Institution Christmas Lectures" height="826" width="828" />
 
+- [Blue Roses](/pubs/marianna_simnett_essay_by_patrick_langley.pdf) by Marianna Simnett - animal wrangler for cybernetic cockroaches.
+
 - Presentations to the public at the Natural History Museum about my work as part of the daily Nature Live programme.
