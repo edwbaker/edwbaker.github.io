@@ -8,3 +8,7 @@
 
 - [Linux audio recipes](/notes/linux-audio-recipes)
 - [Acoustics figures](/notes/acoustics-figures)
+
+## Mathematical visualisations
+
+- [Collatz Conjecture](/notes/collatz-conjecture)
