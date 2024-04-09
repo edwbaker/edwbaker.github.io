@@ -12,6 +12,8 @@
 
 {% include youtube.html id="G3iCwyD4u4A" start="1402" title = "Ed Baker on Self-isolating Bird Club" %}
 
+- [The Spider Scientist Who Hates Spiders, And Other Strange Tales](https://www.sciencealert.com/how-scientists-love-the-unlovable) - discussing cockroaches.
+
 - Sea The Future voyage (2019) for young people on the tall ship Pelican of London Science team member of the first alongside colleagues from University of Plymouth and University College London. Lead for sessions on electronic sensor development and bioacoustics and assisted with plankton/microplastic sampling and identification, and CTD deployment.
 
 - BBC Earth podcast (2018) [Hide and Seek](https://play.acast.com/s/bbcearthpodcast/hideandseek) episode discussing camouflage and reproduction of stick insects.
