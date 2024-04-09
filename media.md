@@ -6,7 +6,7 @@
 
 <img src="/imgs/countryfile.jpg" alt="Ed Baker on Countryfile" width="732" height="562" />
 
-- NPR All Things Considered (2020) Discussing recent research on the first evidence of tool use in insects (acoustic baffles made from leaves in __Oecanthus__ tree crickets).
+- NPR All Things Considered (2020) Discussing recent research on the first evidence of tool use in insects (acoustic baffles made from leaves in _Oecanthus_ tree crickets).
 
 - Chris Packham’s Self-Isolating Bird Club (2020) Discussed bioacoustic monitoring as part of NHM Urban Nature Project.
 
