@@ -15,7 +15,7 @@ While this display is informative, prettier visualisations of many more numbers 
 
 The R code (link below) generates a graph of all numbers between 1 and the highest value (bigNumber in the script). When plotting the graph edges ending in an even number are plotted slightly anti-clockwise from the previous node, and odd numbers are plotted slightly clockwise. The amount of anti-clockwise rotation does not need to be the same as the amount of clockwise rotation, which allows the overall graph to be plotted relatively straight, and careful choice of values will prevent lines performing complete revolutions.
 
-The graph is plotted just using R plot primitives (segments()) rather than any other package.
+The graph is plotted just using R plot primitives (`segments()`) rather than any other package.
 
 5000 terms of the Collatz Conjecture graphed in R  
 n=1-5000, odd-rotation=1.2, even-rotation=-0.54
