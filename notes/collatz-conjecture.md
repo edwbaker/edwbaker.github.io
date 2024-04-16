@@ -6,7 +6,7 @@ Take any positive integer, n. If n is even divide it by 2 (n/2). If n is odd mul
 
 <figure>
 <img src="/imgs/collatz-graph.png" alt="Graph of Collatz COnjecture" height="593" width="72"/>
-<figcaption>Graph of the collatz conjecture from [Wikimedia](https://en.wikipedia.org/wiki/File:Collatz-graph-all-30-no27.svg).</figcaption>
+<figcaption>Graph of the collatz conjecture from <a href="https://en.wikipedia.org/wiki/File:Collatz-graph-all-30-no27.svg">WikiMedia</a>.</figcaption>
 </figure>
 
 While this display is informative, prettier visualisations of many more numbers are possible (inspired by the below YouTube video).

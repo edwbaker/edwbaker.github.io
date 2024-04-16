@@ -1,6 +1,6 @@
 {
     "MD033": {
-        "allowed_elements": ["img", "figure", "figcaption"]
+        "allowed_elements": ["a", "img", "figure", "figcaption"]
     },
     "MD013": false
 }
