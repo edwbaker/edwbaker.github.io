@@ -4,8 +4,10 @@
 
 Take any positive integer, n. If n is even divide it by 2 (n/2). If n is odd multiple by 3 and add 1 (3n+1). Repeat the process on the new value. The Collatz Conjecture is that this sequence will eventually reach 1 (and then get stuck in the loop 4 -> 2 -> 1 -> 4). The routes from n to 1 can be visualised as a graph.
 
+<figure>
 <img src="/imgs/collatz-graph.png" alt="Graph of Collatz COnjecture" height="593" width="72"/>
-Graph of the collatz conjecture from [Wikimedia](https://en.wikipedia.org/wiki/File:Collatz-graph-all-30-no27.svg).
+<figcaption>Graph of the collatz conjecture from [Wikimedia](https://en.wikipedia.org/wiki/File:Collatz-graph-all-30-no27.svg).</figcaption>
+</figure>
 
 While this display is informative, prettier visualisations of many more numbers are possible (inspired by the below YouTube video).
 
