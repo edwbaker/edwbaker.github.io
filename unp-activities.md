@@ -6,6 +6,10 @@
 
 ## Outreach
 
+### April 2024
+
+- AWS Summit (1x talk and press sessions)
+
 ### March 2024
 
 - Seminar at University of Hull
