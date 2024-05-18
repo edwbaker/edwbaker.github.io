@@ -11,7 +11,7 @@
 
 ## R
 
-- [Invert a polynomial in R](/notes/r-invert-polynomial.md)
+- [Invert a polynomial in R](/notes/r-invert-polynomial)
 
 ## Mathematical visualisations
 
