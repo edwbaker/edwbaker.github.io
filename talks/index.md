@@ -2,6 +2,8 @@
 
 ## 2024
 
+- [25/06/2024 - Advancing digital technology for urban nature](talks/2024-NatureTech) - Nature Tech Expo, Leeds.
+
 - 24/04/2024 - How data in the cloud could help restore UK's biodiversity - AWS Summit 2024, ExCeL London.
 
 - [27/03/2024 - Next generation monitoring at the Natural History Museum](/talks/2024-Hull) - Seminar at the University of Hull
