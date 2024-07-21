@@ -14,6 +14,8 @@ _Horatosphaga raggei_ (Heller & Baker, 2017) a new species first identified from
 
 [Urban Nature Project](https://www.nhm.ac.uk/about-us/urban-nature-project.html): monitoring and understanding urban biodiversity in the UK
 
+- [Urban Research Station](/urban-research-station.md): A sensor network and hub for researching urban biodiversity.
+
 - [Nature Overheard](https://ebaker.me.uk/nature-overheard): Community Science project including acoustic monitoring.
 
 - [FlyTunes](/flytunes): Crowd-sourcing training sets of audio clips for machine learning.
