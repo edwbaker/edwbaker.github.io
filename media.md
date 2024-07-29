@@ -1,5 +1,13 @@
 # Media and Public Engagement
 
+- [Natural History Museum's new gardens aim to restore UK's urban nature](https://www.newscientist.com/video/2440498-natural-history-museums-new-gardens-aim-to-restore-uks-urban-nature/) New Scientist (2024)
+
+{% include youtube.html id="3CovYvcTnuw" start="0" title = "Inside one of the UK's most studied urban nature sites" %}
+
+- ITV News (2024) Discussing audio sensor network in NHM Gardens.
+
+![Ed Baker on ITV News](/imgs/unp-itv.png)
+
 - Women’s Institute online (2021) Talk on machine learning and knowledge engineering for insect monitoring, with particular reference to agricultural threats and invasive species.
 
 - Countryfile (May 2021) Discussing the use of acoustic devices (AudioMoth) to monitor the impact of biodiversity actions within a community garden project in Bristol.
