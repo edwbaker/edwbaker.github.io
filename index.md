@@ -26,7 +26,7 @@ _Horatosphaga raggei_ (Heller & Baker, 2017) a new species first identified from
 
 [audioBlast!](https://audioblast.org): discovering and searching of bioacoustic and ecoacoustic datasets
 
-[bioacoustics quotes](https://shiny.ebaker.me.uk/shiny-bioacousticsquotes/): selected quotes on bioacoustics and ecoacoustics
+[bioacoustics quotes](https://shiny.ebaker.me.uk/shiny-bioacousticsquotes/): selected quotes on bioacoustics and ecoacoustics. Based on the R package [bioacousticsquotes](https://quotes.acousti.cloud).
 
 ### R bioacoustics tools
 
