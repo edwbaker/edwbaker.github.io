@@ -6,6 +6,18 @@
 
 ## Outreach
 
+### July 2024
+
+- New Scientist (2024)
+
+- ITV News (2024) Discussing audio sensor network in NHM Gardens.
+
+- The River opening
+
+### June 2024
+
+- New NEwcastle partner site
+
 ### April 2024
 
 - AWS Summit (1x talk and press sessions)
