@@ -55,7 +55,7 @@ Installing a ZooBank node at the Natural History Museum as part of the NSF funde
 __Biodiversity Informatician (2007-2017)__  
 _Natural History Museum, London_
 
-One of a team of software developers working on the Scratchpads virtual research environment (VRE) under the European Union funded ViBRANT project. Lead NHM developer of the NERC funded eMonocot (http://e-monocot.org) project with the University of Oxford and the Royal Botanic Gardens, Kew building a VRE for communities to contribute taxonomic information. Project lead for the In-Situ Acoustic Monitoring of Biodiversity project with David Chesmore, University of York (building acoustic identification devices combined with environmental monitors for long-term study at field sites). Project lead for digitisation and development of the NHM’s Wildlife Sound Archive (an important collection for work on Orthoptera Bioacoustics).
+One of a team of software developers working on the Scratchpads virtual research environment (VRE) under the European Union funded ViBRANT project. Lead NHM developer of the NERC funded eMonocot project with the University of Oxford and the Royal Botanic Gardens, Kew building a VRE for communities to contribute taxonomic information. Project lead for the In-Situ Acoustic Monitoring of Biodiversity project with David Chesmore, University of York (building acoustic identification devices combined with environmental monitors for long-term study at field sites). Project lead for digitisation and development of the NHM’s Wildlife Sound Archive (an important collection for work on Orthoptera Bioacoustics).
 
 ## Other Responsibilities
 
@@ -63,7 +63,7 @@ One of a team of software developers working on the Scratchpads virtual research
 - IUCN, Species Survival Commission, Grasshopper Specialist Group (Vice-chair for Phasmida)
 - Royal Entomological Society, Orthoptera Special Interest Group, Meeting Coordinator
 - Royal Entomological Society, Insect Data Special Interest Group, Meeting Coordinator
-- Biodiversity Data Journal - Subject Editor (Blattodea, Orthoptera, Phasmatodea, Mantodea and Dermaptera) 
+- Biodiversity Data Journal - Subject Editor (Blattodea, Orthoptera, Phasmatodea, Mantodea and Dermaptera)
 - Phasmid Studies- Editor
 - [Phasmida SpeciesFile](http://phasmida.speciesfile.org)- Assisstant Editor
 
