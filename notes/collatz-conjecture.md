@@ -24,7 +24,6 @@ n=1-5000, odd-rotation=1.2, even-rotation=-0.54
 
 <img src="/imgs/collatz1.png" alt="Graph of Collatz COnjecture in R 1" width="743" height="521" />
 
-
 50000 terms of the Collatz Conjecture graphed in R  
 n=1-50000, odd-rotation=4.1, even-rotation=-2.3
 
