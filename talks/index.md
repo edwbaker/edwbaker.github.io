@@ -2,6 +2,8 @@
 
 ## 2024
 
+- [04/09/2024 - Bioacoustic and ecoacoustic data in AudiovisualCore](/talks/2024-09-tdwg) - TDWG 2024, Okinawa, Japan
+
 - [11/07/2024 - Data infrastructures for biological acoustics](/talks/2024-Madrid) - 5th World Ecoacoustics Congress, Madrid.
 
 - [25/06/2024 - Advancing digital technology for urban nature](talks/2024-NatureTech) - Nature Tech Expo, Leeds.
