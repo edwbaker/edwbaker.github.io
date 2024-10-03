@@ -6,7 +6,7 @@
 
 - [11/07/2024 - Data infrastructures for biological acoustics](/talks/2024-Madrid) - 5th World Ecoacoustics Congress, Madrid.
 
-- [25/06/2024 - Advancing digital technology for urban nature](talks/2024-NatureTech) - Nature Tech Expo, Leeds.
+- [25/06/2024 - Advancing digital technology for urban nature](/talks/2024-NatureTech) - Nature Tech Expo, Leeds.
 
 - 24/04/2024 - How data in the cloud could help restore UK's biodiversity - AWS Summit 2024, ExCeL London.
 
@@ -14,7 +14,7 @@
 
 ## 2023
 
-- [09/11/2023 - Sounds, sensors, specimsn](talks/2023-11-NR) - NHM UK Nature Recovery Theme Town Hall
+- [09/11/2023 - Sounds, sensors, specims||\n](talks/2023-11-NR) - NHM UK Nature Recovery Theme Town Hall
 
 - [09/11/2023 - Garden science: sounds, sensors and network](/talks/2023-11-GS) - NHM Internal workshop on Gardens Science
 
