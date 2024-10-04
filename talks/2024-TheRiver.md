@@ -1,4 +1,4 @@
-# NatureTech 2024
+# NHMxReading - The River 2024
 
 [Slides - Short](/talks/2024-TheRiverShort.pptx)
 

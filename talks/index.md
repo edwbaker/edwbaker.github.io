@@ -2,7 +2,7 @@
 
 ## 2024
 
-- [04/10/2024 - Bioacoustics at NHM / The River](/talks/2024-TheRivery) - NHM
+- [04/10/2024 - Bioacoustics at NHM / The River](/talks/2024-TheRiver) - NHM
 
 - [04/09/2024 - Bioacoustic and ecoacoustic data in AudiovisualCore](/talks/2024-09-tdwg) - TDWG 2024, Okinawa, Japan
 
