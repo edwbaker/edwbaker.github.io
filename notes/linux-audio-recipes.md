@@ -323,3 +323,15 @@ sox in_file out_file reverse
 ````bash
 sox in_file -n spectrogram -o out_file.png
 ````
+
+## Solving Errors
+
+### sox FAIL formats: no handler for file extension `mp3'
+
+Install the sox MP3 handler
+
+Ubuntu
+
+````bash
+sudo apt-get install libsox-fmt-mp3
+````
