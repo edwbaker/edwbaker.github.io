@@ -17,3 +17,7 @@ Researchers at the Natural History Museum aim to use recordings from roadsides a
 Join us to unveil the hidden soundscape by listening to short excerpts of these recordings. Your task is to identify the subtle sounds of vehicle hums, human-made sounds and animal chatter within the ambient noise. The background noise will be difficult to categorise, and there will be instances where there are no other distinct sounds. This emphasises the need for a collective effort from the Zooniverse community to carefully work through the files and uncover the hidden sounds.
 
 No need to distinguish between similar sounds - we'll give you categories. You can listen to each clip multiple times, select multiple options, or admit when the sound stumps you. Each clip gets reviewed by multiple listeners. Join in and explore the hidden sounds within the everyday familiar noise!
+
+## Related
+
+- [arthrosonic](https://github.com/edwbaker/arthrosonic) - segmneting script for FlyTunes
