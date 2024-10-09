@@ -324,6 +324,30 @@ sox in_file out_file reverse
 sox in_file -n spectrogram -o out_file.png
 ````
 
+## Linking tools together
+
+### Piping from ffmpeg to sox
+
+Set the output format of ffmpeg to `sox`.
+
+````bash
+ffmpeg -hide_banner -i <infile> -f sox - | sox -p <outfile> trim 0 10
+````
+
+### Piping from sox to sox
+
+`-p` provides a conveninet shortcut for setting the format using `-t sox -`.
+
+````bash
+sox <infile> -p trim 10 20 | sox -p <outfile> trim 0 10
+````
+
+### Piping multiple sox commands in a chain
+
+````bash
+sox <infile> -p trim 10 20 | sox -p -p trim 0 10 | sox -p <outfile> trim 5 6
+````
+
 ## Solving Errors
 
 ### sox FAIL formats: no handler for file extension `mp3'
