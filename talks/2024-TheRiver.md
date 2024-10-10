@@ -14,7 +14,7 @@ The human ear is adapted to hear in air, which makes underwater soundscapes myst
 
 The first half of the day (10.00-14.30) will consist of focused seminar sessions for NHM and Reading colleagues to share environmentally focused work at the intersection of art and science, including an opportunity to experience The River installation.  
 
-The seminar includes a tour of the bioacoustics infrastructure in the NHM garden, an introduction to the NHM’s sound collection, and an interdisciplinary research conversation, which will cover topics including: 
+The seminar includes a tour of the bioacoustics infrastructure in the NHM garden, an introduction to the NHM’s sound collection, and an interdisciplinary research conversation, which will cover topics including:
 
 - How can we use sound to understand and engage people with the hidden systems in nature?
 
