@@ -6,6 +6,16 @@
 
 ## Outreach
 
+### OCtober 2024
+
+- BNA Encaenia stand
+
+- The River day of talks
+
+### September 2024
+
+- TDWG 2024 Okinawa
+
 ### July 2024
 
 - New Scientist (2024)
@@ -16,7 +26,7 @@
 
 ### June 2024
 
-- New NEwcastle partner site
+- New Newcastle partner site
 
 ### April 2024
 
@@ -90,3 +100,9 @@
 ### January 2023
 
 - Arthropod bioacoustics. UCL Ecology and Data science MSc
+
+## Funding
+
+### 2024
+
+- UKAN+ Outreach w/Fareeda
