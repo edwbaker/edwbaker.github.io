@@ -32,3 +32,5 @@ n=1-50000, odd-rotation=4.1, even-rotation=-2.3
 ## Code
 
 The code is available on GitHub: [Collatz Conjecture visualisation in R](https://github.com/edwbaker/collatz).
+
+[Interactive visualisation of Collatz conjecture](https://shiny.ebaker.me.uk/shiny-collatz/)
