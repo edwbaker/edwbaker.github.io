@@ -6,7 +6,7 @@
 
 ## Outreach
 
-### OCtober 2024
+### October 2024
 
 - BNA Encaenia stand
 
@@ -106,3 +106,11 @@
 ### 2024
 
 - UKAN+ Outreach w/Fareeda
+
+## Tools
+
+### October 2024
+
+- [NHMDE](https://github.com/edwbaker/NHMDE) - R package for preprocessing Data Ecosystem exports
+
+- [NHMDE Nature Overheard Preprocessing Report](https://reports.ebaker.me.uk/NHMDE-NO-Preprocess.html)
