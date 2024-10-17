@@ -9,7 +9,13 @@
 - [Linux audio recipes](/notes/linux-audio-recipes)
 - [Acoustics figures](/notes/acoustics-figures)
 
-## R
+## Coding
+
+### General
+
+- [SANE defaults](/notes/SANE-defaults)
+
+### R
 
 - [Invert a polynomial in R](/notes/r-invert-polynomial)
 
