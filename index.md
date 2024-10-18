@@ -42,7 +42,9 @@ _Horatosphaga raggei_ (Heller & Baker, 2017) a new species first identified from
 
 ## Publications
 
-[Google Scholar](https://scholar.google.com/citations?user=44XAtwYAAAAJ): scientific papers and reports
+[Google Scholar](https://scholar.google.com/citations?user=44XAtwYAAAAJ): scientific papers and published reports
+
+[Reports](/reports): reports
 
 [Medium](https://edwbaker.medium.com/): longer form writing
 
