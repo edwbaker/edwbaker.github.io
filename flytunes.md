@@ -20,4 +20,4 @@ No need to distinguish between similar sounds - we'll give you categories. You c
 
 ## Related
 
-- [arthrosonic](https://github.com/edwbaker/arthrosonic) - segmneting script for FlyTunes
+- [arthrosonic](https://github.com/edwbaker/arthrosonic) - segmentation script for FlyTunes
