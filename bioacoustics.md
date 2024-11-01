@@ -17,6 +17,8 @@ The [sonicscrewdriver](https://sonicscrewdriver.ebaker.me.uk) is an R package th
 
 - [Generating acoustic training data in R with sonicscrewdriver](https://medium.com/bioacoustica/generating-acoustic-training-data-in-r-with-sonicscrewdriver-774a440f5c6e)
 
+- [BirdNET in R](https://medium.ebaker.me.uk/birdnet-in-r-b3aea914fc4c)
+
 ## Press stories
 
 - [Insect Orchestra](https://www.nhm.ac.uk/discover/insect-sounds.html) article for NHM website.
