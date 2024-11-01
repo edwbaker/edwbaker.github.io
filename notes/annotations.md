@@ -12,7 +12,7 @@
 
 These functions define a new object class `Annotations` and associated functions that can be used to store, manipulate, edit and save annotations.
 
-- [`Anotation` class in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/Annotation-class.html) Defines the `Annotation` class.
+- [`Annotation` class in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/Annotation-class.html) Defines the `Annotation` class.
 
 - `merge_annotations()` in `sonicscrewdriver` Used to merge overlapping or adjacent `Annotation` objects.
 
