@@ -21,3 +21,5 @@ No need to distinguish between similar sounds - we'll give you categories. You c
 ## Related
 
 - [arthrosonic](https://github.com/edwbaker/arthrosonic) - segmentation script for FlyTunes
+
+- [Pre-processing FlyTunes (Zooniverse) Exports in R](https://reports.ebaker.me.uk/NHMDE-FlyTunes-Preprocess)
