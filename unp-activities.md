@@ -6,6 +6,10 @@
 
 ## Outreach
 
+### November 2024
+
+- Digital Dimensions Nature Recovery
+
 ### October 2024
 
 - BNA Encaenia stand
@@ -81,6 +85,10 @@
 
 ## Trials and collaborations
 
+### November 2024
+
+- Devices PRTG monitoring
+
 ### June 2023
 
 - Soil microphone tests at London Zoo
@@ -109,7 +117,13 @@
 
 ## Tools
 
+### November 2024
+
+- [NHMDE FLyTunes Preprocessing Report](https://reports.ebaker.me.uk/NHMDE-FlyTunes-Preprocess)
+
 ### October 2024
+
+- [arthrosonic](https://github.com/edwbaker/arthrosonic)
 
 - [NHMDE](https://github.com/edwbaker/NHMDE) - R package for preprocessing Data Ecosystem exports
 
