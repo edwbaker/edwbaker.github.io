@@ -95,6 +95,10 @@
 
 ## Teaching
 
+### November 2024
+
+- Urban Noise. UCL Ecology and Urban Engineering MSc.
+
 ### February 2024
 
 - Acoustic identification. Imperial College / Natural History Museum Taxonomy, Biodiversity & Evolution MSc

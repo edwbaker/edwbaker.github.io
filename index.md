@@ -66,6 +66,8 @@ MSc Taxonomy, Biodiversity & Evolution (Imperial College and Natural History Mus
 
 MSc Ecology & Data Science (University College London and Natural History Museum)
 
+MSc Ecology and Urban Engineering (University College London)
+
 ## Find me elsewhere
 
 [linktr.ee/edwbaker](https://linktr.ee/edwbaker)
