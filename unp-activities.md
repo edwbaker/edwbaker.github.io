@@ -4,6 +4,18 @@
 
 - Our Broken Planet (2021-22) exhibition at Natural History Museum uses birdsong recordings from prototype devices.
 
+## Gardens Tours
+
+### November 2024
+
+- Georgia
+
+- City University
+
+### July 2024
+
+- Air Quality
+
 ## Outreach
 
 ### November 2024
