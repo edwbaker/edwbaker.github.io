@@ -2,7 +2,10 @@
 
 ## 2024
 
+- [05/12/2024 - Garden Science](/talks/2024-GS) - Natural History Museum x Natural England
+
 - [08/10/2024 - Digital Dimensions of Nature Recovery](/talks/2024-DDNR) - Jesus College, Oxford.
+
 - [05/10/2024 - BNA](/talks/2024-BNA)
 
 - [04/10/2024 - Bioacoustics at NHM / The River](/talks/2024-TheRiver) - NHM
