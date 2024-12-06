@@ -68,6 +68,8 @@ MSc Ecology & Data Science (University College London and Natural History Museum
 
 MSc Ecology and Urban Engineering (University College London)
 
+- [Urban Noise](/teaching/UCL-UrbanNoise/)
+
 ## Find me elsewhere
 
 [linktr.ee/edwbaker](https://linktr.ee/edwbaker)
