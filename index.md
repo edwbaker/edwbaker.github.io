@@ -60,7 +60,7 @@ Vice-chair (Phasmida) IUCN Grasshopper Specialist Group
 
 Editor _Phasmid Studies_
 
-## Teaching
+## [Teaching](/teaching)
 
 MSc Taxonomy, Biodiversity & Evolution (Imperial College and Natural History Museum)
 
