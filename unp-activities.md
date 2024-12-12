@@ -103,6 +103,10 @@
 
 ## Trials and collaborations
 
+### December 2024
+
+- Consulting
+
 ### November 2024
 
 - Devices PRTG monitoring
