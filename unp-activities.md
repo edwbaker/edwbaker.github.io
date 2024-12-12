@@ -111,6 +111,10 @@
 
 - Devices PRTG monitoring
 
+### October 2024
+
+- Training grant submitted
+
 ### June 2023
 
 - Soil microphone tests at London Zoo
