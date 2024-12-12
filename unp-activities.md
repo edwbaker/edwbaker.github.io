@@ -158,3 +158,13 @@
 - [NHMDE](https://github.com/edwbaker/NHMDE) - R package for preprocessing Data Ecosystem exports
 
 - [NHMDE Nature Overheard Preprocessing Report](https://reports.ebaker.me.uk/NHMDE-NO-Preprocess.html)
+
+## Publications
+
+### November 2024
+
+- TDWG Extended abstract
+
+### October 2024
+
+- Extensive quotes in Jack's Acoustics Today piece
