@@ -1,5 +1,13 @@
 # Some books on bioacoustics and ecoacoustics
 
+## General works on sound of broader interest
+
+### General popular science
+
+[Sonic Wonderland: A Scientifc Odyssey of Sound - Trevor Cox](https://amzn.to/4iDK57a)
+
+ALmost a travelogue of visiting unusual sonic features and structures around the world.
+
 ## Working with sounds
 
 ### Sound analysis
