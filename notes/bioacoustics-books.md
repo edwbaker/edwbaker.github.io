@@ -6,7 +6,7 @@
 
 [Sonic Wonderland: A Scientifc Odyssey of Sound - Trevor Cox](https://amzn.to/4iDK57a)
 
-ALmost a travelogue of visiting unusual sonic features and structures around the world.
+Almost a travelogue of visiting unusual sonic features and structures around the world.
 
 ## Working with sounds
 
