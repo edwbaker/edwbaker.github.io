@@ -52,7 +52,7 @@ _Horatosphaga raggei_ (Heller & Baker, 2017) a new species first identified from
 
 ## Roles and responsibilities
 
-Convenor TDWG AudiovisualCore Maintenance Group [GitHub](https://github.com/tdwg/ac)
+Convenor TDWG AudiovisualCore Maintenance Group [GitHub](https://github.com/tdwg/ac) [Standard](https://www.tdwg.org/standards/ac/)
 
 Co-convenor Royal Entomological Society Orthoptera Special Interest Group
 
