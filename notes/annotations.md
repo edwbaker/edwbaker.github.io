@@ -27,3 +27,7 @@ These functions define a new object class `Annotations` and associated functions
 ### Saving annotations
 
 - [`writeAudacityLabels` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/writeAudacityLabels.html) Writes a list of `Annotation` objects as a label file for the audio editor Audacity.
+
+### Miscellany
+
+- [Hunting performance in R](https://medium.ebaker.me.uk/hunting-performance-d1ff636d0cee) Investigates the performance of annotation related functionality in `sonicscrewdriver`.
