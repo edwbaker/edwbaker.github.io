@@ -22,6 +22,14 @@ The [sonicscrewdriver](https://sonicscrewdriver.ebaker.me.uk) is an R package th
 
 - [BirdNET in R](https://medium.ebaker.me.uk/birdnet-in-r-b3aea914fc4c)
 
+## Bioacoustic collections
+
+[BioAcoustica](https://bio.acousti.ca) - a repository for bioacoustic recordings I developed hosted at the Natural History Museum, London.
+
+[The Importance of Biological Sound Archives](https://acousticstoday.org/the-importance-of-biological-sound-archives/) - _Acoustics Today_ article by Jack Greenhalgh with some quotes from me on the importance of sound collections.
+
+[audioBlast!](https://audioblast.org) - protoytpe tool to search across multiple sound collections.
+
 ## Press stories
 
 - [Insect Orchestra](https://www.nhm.ac.uk/discover/insect-sounds.html) article for NHM website.
