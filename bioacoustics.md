@@ -22,9 +22,9 @@ Background to some bioacoustics ideas and principles
 
 [Sonicscrewdriver](https://sonicscrewdriver.ebaker.me.uk) is an R package that provides a set of tools for working with audio data.
 
-- [Generating acoustic training data in R with sonicscrewdriver](https://medium.com/bioacoustica/generating-acoustic-training-data-in-r-with-sonicscrewdriver-774a440f5c6e)
+- [Generating acoustic training data in R with sonicscrewdriver](https://medium.com/bioacoustica/generating-acoustic-training-data-in-r-with-sonicscrewdriver-774a440f5c6e) - how to generate augmneted training data for machine learning from audio files.
 
-- [BirdNET in R](https://medium.ebaker.me.uk/birdnet-in-r-b3aea914fc4c)
+- [BirdNET in R](https://medium.ebaker.me.uk/birdnet-in-r-b3aea914fc4c) - running [BirdNET](https://birdnet.cornell.edu/) from within an R environment.
 
 ## Bioacoustic collections
 
