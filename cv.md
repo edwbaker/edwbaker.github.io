@@ -19,10 +19,10 @@ __Windsor Boys' School__
 Advanced Extension Award  
 _Physics_
 
-A Level
+A Level  
 _Biology_, _Chemistry_, _Mathematics_, _Further Mathematics_, _Physics_
 
-GCSE
+GCSE  
 _Biology_, _Chemistry_, _Physics_, _Mathematics_, _English Language_, _English Literature_, _Electronic Products_, _Statistics_, _History_, _Religious Studies_, _French_
 
 ## Work
