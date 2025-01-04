@@ -69,6 +69,9 @@ One of a team of software developers working on the Scratchpads virtual research
 
 ## Teaching
 
+__MSc Ecology and Urban Engineering (2024-)__  
+_University College London_
+
 __MSc Ecology and Data Science (2023-)__  
 _University College London_
 
