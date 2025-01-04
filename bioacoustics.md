@@ -16,7 +16,7 @@ Background to some bioacoustics ideas and principles
 
 ### sonicscrewdriver
 
-[![Sonicscrewdriver logo.](<https://sonicscrewdriver.ebaker.me.uk/dev/logo.png>)](<hhtps://sonicscrewdriver.ebaker.me.uk>)
+[![Sonicscrewdriver logo.](<https://sonicscrewdriver.ebaker.me.uk/dev/logo.png>)](<https://sonicscrewdriver.ebaker.me.uk>)
 
 [![CRAN Version](<https://www.r-pkg.org/badges/version/sonicscrewdriver>)](<https://cran.r-project.org/package=sonicscrewdriver>) [![CRAN Downloads](<https://cranlogs.r-pkg.org/badges/grand-total/sonicscrewdriver>)](<https://cran.r-project.org/package=sonicscrewdriver>) [![CRAN Downloads last week](<http://cranlogs.r-pkg.org/badges/last-week/sonicscrewdriver?color=green>)](<https://cran.r-project.org/package=sonicscrewdriver>)
 
