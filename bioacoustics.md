@@ -16,7 +16,9 @@ Background to some bioacoustics ideas and principles
 
 ### sonicscrewdriver
 
-![https://sonicscrewdriver.ebaker.me.uk/dev/logo.png](Sonicscrewdriver logo.)
+[![Sonicscrewdriver logo.](<https://sonicscrewdriver.ebaker.me.uk/dev/logo.png>)]
+
+[![CRAN Version](<https://www.r-pkg.org/badges/version/sonicscrewdriver>)](<https://cran.r-project.org/package=sonicscrewdriver>) [![CRAN Downloads](<https://cranlogs.r-pkg.org/badges/grand-total/sonicscrewdriver>)] [![CRAN Downloads last week](<http://cranlogs.r-pkg.org/badges/last-week/sonicscrewdriver?color=green>)](<https://cran.r-project.org/package=sonicscrewdriver>)
 
 The [sonicscrewdriver](https://sonicscrewdriver.ebaker.me.uk) is an R package that provides a set of tools for working with audio data.
 
