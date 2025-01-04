@@ -16,6 +16,8 @@ Background to some bioacoustics ideas and principles
 
 ### sonicscrewdriver
 
+![https://sonicscrewdriver.ebaker.me.uk/dev/logo.png](Sonicscrewdriver logo.)
+
 The [sonicscrewdriver](https://sonicscrewdriver.ebaker.me.uk) is an R package that provides a set of tools for working with audio data.
 
 - [Generating acoustic training data in R with sonicscrewdriver](https://medium.com/bioacoustica/generating-acoustic-training-data-in-r-with-sonicscrewdriver-774a440f5c6e)
