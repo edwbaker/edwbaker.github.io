@@ -30,7 +30,7 @@ Background to some bioacoustics ideas and principles
 
 [BioAcoustica](https://bio.acousti.ca) - a repository for bioacoustic recordings I developed hosted at the Natural History Museum, London.
 
-[The Importance of Biological Sound Archives](https://acousticstoday.org/the-importance-of-biological-sound-archives/) - _Acoustics Today_ article by Jack Greenhalgh with some quotes from me on the importance of sound collections.
+[The Importance of Biological Sound Archives](https://acousticstoday.org/the-importance-of-biological-sound-archives/) - _Acoustics Today_ article by Jack Greenhalgh with some quotes from me on the importance of sound collections. [PDF](/pubs/The-Importance-Fall2024-2.pdf)
 
 [audioBlast!](https://audioblast.org) - protoytpe tool to search across multiple sound collections.
 
