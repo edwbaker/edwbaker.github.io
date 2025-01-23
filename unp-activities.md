@@ -6,6 +6,10 @@
 
 ## Gardens Tours
 
+### January 2025
+
+- Phasmid Study Group
+
 ### November 2024
 
 - Georgia
@@ -20,6 +24,9 @@
 
 ## Outreach
 
+### January 2025
+
+- Annotations meeting (xeno-canto)
 ### December 2024
 
 - Natural England x NHM
