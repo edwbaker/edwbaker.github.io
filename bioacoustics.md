@@ -26,6 +26,10 @@ Background to some bioacoustics ideas and principles
 
 - [BirdNET in R](https://medium.ebaker.me.uk/birdnet-in-r-b3aea914fc4c) - running [BirdNET](https://birdnet.cornell.edu/) from within an R environment.
 
+### .wav file size calculator
+
+[.wav file size calculator](https://shiny.ebaker.me.uk/shiny-wav_filesize/): interactive wave file sizer calculator.
+
 ## Bioacoustic collections
 
 [BioAcoustica](https://bio.acousti.ca) - a repository for bioacoustic recordings I developed hosted at the Natural History Museum, London.
