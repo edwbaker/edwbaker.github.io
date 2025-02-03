@@ -3,6 +3,7 @@
 ## 2025
 
 - [22/01/2025 - Acoustics research at the Natural History Museum](/talks/2025-Kingston) - Kingston Biodiversity Network
+
 ## 2024
 
 - [05/12/2024 - Garden Science](/talks/2024-GS) - Natural History Museum x Natural England
