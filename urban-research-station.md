@@ -8,6 +8,12 @@ The sensor network will consist of round 25 devices measuring acoustic activity 
   description="Ed Baker installing a sensor in the URban Research Station at the Natural History Museum"
   caption = "Installing acoustic sensor on a tree. © The Trustees of the Natural History Museum, London" %}
 
+## More-than-human approaches
+
+More-than-human appraoches to biodiversity research are looking at how we can make urban areas more habitable for all species.
+
+- [Summary of more-than-human biodiversity research](/more-than-human)
+
 ## Media
 
 - [Natural History Museum's new gardens aim to restore UK's urban nature](https://www.newscientist.com/video/2440498-natural-history-museums-new-gardens-aim-to-restore-uks-urban-nature/) New Scientist (2024)
