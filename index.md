@@ -1,10 +1,10 @@
 # Welcome
 
-I am currently an Acoustic Biology Researcher at Natural History Museum, London, working on the [Urban Nature Project](https://www.nhm.ac.uk/about-us/urban-nature-project.html). I formerly worked in the Department of Electronic Engineering at the [University of York](https://york.ac.uk) (Leverhulme funded [Automated Acoustic Observatories](aao) project) and the [International Commission on Zoological Nomenclature](http://iczn.org).
+I am the Acoustic Biology Researcher at the [Natural History Museum, London](https://www.nhm.ac.uk), working on the [Urban Nature Project](https://www.nhm.ac.uk/about-us/urban-nature-project.html). I formerly worked in the Department of Electronic Engineering at the [University of York](https://york.ac.uk) (Leverhulme funded [Automated Acoustic Observatories](aao) project) and the [International Commission on Zoological Nomenclature](http://iczn.org).
 
 [🦗.fm](https://🦗.fm/) - my work on museum sound collections and the bioacoustics of Orthoptera.
 
-<img src="/imgs/h_raggei.jpg" alt="Photograph of Horatopshaga raggei" width="853" height="465" />
+{% include figure.html src="/imgs/h_raggei.jpg" alt="Photograph of <i>Horatopshaga raggei</i>" caption="<i>Horatosphaga raggei</i> - a species first identified by its song." %}
 
 {% include audio.html src="/sounds/h_raggei.wav" type="audio/wav" %}
 
