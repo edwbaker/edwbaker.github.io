@@ -117,8 +117,11 @@
 ### November 2022
 
 - NatSCA Lunchtime Talks: Bioacoustics and Collections (online)
+
 - Soil Acoustics Workshop (AMC)
+
 - Acoustics collection tour ([The Acoustic Tunnel](https://the-acoustic-tunnel.com/))
+
 - [AI for Natural History](/talks/2022-11-AI) event at Natural History Museum
 
 ## Trials and collaborations
