@@ -12,7 +12,7 @@
 
 - Countryfile (May 2021) Discussing the use of acoustic devices (AudioMoth) to monitor the impact of biodiversity actions within a community garden project in Bristol.
 
-<img src="/imgs/countryfile.jpg" alt="Ed Baker on Countryfile" width="732" height="562" />
+{% include figure.html img="/imgs/countryfile.jpg" alt="Ed Baker on Countryfile" caption="Ed Baker on BBC Countryfile" %}
 
 - NPR All Things Considered (2020) Discussing recent research on the first evidence of tool use in insects (acoustic baffles made from leaves in _Oecanthus_ tree crickets).
 
@@ -28,7 +28,7 @@
 
 - Royal Institution Christmas Lectures (2017) Advisor on insect sound (and brief appearance) for Sophie Scott’s 2017 Royal Institution Christmas Lectures The Language of Life.
 
-<img src="/imgs/ri-xmas.jpg" alt="Royal Institution Christmas Lectures" height="826" width="828" />
+{% include figure.html img="/imgs/ri-xmas.jpg" alt="Ed Baker on the Royal Institution Christmas Lectures" caption="Ed Baker on the Royal Institution Christmas Lectures" %}
 
 - [Blue Roses](/pubs/marianna_simnett_essay_by_patrick_langley.pdf) by Marianna Simnett - animal wrangler for cybernetic cockroaches.
 
