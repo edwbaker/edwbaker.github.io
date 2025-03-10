@@ -4,10 +4,7 @@
 
 Take any positive integer, n. If n is even divide it by 2 (n/2). If n is odd multiple by 3 and add 1 (3n+1). Repeat the process on the new value. The Collatz Conjecture is that this sequence will eventually reach 1 (and then get stuck in the loop 4 -> 2 -> 1 -> 4). The routes from n to 1 can be visualised as a graph.
 
-<figure>
-<img src="/imgs/collatz-graph.png" alt="Graph of Collatz COnjecture" height="593" width="72"/>
-<figcaption>Graph of the collatz conjecture from <a href="https://en.wikipedia.org/wiki/File:Collatz-graph-all-30-no27.svg">WikiMedia</a>.</figcaption>
-</figure>
+{% include figure.html img="/imgs/collatz-graph.png" alt="Graph of Collatz Conjecture" caption="Graph of the collatz conjecture from <a href="https://en.wikipedia.org/wiki/File:Collatz-graph-all-30-no27.svg">WikiMedia</a>." %}
 
 While this display is informative, prettier visualisations of many more numbers are possible (inspired by the below YouTube video).
 
@@ -22,12 +19,12 @@ The graph is plotted just using R plot primitives (`segments()`) rather than any
 5000 terms of the Collatz Conjecture graphed in R  
 n=1-5000, odd-rotation=1.2, even-rotation=-0.54
 
-<img src="/imgs/collatz1.png" alt="Graph of Collatz COnjecture in R 1" width="743" height="521" />
+{% include figure.html img="/imgs/collatz1.png" alt="Graph of Collatz Conjecture created using R." caption="Graph of Collatz Conjecture created using R." %}
 
 50000 terms of the Collatz Conjecture graphed in R  
 n=1-50000, odd-rotation=4.1, even-rotation=-2.3
 
-<img src="/imgs/collatz2.png" alt="Graph of Collatz COnjecture in R 2" width="743" height="521" />
+{% include figure.html img="/imgs/collatz2.png" alt="Graph of Collatz Conjecture created using R." caption="Graph of Collatz Conjecture created using R." %}
 
 ## Code
 
