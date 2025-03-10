@@ -6,4 +6,8 @@
 
 ## Install and control sound devices
 
-[sound-device-control](https://github.com/Wildlife-Systems/sound-device-control): Install and control sound devices on Raspberry Pi
+[sound-device-control](https://github.com/Wildlife-Systems/sound-device-control): Install and control sound devices on Raspberry Pi.
+
+## Install and control sensors
+
+[sensor-control](https://github.com/Wildlife-Systems/sensor-control): Install and control sensors on the Raspberry Pi using a standard interface.
