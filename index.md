@@ -4,7 +4,7 @@ I am the Acoustic Biology Researcher at the [Natural History Museum, London](htt
 
 [🦗.fm](https://🦗.fm/) - my work on museum sound collections and the bioacoustics of Orthoptera.
 
-{% include figure.html src="/imgs/h_raggei.jpg" alt="Photograph of <i>Horatopshaga raggei</i>" caption="<i>Horatosphaga raggei</i> - a species first identified by its song." %}
+{% include figure.html img="/imgs/h_raggei.jpg" alt="Photograph of <i>Horatopshaga raggei</i>" caption="<i>Horatosphaga raggei</i> - a species first identified by its song." %}
 
 {% include audio.html src="/sounds/h_raggei.wav" type="audio/wav" %}
 
