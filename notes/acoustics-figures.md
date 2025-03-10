@@ -24,7 +24,7 @@ waveSampling(sine(freq=1), 2000)
 
 ### A sampled wave
 
-{% include firgure.html img="/imgs/sampled-wave.png" alt="A sampled waveform." caption="A sampled waveform." %}
+{% include figure.html img="/imgs/sampled-wave.png" alt="A sampled waveform." caption="A sampled waveform." %}
 
 ```R
 library(figuREd)
