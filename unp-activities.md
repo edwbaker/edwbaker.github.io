@@ -6,13 +6,19 @@
 
 ## Gardens Tours
 
+### February 2025
+
+-  Georgia LS
+
+- Toby Kerridge Goldsmiths
+
 ### January 2025
 
 - Phasmid Study Group
 
 ### November 2024
 
-- Georgia
+- Georgia LS
 
 - City University
 
@@ -24,9 +30,16 @@
 
 ## Outreach
 
+### February 2025
+
+- RSPB Glasgow Claypits
+
+- Granton Community Growers Edinburgh
+
 ### January 2025
 
 - Annotations meeting (xeno-canto)
+
 ### December 2024
 
 - Natural England x NHM
@@ -127,6 +140,10 @@
 - Soil microphone tests at London Zoo
 
 ## Teaching
+
+### February 2025
+
+Goldsmiths Design @ Lewisham
 
 ### November 2024
 
