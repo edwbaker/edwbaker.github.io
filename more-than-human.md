@@ -14,4 +14,4 @@ Project between Natural History Museum, Goldsmiths and Phoenix Community Housing
 
 <img src="/imgs/mthctk-03.jpg" alt="More-than-human-community toolkit supportors slide."/>
 
-{% include figure.html img="/imgs/mthctk-04.jpg" alt="Listening to the sounds of moss." caption="Listening to the sounds of moss (student project). %}
+{% include figure.html img="/imgs/mthctk-04.jpg" alt="Listening to the sounds of moss." caption="Listening to the sounds of moss (student project)." %}
