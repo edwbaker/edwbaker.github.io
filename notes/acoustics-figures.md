@@ -4,7 +4,7 @@ Acoustic figures and diagrams using R.
 
 ## Wave in air
 
-![A wave in air](/imgs/wave-in-air.png)
+{% include figure.html img="/imgs/wave-in-air.png" alt="Represenatation of a pressure wave in air created using the R package figuRed" caption="Represenatation of a pressure wave in air created using the R package figuRed" %}
 
 This is created by the `wave_particle()` function of [FigurEd](https://github.com/edwbaker/figured).
 
@@ -12,7 +12,7 @@ This is created by the `wave_particle()` function of [FigurEd](https://github.co
 
 ### Sampling a wave
 
-![Sampling a waveform](/imgs/wave-sampling.png)
+{% include figure.html img="/imgs/wave-sampling.png" alt="Figure showing how a waveform is sampled digitally." caption="Figure showing how a waveform is sampled digitally." %}
 
 This is created by the `waveSampled()` function of [FigurEd](https://github.com/edwbaker/figured).
 
@@ -24,9 +24,7 @@ waveSampling(sine(freq=1), 2000)
 
 ### A sampled wave
 
-![A sampled wave](/imgs/sampled-wave.png)
-
-s
+{% include firgure.html img="/imgs/sampled-wave.png" alt="A sampled waveform." caption="A sampled waveform." %}
 
 ```R
 library(figuREd)
