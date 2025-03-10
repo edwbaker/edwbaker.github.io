@@ -16,6 +16,6 @@ carousels:
 
 Project between Natural History Museum, Goldsmiths and Phoenix Community Housing supported by the Arts and Humanities Research Council.  The MTH-CTK aims to design and share tools and activities that use low-cost imaging and acoustic technology to empower communities as agents of environmental change.
 
-{% include carousel.html height="500" unit="px" duration="5" number="1" %}
+{% include carousel.html height="500" unit="px" duration="5" number="1" caption="More than Human Community Toolkit promorional material" %}
 
 {% include figure.html img="/imgs/mthctk-04.jpg" alt="Listening to the sounds of moss." caption="Listening to the sounds of moss (student project)." %}
