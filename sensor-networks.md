@@ -13,3 +13,9 @@ Some thoughts on sensor networks:
 - [Raspberry Pi](/raspberrypi) - tools for Raspberry Pi sensors.
 
 - [Arduino for biologists and environmental scientists](https://arduino.wildlife.systems) - eBook in prep.
+
+## Urban Research Station
+
+- [NHM Urban Research Station](/urban-research-station.md) - overview of the Urban Research Station at the Natural History Museum, London
+
+- [Sensor network install](/notes/sensor-network-install) - documentation of the sensor network installation at the Natural History Museum's Urban Research Station

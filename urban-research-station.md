@@ -8,6 +8,8 @@ The sensor network will consist of round 25 devices measuring acoustic activity 
   description="Ed Baker installing a sensor in the URban Research Station at the Natural History Museum"
   caption = "Installing acoustic sensor on a tree. © The Trustees of the Natural History Museum, London" %}
 
+- [Sensor network install](/notes/sensor-network-install) - documenting the installation of the sensor network.
+
 ## More-than-human approaches
 
 More-than-human appraoches to biodiversity research are looking at how we can make urban areas more habitable for all species.
