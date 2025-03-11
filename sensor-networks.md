@@ -16,6 +16,8 @@ Some thoughts on sensor networks:
 
 ## Urban Research Station
 
-- [NHM Urban Research Station](/urban-research-station.md) - overview of the Urban Research Station at the Natural History Museum, London
+- [NHM Urban Research Station](/urban-research-station.md) - overview of the Urban Research Station at the Natural History Museum, London.
 
-- [Sensor network install](/notes/sensor-network-install) - documentation of the sensor network installation at the Natural History Museum's Urban Research Station
+- [Sensor network philosophy](/notes/sensor-network-philosophy) - how we thought about the design of a sensor network.
+
+- [Sensor network install](/notes/sensor-network-install) - documentation of the sensor network installation at the Natural History Museum's Urban Research Station.
