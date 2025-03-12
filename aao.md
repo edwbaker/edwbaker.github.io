@@ -10,3 +10,9 @@ This project aims to achieve a step change in AAOs by adding evolutionary knowle
 Our aim is to develop and field-test technology that will enable the automated continuous monitoring of acoustic communities in a non-invasive and low cost way. We will focus on Orthoptera song (grasshoppers, crickets and bush-crickets) as a model system but in the longer term these techniques will be applicable across a wide range of acoustically communicating organisms. We will develop comparative analyses of Orthoptera song to inform the development of automatic acoustic observatories, which will then be field-tested to assess performance before dissemination. This will be achieved by pursuing a number of research objectives including the design of AAO devices, describe evolutionary relationships of Orthoptera and the evolution of song and to test systems in the field.
 
 The project is multidisciplinary involving academics and researchers in three departments at York: Electronic Engineering, Biology and Environment and Geography.
+
+## Outputs
+
+- [Wildlife Systems](https://wildlife.systems) - technology developed to monitor wildlife using Raspberry Pi computers, now expanded to include a range of environmental sensors and cameras.
+
+- [pi-pwr](https://github.com/wildlife-systems/pi-pwr) - a Raspberry Pi power management system.
