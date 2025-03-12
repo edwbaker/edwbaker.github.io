@@ -20,6 +20,8 @@ More-than-human appraoches to biodiversity research are looking at how we can ma
 
 ## Media
 
+- [The Nature of Tech](https://aws.amazon.com/uki/cloud-services/sustainability-aws-and-nhm/) - Amazon Web Services and the Natural History Museum (2025) - discussing the use of technology in biodiversity research.
+
 - [Natural History Museum's new gardens aim to restore UK's urban nature](https://www.newscientist.com/video/2440498-natural-history-museums-new-gardens-aim-to-restore-uks-urban-nature/) New Scientist (2024)
 
 {% include youtube.html id="3CovYvcTnuw" start="0" title = "Inside one of the UK's most studied urban nature sites" %}

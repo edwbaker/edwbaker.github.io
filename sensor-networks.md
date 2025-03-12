@@ -21,3 +21,7 @@ Some thoughts on sensor networks:
 - [Sensor network philosophy](/notes/sensor-network-philosophy) - how we thought about the design of a sensor network.
 
 - [Sensor network install](/notes/sensor-network-install) - documentation of the sensor network installation at the Natural History Museum's Urban Research Station.
+
+## Media
+
+- [The Nature of Tech](https://aws.amazon.com/uki/cloud-services/sustainability-aws-and-nhm/) - Amazon Web Services and the Natural History Museum (2025) - discussing the use of technology in biodiversity research.
