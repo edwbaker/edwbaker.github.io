@@ -1,5 +1,7 @@
 # Sensor network install
 
+This page documents the installation of the sensor network part of the [Urban Research Station](/urban-research-station) at the Natural History Museum.
+
 ToDo: illustration of ducts, conduit, devices.
 
 Waterproof Ethernet sockets were installed in the inspection cambers during the construction phase.
