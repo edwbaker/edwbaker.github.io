@@ -22,4 +22,8 @@ Installing an underground wired network is a once-only opportunity. We should in
 
 ### Easy to maintain
 
+The easier the system is to maintain, the more people who can maintain it. This means that the system will be more resilient to changes in personnel. Integrate with existing systems and procedures.
+
 ### Expandable
+
+The initial physical build must allow for easy expansion. Sensors may need to be put anywhere in the gardens. Design to allow wired connections anywhere without crossing paths. This implies the initial build will have more ducting than initially required.

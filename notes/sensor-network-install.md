@@ -2,6 +2,9 @@
 
 This page documents the installation of the sensor network part of the [Urban Research Station](/urban-research-station) at the Natural History Museum.
 
+
+## First fix
+
 ToDo: illustration of ducts, conduit, devices.
 
 Waterproof Ethernet sockets were installed in the inspection cambers during the construction phase.
@@ -18,3 +21,4 @@ Groundscrews were installed in the garden to securely support the sensor devices
 
 {% include figure.html img="/imgs/sensor-network-install/groundscrew-in-situ.jpg" alt="Groundscrew in situ." caption="Groundscrew in situ." %}
  
+## Second fix
