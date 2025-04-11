@@ -1,4 +1,3 @@
-
 # Automated Acoustic Observatories
 
 ## Non-invasive long term monitoring of acoustic species
