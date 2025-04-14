@@ -14,7 +14,7 @@
 
 -  Georgia LS
 
-- Toby Kerridge Goldsmiths
+- Tobie Kerridge Goldsmiths
 
 ### January 2025
 
