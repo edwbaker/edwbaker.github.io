@@ -27,3 +27,7 @@ The easier the system is to maintain, the more people who can maintain it. This 
 ### Expandable
 
 The initial physical build must allow for easy expansion. Sensors may need to be put anywhere in the gardens. Design to allow wired connections anywhere without crossing paths. This implies the initial build will have more ducting than initially required.
+
+## Embrace the mess
+
+If a sensor network is developed, or even just maintained, over a period of years there will be heterogenity in the types of sensors, the hardware and software reading the sensors, and how the data is transmitted. Sensors are deprecated and new versions released, the control hardware and software will be upgraded, and the data transmission might change in interval or location. The system will be affected by failures of hardware, software, networking, and people. This death and renewal is a part of the long-term success of the system, and the sytem should anticipate these changes.
