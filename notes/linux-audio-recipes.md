@@ -69,10 +69,17 @@ sox file.mp3 -n stat
 
 ### Getting duration of an audio file
 
+#### Get duration in seconds
+
 ````bash
 soxi -D file
 ````
 
+#### Get duration in hours, minutes, seconds
+
+````bash
+soxi -d file
+````
 
 ## Playing audio
 
