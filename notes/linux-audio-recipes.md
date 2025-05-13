@@ -54,6 +54,7 @@ Both sox and ffmpeg come with extensive documentation.
 
 ````bash
 man sox
+man soxi
 
 man ffmpeg
 ````
