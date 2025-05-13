@@ -67,6 +67,13 @@ soxi file
 sox file.mp3 -n stat
 ````
 
+### Getting duration of an audio file
+
+````bash
+soxi -D file
+````
+
+
 ## Playing audio
 
 The `play` command is provided by `sox`.
