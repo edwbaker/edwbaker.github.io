@@ -12,6 +12,8 @@ The two most common command line tools are Sound eXchange (sox) and FFmpeg, whic
 
 ### sox: Sound eXchange
 
+Installing sox will also instll soxi (Sound eXchange Information) for getting information about audio files.
+
 #### sox Installation
 
 ##### sox installation on Ubunu and other Debian derivatives
