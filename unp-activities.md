@@ -12,7 +12,7 @@
 
 ### February 2025
 
--  Georgia LS
+- Georgia LS
 
 - Tobie Kerridge Goldsmiths
 
