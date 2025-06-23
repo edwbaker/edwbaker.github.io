@@ -5,6 +5,7 @@
 - [Locations and Features on the Undercliff](#locations)
     - [Chapel Rock](#chapel-rock)
     - [Washing Rock](#washing-rock)
+
 - [The Undercliff and the French Lieutenant`s Woman](#the-french-lieutenants-woman)
     - [The Undercliff](#the-undercliff)
     - [White Chapel Rock](#white-chapel-rock)
@@ -15,7 +16,7 @@
 
 The site of non-conformist worship in the 1660s, Chapel Rock is a prominent feature of the Undercliff. It is currently well off, and not visible from, the South West Coast Path. The location can be discerned from older maps, but there are currently no paths to it, and access without a guide is not recommended. The scene in the [French Lieutenant`s Woman](#the-french-lieutenants-woman) at a location known as [White Chapel Rock](#white-chapel-rock) was filmed slightly to the east.
 
-{% include figure.html img="/imgs/undercliff/flw/white-chapel-rock-2025.JPEG" alt="Chapel Rock." caption="Chapel Rock, 22/06/2025." %}
+{% include figure.html img="/imgs/undercliff/chapel-rock-2025.JPEG" alt="Chapel Rock." caption="Chapel Rock, 22/06/2025." %}
 
 ## Washing Rock
 
