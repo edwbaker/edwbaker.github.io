@@ -27,7 +27,7 @@ From what I can tell this view has probaby gone forever due to the continual lan
 
 ### White Chapel Rock
 
-Whit Chapel Rock, as the location of 1660s non-conformist worship, is to the west of the location used in the film.
+Whit Chapel Rock, known locally and on Ordnance Survey maps as Chapel Rock, is the location of 1660s non-conformist worship, and is to the west of the location used in the film.
 
 {% include figure.html img="/imgs/undercliff/flw/white-chapel-rock.JPG" alt="White Chapel Rock." caption="Scene from the French Lieutenant's Woman at White Chapel Rock." %}
 
