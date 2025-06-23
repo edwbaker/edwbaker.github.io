@@ -7,13 +7,13 @@
 The site of non-conformist worship in the 1660s, Chapel Rock is a prominent feature of the Undercliff. It is currently well off, and not visible from, the South West Coast Path. The location can be discerned from older maps, but there are currently no paths to it, and access without a guide is not recommended.
 
 
-{% include figure.html img="/imgs/undercliff/flw/chapel-rock-2025.JPG" alt="Chapel Rock." caption="Chapel Rock, 22/06/2025." %}
+{% include figure.html img="/imgs/undercliff/flw/chapel-rock-2025.JPEG" alt="Chapel Rock." caption="Chapel Rock, 22/06/2025." %}
 
 ## Washing Rock
 
 Washing Rock is a large rock in the Undercliff, and probably gets its name from being white-washed as a navigation aid when the undercliff was an open area of farmland. Natural England have recently (2025) created a new path to the rock from the South West Coast Path, and cleared some of the surrounding vegetation. This makes the rock both much more accessible, and much more visible.
 
-{% include figure.html img="/imgs/undercliff/washing-rock-2025.JPG" alt="Washing Rock 2025." caption="View of Washing Rock from the Undercliff, 22/06/2025." %}
+{% include figure.html img="/imgs/undercliff/washing-rock-2025.JPEG" alt="Washing Rock 2025." caption="View of Washing Rock from the Undercliff, 22/06/2025." %}
 
 ## The French Lieutenant's Woman
 
