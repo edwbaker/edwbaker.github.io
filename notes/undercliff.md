@@ -1,11 +1,19 @@
 # Axmouth to Lyme Regis Undercliff
 
+## Overview
+
+- [Locations and Features on the Undercliff](#locations)
+    - [Chapel Rock](#chapel-rock)
+    - [Washing Rock](#washing-rock)
+- [The Undercliff and the French Lieutenant`s Woman](#the-french-lieutenants-woman)
+    - [The Undercliff](#the-undercliff)
+    - [White Chapel Rock](#white-chapel-rock)
+
 ## Locations
 
 ### Chapel Rock
 
-The site of non-conformist worship in the 1660s, Chapel Rock is a prominent feature of the Undercliff. It is currently well off, and not visible from, the South West Coast Path. The location can be discerned from older maps, but there are currently no paths to it, and access without a guide is not recommended.
-
+The site of non-conformist worship in the 1660s, Chapel Rock is a prominent feature of the Undercliff. It is currently well off, and not visible from, the South West Coast Path. The location can be discerned from older maps, but there are currently no paths to it, and access without a guide is not recommended. The scene in the [French Lieutenant`s Woman](#the-french-lieutenants-woman) at a location known as [White Chapel Rock](#white-chapel-rock) was filmed slightly to the east.
 
 {% include figure.html img="/imgs/undercliff/flw/white-chapel-rock-2025.JPEG" alt="Chapel Rock." caption="Chapel Rock, 22/06/2025." %}
 
@@ -27,7 +35,7 @@ From what I can tell this view has probaby gone forever due to the continual lan
 
 ### White Chapel Rock
 
-Whit Chapel Rock, known locally and on Ordnance Survey maps as Chapel Rock, is the location of 1660s non-conformist worship, and is to the west of the location used in the film.
+Whit Chapel Rock, known locally and on Ordnance Survey maps as [Chapel Rock](#chapel-rock), is the location of 1660s non-conformist worship, and is to the west of the location used in the film.
 
 {% include figure.html img="/imgs/undercliff/flw/white-chapel-rock.JPG" alt="White Chapel Rock." caption="Scene from the French Lieutenant's Woman at White Chapel Rock." %}
 
