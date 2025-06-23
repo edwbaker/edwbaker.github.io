@@ -7,7 +7,7 @@
 The site of non-conformist worship in the 1660s, Chapel Rock is a prominent feature of the Undercliff. It is currently well off, and not visible from, the South West Coast Path. The location can be discerned from older maps, but there are currently no paths to it, and access without a guide is not recommended.
 
 
-{% include figure.html img="/imgs/undercliff/flw/chapel-rock-2025.JPEG" alt="Chapel Rock." caption="Chapel Rock, 22/06/2025." %}
+{% include figure.html img="/imgs/undercliff/flw/white-chapel-rock-2025.JPEG" alt="Chapel Rock." caption="Chapel Rock, 22/06/2025." %}
 
 ## Washing Rock
 
