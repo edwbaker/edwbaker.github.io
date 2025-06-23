@@ -15,3 +15,7 @@ From what I can tell this view has probaby gone forever due to the continual lan
 ### White Chapel Rock
 
 {% include figure.html img="/imgs/undercliff/flw/white-chapel-rock.JPG" alt="White Chapel Rock." caption="Scene from the French Lieutenant's Woman at White Chapel Rock." %}
+
+Again, there seems to be some amount of ground movement, but this is the closest view I can find to the one in the film. There is fresh rock fall (visible to the left, and by the relaive cleanliess of the cliff face to the left), but this is the best match in the ara of White Chapel Rock.
+
+{% include figure.html img="/imgs/undercliff/flw/white-chapel-rock-2025.JPEG" alt="White Chapel Rock 2025." caption="View of White Chapel Rock from the Undercliff, 22/06/2025." %}
