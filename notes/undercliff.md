@@ -2,7 +2,7 @@
 
 The Undercliff, previousy grazed farmland, can be considered an early (although unintended) example of rewilding. Following large landslides in the 19th century, the area was abandoned and has since been left to nature. The Undercliff is now a Site of Special Scientific Interest (SSSI), a National Nature Reserve (NNR), and part of the Jurassic Coast UNESCO World Heritage Site. The only current traversal of the Undercliff is the South West Coast Path.
 
-{% include figure.html img="/imgs/undercliff/Conybeare-1840.png" alt="Conybeare's 1840 view of the Undercliff from sea." caption="Conybeare's 1840 diagramof the Undercliff from the sea shows grazed grassland, in contrast to the naturally regeneratedwoodland of today." %}
+{% include figure.html img="/imgs/undercliff/Conybeare-1840.png" alt="Conybeare's 1840 view of the Undercliff from sea." caption="Conybeare's 1840 diagram of the Undercliff from the sea shows grazed grassland, in contrast to the naturally regenerated woodland of today." %}
 
 ## Overview
 
