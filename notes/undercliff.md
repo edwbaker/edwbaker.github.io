@@ -16,7 +16,31 @@ The Undercliff, previousy grazed farmland, can be considered an early (although 
 
 - [Undercliff Activities](#activities)
 
-## Locations
+## Locations (East to West) {#locations}
+
+### Chimney Rock
+
+### Underhill Farm
+
+{% include figure.html img="/imgs/undercliff/underhillfarm-1936.jpg" alt="Underhill Farm c1936." caption="Underhill Farm, circa 1936." %}
+
+{% include figure.html img="/imgs/undercliff/underhillfarm-1937.jpg" alt="Underhill Farm c1937." caption="Underhill Farm, circa 1937." %}
+
+ The author John Fowles lived at Underhill Farm from 19th October 1965 to September 1968, and it was here that he wrote the French Lieutenant's Woman.
+
+ In early 1968 10 acres of fields were lsot from the farm due to a landslip. Fowles sold the property at a discount, and moved to Belmont House.
+
+ [John Fowles at Underhill Farm](https://news.dorsetcouncil.gov.uk/dorset-history-centre-blog/2022/11/04/john-fowles-part-3/)
+
+### Ravine Pond
+
+### Donkey's Green
+
+### East Cliff Cottage
+
+### Rock Orchard
+
+### Pinahy Lake
 
 ### Chapel Rock
 
@@ -28,7 +52,19 @@ The current location can be discerned from older maps, but there are currently n
 
 {% include figure.html img="/imgs/undercliff/chapel-rock-2025.JPEG" alt="Chapel Rock." caption="Chapel Rock, 22/06/2025." %}
 
-## Washing Rock
+### Longbottom
+
+### Old Fish Pond
+
+### Pumping Station
+
+### West Cliff Cottage
+
+### Humble Pond
+
+### Humble Green
+
+### Washing Rock
 
 Washing Rock is a large rock in the Undercliff, and probably gets its name from being white-washed as a navigation aid when the undercliff was an open area of farmland. Natural England have recently (2025) created a new path to the rock from the South West Coast Path, and cleared some of the surrounding vegetation. This makes the rock both much more accessible, and much more visible.
 
