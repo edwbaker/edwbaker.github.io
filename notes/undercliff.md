@@ -22,7 +22,7 @@ The Undercliff, previousy grazed farmland, can be considered an early (although 
 
 The site of non-conformist worship in the 1660s, Chapel Rock is a prominent feature of the Undercliff. It is currently well off, and not visible from, the South West Coast Path. Since then landslips have caused Chapel Rock to be offset from this location both horizontally and vertically.
 
-{% include figure.html img="/imgs/undercliff/Grainger-1996.png" alt="Chapel Rock in the Pinhay landslidefrom Grainger 1996." caption="Chapel Rock in the Pinhay landslidefrom <a href='https://ussher.org.uk/wp-content/uploads/journal/1996/02-Grainger_et_al_1996.pdf' >Grainger 1996</a>." %}
+{% include figure.html img="/imgs/undercliff/Grainger-1996.png" alt="Chapel Rock in the Pinhay landslidefrom Grainger 1996." caption="Chapel Rock in the Pinhay landslide from <a href='https://ussher.org.uk/wp-content/uploads/journal/1996/02-Grainger_et_al_1996.pdf' >Grainger 1996</a>." %}
 
 The current location can be discerned from older maps, but there are currently no paths to it, and access without a guide is not recommended. The scene in the [French Lieutenant`s Woman](#the-french-lieutenants-woman) at a location known as [White Chapel Rock](#white-chapel-rock) was filmed slightly to the east.
 
