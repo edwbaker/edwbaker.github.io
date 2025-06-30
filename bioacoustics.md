@@ -22,6 +22,8 @@ Background to some bioacoustics ideas and principles
 
 [Sonicscrewdriver](https://sonicscrewdriver.ebaker.me.uk) is an R package that provides a set of tools for working with audio data.
 
+- [Reading any type of audio file into R](https://medium.com/bioacoustica/reading-audio-into-r-efe98b45cdf3) The [sonicscrewdriver](https://sonicscrewdriver.ebaker.me.uk) package provides a simple way to read audio files of any type into R (the most commonly used tools only deal with .wav and .mp3 files).
+
 - [Generating acoustic training data in R with sonicscrewdriver](https://medium.com/bioacoustica/generating-acoustic-training-data-in-r-with-sonicscrewdriver-774a440f5c6e) - how to generate augmneted training data for machine learning from audio files.
 
 - [BirdNET in R](https://medium.ebaker.me.uk/birdnet-in-r-b3aea914fc4c) - running [BirdNET](https://birdnet.cornell.edu/) from within an R environment.

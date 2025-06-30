@@ -12,6 +12,8 @@ The two most common command line tools are Sound eXchange (sox) and FFmpeg, whic
 
 ### sox: Sound eXchange
 
+Installing sox will also instll soxi (Sound eXchange Information) for getting information about audio files.
+
 #### sox Installation
 
 ##### sox installation on Ubunu and other Debian derivatives
@@ -52,6 +54,7 @@ Both sox and ffmpeg come with extensive documentation.
 
 ````bash
 man sox
+man soxi
 
 man ffmpeg
 ````
@@ -65,6 +68,44 @@ soxi file
 
 ````bash
 sox file.mp3 -n stat
+````
+
+### Getting duration of an audio file
+
+#### Get duration in seconds
+
+For a single file.
+
+````bash
+soxi -D file
+````
+
+For multiple files.
+
+````bash
+soxi -TD file1 file2
+````
+
+````bash
+soxi -TD *.wav
+````
+
+#### Get duration in hours, minutes, seconds
+
+For a single file.
+
+````bash
+soxi -d file
+````
+
+For multiple files.
+
+````bash
+soxi -Td file1 file2
+````
+
+````bash
+soxi -Td *.wav
 ````
 
 ## Playing audio

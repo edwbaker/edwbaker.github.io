@@ -29,3 +29,7 @@ More-than-human appraoches to biodiversity research are looking at how we can ma
 - ITV News (2024) Discussing audio sensor network in NHM Gardens.
 
 ![Ed Baker on ITV News](/imgs/unp-itv.png)
+
+## Talks
+
+- [Internal NHM launch of Urban Research Station](/talks/2025-04-URS-launch) - Natural History Museum, London (2025)
