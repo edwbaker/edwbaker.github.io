@@ -7,12 +7,12 @@ The Undercliff, previousy grazed farmland, can be considered an early (although 
 ## Overview
 
 - [Locations and Features on the Undercliff](#locations)
-    - [Chapel Rock](#chapel-rock)
-    - [Washing Rock](#washing-rock)
+  - [Chapel Rock](#chapel-rock)
+  - [Washing Rock](#washing-rock)
 
 - [The Undercliff and the French Lieutenant`s Woman](#the-french-lieutenants-woman)
-    - [The Undercliff](#the-undercliff)
-    - [White Chapel Rock](#white-chapel-rock)
+  - [The Undercliff](#the-undercliff)
+  - [White Chapel Rock](#white-chapel-rock)
 
 - [Undercliff Activities](#activities)
 
@@ -89,7 +89,6 @@ Whit Chapel Rock, known locally and on Ordnance Survey maps as [Chapel Rock](#ch
 Again, there seems to be some amount of ground movement, but this is the closest view I can find to the one in the film. There is fresh rock fall (visible to the left, and by the relaive cleanliess of the cliff face to the left), but this is the best match in the ara of White Chapel Rock.
 
 {% include figure.html img="/imgs/undercliff/flw/white-chapel-rock-2025.JPEG" alt="White Chapel Rock 2025." caption="View of White Chapel Rock from the Undercliff, 22/06/2025." %}
-
 
 ## Activities
 
