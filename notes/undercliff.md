@@ -9,9 +9,11 @@ The Undercliff, previousy grazed farmland, can be considered an early (although 
 - [Locations and Features on the Undercliff](#locations)
   - [Chapel Rock](#chapel-rock)
   - [Chimney Rock](#chimney-rock)
+  - [Pinhay House](#pinhay-house)
   - [Washing Rock](#washing-rock)
 
 - [The Undercliff and the French Lieutenant`s Woman](#the-french-lieutenants-woman)
+  - [Pinhay House](#pinhay-house)
   - [The Undercliff](#the-undercliff)
   - [White Chapel Rock](#white-chapel-rock)
 
@@ -40,6 +42,10 @@ The Undercliff, previousy grazed farmland, can be considered an early (although 
 ### Donkey's Green
 
 ### East Cliff Cottage
+
+### Pinhay House
+
+{% include figure.html img="/imgs/undercliff/pinhay-house-2025.jpeg" alt="Pinhay House 2025." caption="Pinhay House, 22/06/2025. From Pinhay Permissive Loop." %}
 
 ### Rock Orchard
 
