@@ -8,6 +8,7 @@ The Undercliff, previousy grazed farmland, can be considered an early (although 
 
 - [Locations and Features on the Undercliff](#locations)
   - [Chapel Rock](#chapel-rock)
+  - [Chimney Rock](#chimney-rock)
   - [Washing Rock](#washing-rock)
 
 - [The Undercliff and the French Lieutenant`s Woman](#the-french-lieutenants-woman)
