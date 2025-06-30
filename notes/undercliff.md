@@ -20,7 +20,7 @@ The Undercliff, previousy grazed farmland, can be considered an early (although 
 
 ### Chimney Rock
 
-{% include figure.html img="/imgs/undercliff/chimney-rock-2025.JPEG" alt="Chimney Rock 2025." caption="Chimney Rock, 22/06/2025." %}
+{% include figure.html img="/imgs/undercliff/chimney-rock-2025.jpeg" alt="Chimney Rock 2025." caption="Chimney Rock, 22/06/2025." %}
 
 ### Underhill Farm
 
