@@ -14,6 +14,8 @@
 
 - [Annotations](/notes/annotations)
 
+- [History of Bioacoustics](/notes/bioacoustics-history)
+
 - [Books on bioacoustics and ecoacoustics](/notes/bioacoustics-books)
 
 ## Coding
