@@ -12,6 +12,14 @@ The sensor network will consist of round 25 devices measuring acoustic activity 
 
 - [Sensor network install](/notes/sensor-network-install) - documenting the installation of the sensor network.
 
+## Visual Observations
+
+There is a long history of visual observations of species, these are currently collected through a mix of transects and ad-hoc recording.
+
+Anybody can contribute to ad-hic recording using iNaturalist or iRecord.
+
+- [Nature Discovery Garden iNaturalist project](https://www.inaturalist.org/projects/nhm-london-nature-discovery-gardens)
+
 ## More-than-human approaches
 
 More-than-human appraoches to biodiversity research are looking at how we can make urban areas more habitable for all species.
