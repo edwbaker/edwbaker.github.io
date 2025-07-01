@@ -10,6 +10,6 @@
 
 ### 1940s Recording techniques
 
- {% figure.html img="/imgs/bioacoustics_history/sonic-amplifier-13.webp" alt="G. W. Pierce's sonic amplifier 13." caption="G. W. Pierce's sonic amplifier 13." %}
+ {% include figure.html img="/imgs/bioacoustics_history/sonic-amplifier-13.webp" alt="G. W. Pierce's sonic amplifier 13." caption="G. W. Pierce's sonic amplifier 13." %}
 
 - [G. W. Pierce](https://medium.ebaker.me.uk/bioacoustic-pioneers-g-w-pierce-ca088d9e3b69) (a physicist) developed hardware for recording the songs of insects.
