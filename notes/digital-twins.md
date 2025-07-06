@@ -12,4 +12,4 @@ The garden's [sensor network](/urban-research-station) will collect the data req
 
 {% include video.html src="/videos/pond-that-lived.mp4" type="video/mp4" %}
 
-{% include figure.html img="/videos/underground.mp4" type="video/mp4" %}
+{% include video.html src="/videos/underground.mp4" type="video/mp4" %}
