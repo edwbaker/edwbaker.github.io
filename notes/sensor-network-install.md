@@ -22,3 +22,13 @@ Groundscrews were installed in the garden to securely support the sensor devices
 {% include figure.html img="/imgs/sensor-network-install/groundscrew-in-situ.jpg" alt="Groundscrew in situ." caption="Groundscrew in situ." %}
  
 ## Second fix
+
+## Further installation
+
+### Suspending sensors in the water column
+
+{% include figure.html img="/imgs/sensor-network-install/pond-float.JPEG" alt="Sensor suspended in water column." caption="Sensor suspended in water column." %}
+
+### Ultrasound distance sensor
+
+{% include figure.html img="/imgs/sensor-network-install/ultrasound-distance.JPEG" alt="Ultrasound distance sensor." caption="Ultrasound distance sensor." %}
