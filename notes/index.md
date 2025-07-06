@@ -36,6 +36,8 @@
 
 - [Urban Nature at the Museum of Edinburgh](/notes/museum-of-edinburgh-urban-nature)
 
+- [Digital twins](/notes/digital-twins)
+
 ## Miscellaneous
 
 - [Axmouth to Lyme Regis Undercliff](/notes/undercliff)
