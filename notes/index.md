@@ -32,6 +32,10 @@
 
 - [Collatz Conjecture](/notes/collatz-conjecture)
 
+## Urban Nature
+
+- [Urban Nature at the Museum of Edinburgh](/notes/museum-of-edinburgh-urban-nature)
+
 ## Miscellaneous
 
 - [Axmouth to Lyme Regis Undercliff](/notes/undercliff)
