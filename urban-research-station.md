@@ -12,6 +12,8 @@ The sensor network will consist of round 25 devices measuring acoustic activity 
 
 - [Sensor network install](/notes/sensor-network-install) - documenting the installation of the sensor network.
 
+- [Digital twins](/notes/digital-twins) - how the sensor network will help form a digital twin of the NHM Gardens.
+
 ## Visual Observations
 
 There is a long history of visual observations of species, these are currently collected through a mix of transects and ad-hoc recording.
