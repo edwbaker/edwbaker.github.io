@@ -1,6 +1,7 @@
 <figure class="image">
-    <img src="{{ include.img }}" alt="{{ include.description }}">
-    
+    <a href="{{ include.img }}" class="image-link" title="{{ include.description }}" target="_blank">
+        <img src="{{ include.img }}" alt="{{ include.description }}">
+    </a>
     {% if include.caption And include.caption != "" And include.caption != nil %}
     <figcaption>{{ include.caption }}</figcaption>
     {% endif %}
