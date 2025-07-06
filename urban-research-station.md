@@ -41,3 +41,8 @@ More-than-human appraoches to biodiversity research are looking at how we can ma
 ## Talks
 
 - [Internal NHM launch of Urban Research Station](/talks/2025-04-URS-launch) - Natural History Museum, London (2025)
+
+
+## Urban Nature at other institutions
+
+- [Urban Nature at the Museum of Edinburgh](/notes/museum-of-edinburgh-urban-nature) - Courtyard Gallery and an exhibition showcasing the relationship between children’s literature and nature.
