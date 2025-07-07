@@ -4,7 +4,7 @@
   description="Entomological Acoustics (European Gryllotalpidae)"
   caption="Entomological Acoustics (European Gryllotalpidae)" %}
 
-{% include figure.html img="/imgs/bioacoustics_history_nhm/vinyl_inside_1."jpeg"
+{% include figure.html img="/imgs/bioacoustics_history_nhm/vinyl_inside_1.jpeg"
   description="Entomological Acoustics (European Gryllotalpidae)"
   caption="Entomological Acoustics (European Gryllotalpidae)" %}
 
