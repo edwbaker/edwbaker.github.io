@@ -6,7 +6,7 @@ The Urban Nature Project is a major initiative at the Natural History Museum, Lo
 
 ## In the media
 
-- [Urban Nature Project at the Natural History Museum review – it’s a wondrous jungle out there](https://www.theguardian.com/culture/article/2024/jul/21/urban-nature-project-natural-history-museum-london-new-gardens-fern-diplodocus) - The Guardian (2024) - a review of the Urban Nature Project at the Natural History Museum.
+
 
 - [The Nature of Tech](https://aws.amazon.com/uki/cloud-services/sustainability-aws-and-nhm/) - Amazon Web Services and the Natural History Museum (2025) - discussing the use of technology in biodiversity research.
 
@@ -18,6 +18,10 @@ The Urban Nature Project is a major initiative at the Natural History Museum, Lo
 
 ![Ed Baker on ITV News](/imgs/unp-itv.png)
 
-## Miscellaneous Activies
+- [Urban Nature Project at the Natural History Museum review – it’s a wondrous jungle out there](https://www.theguardian.com/culture/article/2024/jul/21/urban-nature-project-natural-history-museum-london-new-gardens-fern-diplodocus) - The Guardian (2024) - a review of the Urban Nature Project at the Natural History Museum.
+
+- [‘You travel five million years a metre’: inside the Natural History Museum’s mind-boggling new garden](https://www.theguardian.com/artanddesign/article/2024/jul/16/natural-history-museum-garden-fern-dippy) - The Guardian (2024)
+
+## Miscellaneous Activities
 
 - [List](/unp-activities) - a list of activities related to the Urban Nature Project.
