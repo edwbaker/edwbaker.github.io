@@ -14,6 +14,8 @@
 
 - [Annotations](/notes/annotations)
 
+- [History of Bioacoustics](/notes/bioacoustics-history)
+
 - [Books on bioacoustics and ecoacoustics](/notes/bioacoustics-books)
 
 ## Coding
@@ -29,6 +31,12 @@
 ## Mathematical visualisations
 
 - [Collatz Conjecture](/notes/collatz-conjecture)
+
+## Urban Nature
+
+- [Urban Nature at the Museum of Edinburgh](/notes/museum-of-edinburgh-urban-nature)
+
+- [Digital twins](/notes/digital-twins)
 
 ## Miscellaneous
 

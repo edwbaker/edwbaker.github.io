@@ -30,7 +30,11 @@ _Biology_, _Chemistry_, _Physics_, _Mathematics_, _English Language_, _English L
 __Acoustic Biology Researcher (2022-)__  
 _Natural History Museum, London_
 
-Leading the development and deployment of an urban acoustic network in the Museum’s grounds and at partner sites nationwide and developing machine learning models for the identification and monitoring of biodiversity (in particular, making use of the [Museum’s collection of recorded insect sounds](https://bio.acousti.ca)). Science lead on the [Nature Overheard](/nature-overheard) citizen science project that was co-designed with school children and investigates the impacts of road noise on biodiversity. Developing sound libraries to enable the acoustic monitoring of new insect groups, including pollinators.
+Leading the development and deployment of an [Urban Research Station](/urban-research-station) in the Museum’s grounds and at partner sites nationwide and developing machine learning models for the identification and monitoring of biodiversity (in particular, making use of the [Museum’s collection of recorded insect sounds](https://bio.acousti.ca)).
+
+Deputy Lead for the UK Nature Recovery science theme.
+
+Science lead on the [Nature Overheard](/nature-overheard) citizen science project that was co-designed with school children and investigates the impacts of road noise on biodiversity. Developing sound libraries to enable the acoustic monitoring of new insect groups, including pollinators.
 
 __Research Associate: Anti-Locust Research Centre Digitisation – Feasibility Study (2021)__  
 _Stockholm Environment Institute & Department of History, University of York_

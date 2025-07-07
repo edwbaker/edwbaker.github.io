@@ -12,6 +12,16 @@ The sensor network will consist of round 25 devices measuring acoustic activity 
 
 - [Sensor network install](/notes/sensor-network-install) - documenting the installation of the sensor network.
 
+- [Digital twins](/notes/digital-twins) - how the sensor network will help form a digital twin of the NHM Gardens.
+
+## Visual Observations
+
+There is a long history of visual observations of species, these are currently collected through a mix of transects and ad-hoc recording.
+
+Anybody can contribute to ad-hic recording using iNaturalist or iRecord.
+
+- [Nature Discovery Garden iNaturalist project](https://www.inaturalist.org/projects/nhm-london-nature-discovery-gardens)
+
 ## More-than-human approaches
 
 More-than-human appraoches to biodiversity research are looking at how we can make urban areas more habitable for all species.
@@ -33,3 +43,8 @@ More-than-human appraoches to biodiversity research are looking at how we can ma
 ## Talks
 
 - [Internal NHM launch of Urban Research Station](/talks/2025-04-URS-launch) - Natural History Museum, London (2025)
+
+
+## Urban Nature at other institutions
+
+- [Urban Nature at the Museum of Edinburgh](/notes/museum-of-edinburgh-urban-nature) - Courtyard Gallery and an exhibition showcasing the relationship between children’s literature and nature.

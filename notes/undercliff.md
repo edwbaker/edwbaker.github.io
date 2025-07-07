@@ -102,3 +102,7 @@ Again, there seems to be some amount of ground movement, but this is the closest
 ## Activities
 
 - 2011 e-monocot walks as part of the [Lyme Regis Fossil Festival](https://fossilfestival.com/)
+
+## Media items
+
+{% include figure.html img="/imgs/undercliff/country-life-1976.jpg" alt="Country Life magazine 1976" caption="" %}
