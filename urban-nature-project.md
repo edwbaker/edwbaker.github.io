@@ -7,3 +7,7 @@ The Urban Nature Project is a major initiative at the Natural History Museum, Lo
 ## In the media
 
 - [Urban Nature Project at the Natural History Museum review – it’s a wondrous jungle out there](https://www.theguardian.com/culture/article/2024/jul/21/urban-nature-project-natural-history-museum-london-new-gardens-fern-diplodocus) - The Guardian (2024) - a review of the Urban Nature Project at the Natural History Museum.
+
+## Miscellaneous Activies
+
+- [List](/unp-activities) - a list of activities related to the Urban Nature Project.
