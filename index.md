@@ -12,9 +12,9 @@ Calling song of _Horatosphaga raggei_ (Heller & Baker, 2017) a new species first
 
 ## Current projects
 
-[Urban Nature Project](https://www.nhm.ac.uk/about-us/urban-nature-project.html): monitoring and understanding urban biodiversity in the UK
+[Urban Nature Project](/urban-nature-project): monitoring and understanding urban biodiversity in the UK
 
-- [Urban Research Station](/urban-research-station.md): A sensor network and hub for researching urban biodiversity.
+- [Urban Research Station](/urban-research-station): A sensor network and hub for researching urban biodiversity.
 
 - [Nature Overheard](https://ebaker.me.uk/nature-overheard): Community Science project including acoustic monitoring.
 
