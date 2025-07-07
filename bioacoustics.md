@@ -8,7 +8,13 @@ Background to some bioacoustics ideas and principles
 
 - [Nature is never silent?](https://medium.ebaker.me.uk/nature-is-never-silent-b2062a4cc5d5) Is nature actually noisy?
 
-## Bioacoustics pioneers
+## Bioacoustics history
+
+- [History of Bioacoustics](/notes/bioacoustics-history)
+
+- [History of Bioacoustics at the Natural History Museum, London](/notes/bioacoustics-history-nhm)
+
+### Bioacoustics pioneers
 
 - [G. W. Pierce](https://medium.ebaker.me.uk/bioacoustic-pioneers-g-w-pierce-ca088d9e3b69) Physicist who made his own devices to study the songs of Orthoptera, started the misuse of the word _pulse_, and made early hydrophones.
 

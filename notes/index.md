@@ -16,6 +16,8 @@
 
 - [History of Bioacoustics](/notes/bioacoustics-history)
 
+- [History of Bioacoustics at the Natural History Museum, London](/notes/bioacoustics-history-nhm)
+
 - [Books on bioacoustics and ecoacoustics](/notes/bioacoustics-books)
 
 ## Coding

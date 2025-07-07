@@ -1,5 +1,7 @@
 # History of Bioacoustics
 
+See also: [History of Bioacoustics at the Natural History Museum, London](/notes/bioacoustics-history-nhm).
+
 ## Describing Sound
 
 {% include figure.html img="/imgs/bioacoustics_history/durham-cathedral-2020-1.png" alt="Representing birdsong using musical notation." caption="Representing birdsong using musical notation." %}
