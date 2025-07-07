@@ -15,3 +15,5 @@
 {% include figure.html img="/imgs/bioacoustics_history_nhm/duke_of_burgandy.PNG"
   description="Recordings credit for NHM collections from the Duke of Burgandy."
   caption="Recordings credit for NHM collections from the Duke of Burgandy." %}
+
+- [Entomological Acoustics (European Gryllotalpidae)](/notes/bioacoustics-history-nhm-strickland-vinyl) - a vinyl record of the sounds of European mole crickets, produced by Peter Strickland in 2003.
