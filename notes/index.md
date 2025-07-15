@@ -4,6 +4,11 @@
 
 - [_Prophalangopsis obscura_ (Walker, 1869)](/notes/prophalangopsis)
 
+
+## General Invertebrates
+
+- [Interesting invertebrate conservation projects](/notes/invertebrate-conservation)
+
 ## General acoustics
 
 - [Linux audio recipes](/notes/linux-audio-recipes)
