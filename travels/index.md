@@ -1,6 +1,6 @@
 # Travels
 
-## England
+## [England](/travels/england)
 
 - [The Pennines](/travels/england/pennines)
 
