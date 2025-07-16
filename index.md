@@ -74,6 +74,10 @@ MSc Ecology and Urban Engineering (University College London)
 
 - [Urban Noise](/teaching/UCL-UrbanNoise/)
 
+## Travels
+
+[Notes on travels](/travels)
+
 ## Find me elsewhere
 
 [linktr.ee/edwbaker](https://linktr.ee/edwbaker)
