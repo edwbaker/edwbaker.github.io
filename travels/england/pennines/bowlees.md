@@ -20,7 +20,7 @@
 ## Gibson's Cave and Summerhill Force
 
 {% include figure.html
-  img="/imgs/travels/bowlees/gibsons-cave-1.JPEG"
+  img="/imgs/travels/bowlees/gibsons-cave.JPEG"
   alt="Gibson's Cave and Summerhill Force"
   caption="Gibson's Cave" %}
 
