@@ -16,7 +16,24 @@
   img="/imgs/invertebrate-conservation/molluscarium-2.JPEG"
   alt="Bowlees Molluscarium"
   caption="Bowlees Molluscarium" %}
-  
+
+## Bowlees Quarry
+
+{% include figure.html
+  img="/imgs/travels/bowlees/bowlees-quarry-1.JPEG"
+  alt="Bowlees Quarry"
+  caption="Bowlees Quarry" %}
+
+{% include figure.html
+  img="/imgs/travels/bowlees/bowlees-quarry-2.JPEG"
+  alt="Bowlees Quarry"
+  caption="Bowlees Quarry" %}
+
+{% include figure.html
+  img="/imgs/travels/bowlees/bowleesquarry-sign.JPEG"
+  alt="Bowlees Quarry sign"
+  caption="Bowlees Quarry sign" %}
+
 ## Gibson's Cave and Summerhill Force
 
 {% include figure.html
