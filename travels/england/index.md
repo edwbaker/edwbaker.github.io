@@ -6,6 +6,8 @@
 
     - [Pennine Way](/travels/england/pennines/pennine-way)
 
+    - [Allenheads](/travels/england/pennines/allenheads)
+
     - [Ashgill Force](/travels/england/pennines/ashgill-force)
 
     - [Bowlees](/travels/england/pennines/bowlees)
