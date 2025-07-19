@@ -1,5 +1,7 @@
 # Bowlees
 
+↑ [The Pennines](/travels/england/pennines)/
+
 ## Bowlees Molluscarium
 
 {% include figure.html
