@@ -1,6 +1,6 @@
 # Ashgill Force
 
-↑ [The Pennines](/travels/england/pennines)/
+↑ [The Pennines](/travels/england/pennines)
 
 {% include figure.html
   img="/imgs/travels/ashgill-force/ashgill-force-1.JPEG"

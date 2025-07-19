@@ -1,6 +1,6 @@
 # Bowlees
 
-↑ [The Pennines](/travels/england/pennines)/
+↑ [The Pennines](/travels/england/pennines)
 
 ## Bowlees Molluscarium
 
