@@ -10,7 +10,8 @@
 
     - [Bassenthwaite](/travels/england/lake-district/bassenthwaite)
 
+    - [Esthwaite Water](/travels/england/lake-district/esthwaite)
+
 - [Jurassic Coast](/travels/england/jurassic-coast)
 
     - [Notes on the Undercliff](/notes/undercliff)
-    
