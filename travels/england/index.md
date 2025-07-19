@@ -4,6 +4,8 @@
 
     - [Pennine Way](/travels/england/pennines/pennine-way)
 
+    - [Ashgill Force](/travels/england/pennines/ashgill-force)
+
     - [Bowlees](/travels/england/pennines/bowlees)
 
 - [The Lake District](/travels/england/lake-district)
