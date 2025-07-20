@@ -37,4 +37,4 @@ Part of the Ashgill Fields Mine, a lead mine operated from 1818 to 1882.
 
 ## References
 
-[Ashgill from Garrigil Geotrail](https://northpennines.org.uk/wp-content/uploads/2019/09/Ashgill-from-Garrigill-Geotrail.pdf) - North Pennines National Landscape
+[Ashgill from Garrigill Geotrail](https://northpennines.org.uk/wp-content/uploads/2019/09/Ashgill-from-Garrigill-Geotrail.pdf) - North Pennines National Landscape
