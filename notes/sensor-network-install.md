@@ -18,6 +18,10 @@ Rigid ducting was run from the inspection chambers into the garden beds. The duc
 
 {% include figure.html img="/imgs/sensor-network-install/duct-uncut.jpg" alt="Uncut rigiduct." caption="Uncut rigiduct." %}
 
+The ducting is cut and a cover placed over to prevent soil ingress. Conduit is run from the duct end to the sensors to protect the cables from damage during landscaping work.
+
+{% include figure.html img="/imgs/sensor-network-install/data-udders.jpg" alt="Cut rigiduct with cover." caption="Cut rigiduct with cover." %}
+
 Groundscrews were installed in the garden to securely support the sensor devices.
 
 {% include figure.html img="/imgs/sensor-network-install/groundscrew.jpg" alt="Groundscrew." caption="Groundscrew." %}
