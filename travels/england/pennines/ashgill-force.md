@@ -35,6 +35,11 @@ Part of the Ashgill Fields Mine, a lead mine operated from 1818 to 1882.
   src="/imgs/travels/ashgill-force/behind-ashgill-force.MP4"
   type="video/mp4" %}
 
+{% include figure.html
+  img="/imgs/travels/ashgill-force/ashgill-force-flood-2005.jpg"
+  alt="Ashgill Force in flood 2005"
+  caption="<a href='https://commons.wikimedia.org/wiki/File:Ashgill_Force_-_geograph.org.uk_-_75460.jpg'>Ashgill Force in flood. Andrew Smith / Ashgill Force / CC BY-SA 2.0</a>" %}
+
 ## References
 
 [Ashgill from Garrigill Geotrail](https://northpennines.org.uk/wp-content/uploads/2019/09/Ashgill-from-Garrigill-Geotrail.pdf) - North Pennines National Landscape
