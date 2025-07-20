@@ -22,6 +22,8 @@ Some thoughts on sensor networks:
 
 - [Sensor network install](/notes/sensor-network-install) - documentation of the sensor network installation at the Natural History Museum's Urban Research Station.
 
+- [Useful tools for maintaining Raspberry Pi sensor networks](/notes/raspberry-pi-tools) - a list of tools and equipment that are useful for maintaining Raspberry Pi sensor networks.
+
 ## Media
 
 - [The Nature of Tech](https://aws.amazon.com/uki/cloud-services/sustainability-aws-and-nhm/) - Amazon Web Services and the Natural History Museum (2025) - discussing the use of technology in biodiversity research.

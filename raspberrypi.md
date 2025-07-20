@@ -11,3 +11,7 @@
 ## Install and control sensors
 
 [sensor-control](https://github.com/Wildlife-Systems/sensor-control): Install and control sensors on the Raspberry Pi using a standard interface.
+
+## Managing Raspberry Pi sensor networks
+
+[Useful tools for maintaining Raspberry Pi sensor networks](/notes/raspberry-pi-tools): A list of tools and equipment that are useful for maintaining Raspberry Pi sensor networks.
