@@ -34,6 +34,10 @@ The second-fix phase involved installing the sensor nodes themselves. The sensor
 
 Ethernet cables between sensor nodes and Ethernet sockets are installed in steel-reinforced flexible conduit to protect them from later landscaping work. The conduit is buried below ground level to protect it from damage.
 
+{% include figure.html img="/imgs/sensor-network-install/conduit-run.jpg" alt="Conduit run." caption="Conduit run." %}
+
+{% include figure.html img="/imgs/sensor-network-install/sensor-node.jpg" alt="Sensor node installed." caption="Sensor node installed." %}
+
 ## Third-fix
 
 The final phase of the installation is the placement of additional sensors within the landscape. These sensors cannot be co-located with the sensor nodes as they need to be placed in specific locations, such as in the water column or on trees. These sensors are connected via control cables to the sensor nodes for power and data transfer. The cables are protected either by steel-reinforced flexible conduit or using Copex (a type of flexible plastic conduit) depending on how likely they are to be affected by landscaping work.
