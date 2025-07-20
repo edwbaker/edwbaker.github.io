@@ -38,7 +38,7 @@ Part of the Ashgill Fields Mine, a lead mine operated from 1818 to 1882.
 {% include figure.html
   img="/imgs/travels/ashgill-force/ashgill-force-flood-2005.jpg"
   alt="Ashgill Force in flood 2005"
-  caption="<a href='https://commons.wikimedia.org/wiki/File:Ashgill_Force_-_geograph.org.uk_-_75460.jpg'>Ashgill Force in flood. Andrew Smith / Ashgill Force / CC BY-SA 2.0</a>" %}
+  caption="<a href='https://commons.wikimedia.org/wiki/File:Ashgill_Force_-_geograph.org.uk_-_75460.jpg'>Ashgill Force in flood 2005.</a> Andrew Smith / Ashgill Force / CC BY-SA 2.0." %}
 
 ## References
 
