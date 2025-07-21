@@ -1,5 +1,9 @@
 # Urban Research Station
 
+{% include figure.html img="/imgs/urban-research-station/nhm-urs.png"
+  description="Urban Research Station at the Natural History Museum, London"
+  caption = "Urban Research Station at the Natural History Museum, London" %}
+
 ## Sensor network
 
 The sensor network will consist of round 25 devices measuring acoustic activity and the environment.
