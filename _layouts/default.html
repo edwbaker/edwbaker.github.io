@@ -51,6 +51,15 @@
 
         <p class="view"><a href="https://scholar.google.com/citations?user=44XAtwYAAAAJ">Google Scholar</a></p>
         
+        <h2>Latest blog posts</h2>
+        <ul>
+          {% for post in site.posts limit: 5 %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
         <h2>Talks</h2>
         <p class="view"><a href="/talks/2025-04-URS-launch">22/04/2025 - Urban Research Station</a></p>
         <p class=""><a href="/talks/2025-03-UrbanNoiseGlasgow">03/03/2025 - Impacts of Urban Noise</a></p>
