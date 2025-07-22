@@ -18,6 +18,12 @@ The sensor network will consist of round 25 devices measuring acoustic activity 
 
 - [Digital twins](/notes/digital-twins) - how the sensor network will help form a digital twin of the NHM Gardens.
 
+### Studies
+
+- [Urban heat islands](/notes/urs-urban-heat-islands-study) - studying the impact of urbanisation on temperature variations.
+
+- Acoustics
+
 ## Visual Observations
 
 There is a long history of visual observations of species, these are currently collected through a mix of transects and ad-hoc recording.
