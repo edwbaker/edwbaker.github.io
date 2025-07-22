@@ -4,9 +4,11 @@ The Urban Nature Project is a major initiative at the Natural History Museum, Lo
 
 - [Urban Nature Project](https://www.nhm.ac.uk/about-us/urban-nature-project.html) - official project page
 
+## NHM gardens transformation
+
+- [Pond transformation](/notes/urs-pond-transformation) - transformation of the NHM Wildlife Garden pond system into the new pond system in the Nature Discovery Garden.
+
 ## In the media
-
-
 
 - [The Nature of Tech](https://aws.amazon.com/uki/cloud-services/sustainability-aws-and-nhm/) - Amazon Web Services and the Natural History Museum (2025) - discussing the use of technology in biodiversity research.
 

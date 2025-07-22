@@ -4,10 +4,6 @@
   description="Urban Research Station at the Natural History Museum, London"
   caption = "Urban Research Station at the Natural History Museum, London" %}
 
-## NHM gardens transformation
-
--[Pond transformation](/notes/urs-pond-transformation) - transformation of the NHM Wildlife Garden pond system into the new pond system in the Nature Discovery Garden.
-
 ## Sensor network
 
 The sensor network will consist of round 25 devices measuring acoustic activity and the environment.
