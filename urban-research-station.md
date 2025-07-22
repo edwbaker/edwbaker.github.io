@@ -1,5 +1,7 @@
 # Urban Research Station
 
+By 2050 [68% of the world's population](https://www.un.org/uk/desa/68-world-population-projected-live-urban-areas-2050-says-un) will live in urban areas. The Urban Research Station studies how urban areas can be made better for people, for nature, and for the climate.
+
 {% include figure.html img="/imgs/urban-research-station/nhm-urs.png"
   description="Urban Research Station at the Natural History Museum, London"
   caption = "Urban Research Station at the Natural History Museum, London" %}
