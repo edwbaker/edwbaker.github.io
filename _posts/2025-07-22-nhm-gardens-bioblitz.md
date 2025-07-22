@@ -18,6 +18,8 @@ A BioBlitz is an exciting, hands-on event where scientists and the visitors of a
 
 A great way to keep kids entertained during the summer holidays, activities running throughout the day will include:
 
-    - Pond dipping offers children and adults the chance to explore the fascinating underwater world, discovering creatures like toads and newts
-    - Field surveys will help identify and log the plants and animals living in the gardens, including birds and insects
-    - Surveying the wildlife garden's smallest animals with DNA barcodes
+- Pond dipping offers children and adults the chance to explore the fascinating underwater world, discovering creatures like toads and newts
+
+- Field surveys will help identify and log the plants and animals living in the gardens, including birds and insects
+
+- Surveying the wildlife garden's smallest animals with DNA barcodes
