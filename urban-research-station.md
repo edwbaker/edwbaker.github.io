@@ -11,7 +11,7 @@ By 2050 [68% of the world's population](https://www.un.org/uk/desa/68-world-popu
 The sensor network will consist of round 25 devices measuring acoustic activity and the environment.
 
 {% include figure.html img="/imgs/sensor-install.jpg"
-  description="Ed Baker installing a sensor in the URban Research Station at the Natural History Museum"
+  description="Ed Baker installing a sensor in the Urban Research Station at the Natural History Museum"
   caption = "Installing acoustic sensor on a tree. © The Trustees of the Natural History Museum, London" %}
 
 - [Sensor network philosophy](/notes/sensor-network-philosophy) - how we thought about the deisgn of a sensor network.
