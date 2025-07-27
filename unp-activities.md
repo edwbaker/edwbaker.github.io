@@ -6,6 +6,10 @@
 
 ## Gardens Tours
 
+### July 2025
+
+- Noticing Nature: Mindfulness and Science Tour and Talk.
+
 ### June 20025
 
 - Environmental Audit Committee (MP visit)
