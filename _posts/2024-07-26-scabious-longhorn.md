@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Finding _Nemophora metallica_ on the chalk hill"
+title:  "Finding <i>Nemophora metallica</i> on the chalk hill"
 tag: "NHM Urban Research Station wildlife"
 ---
 
-{% include figure.html img="/imgs/nhm-urs-wildlife/scabious-longhorn.jpg" 
+{% include figure.html img="/imgs/nhm-urs-wildlife/scabious_longhorn.jpg" 
     alt="Scabious Longhorn Moth" 
     caption="Scabious Longhorn Moth (_Nemophora metallica_)" %}
 
