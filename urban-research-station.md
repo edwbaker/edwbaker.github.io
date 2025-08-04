@@ -60,6 +60,14 @@ More-than-human appraoches to biodiversity research are looking at how we can ma
 
 - [Internal NHM launch of Urban Research Station](/talks/2025-04-URS-launch) - Natural History Museum, London (2025)
 
+## Wider Context
+
+### South Ken ZEN+
+
+[South Ken ZEN+](https://www.southkenzen.com/) - South Kensington Zero Emission Neighbourhood Plus is a partnership of local businesses, residents and organisations working together to make South Kensington a cleaner, greener and healthier place to live, work and visit.
+
+- [South Ken Green Trail](/2021/07/20/south-ken-green-trail) - a walking trail through South Kensington, London, that highlights green spaces and biodiversity.
+
 ## Urban Nature at other institutions
 
 - [Urban Nature at the Museum of Edinburgh](/notes/museum-of-edinburgh-urban-nature) - Courtyard Gallery and an exhibition showcasing the relationship between children’s literature and nature.
