@@ -4,6 +4,10 @@
 
 [pi-pwr](https://github.com/Wildlife-Systems/pi-pwr): Command line tool for managinf power consumption on Raspberry Pi.
 
+## General abstraction
+
+[pi-data](https://github.com/Wildlife-Systems/pi-data): General abstraction layer for Raspberry Pi data.
+
 ## Install and control sound devices
 
 [sound-device-control](https://github.com/Wildlife-Systems/sound-device-control): Install and control sound devices on Raspberry Pi.
