@@ -34,7 +34,7 @@ The sensor network will consist of round 25 devices measuring acoustic activity 
 
 There is a long history of visual observations of species, these are currently collected through a mix of transects and ad-hoc recording.
 
-Anybody can contribute to ad-hic recording using iNaturalist or iRecord.
+Anybody can contribute to ad-hoc recording using iNaturalist or iRecord.
 
 - [Nature Discovery Garden iNaturalist project](https://www.inaturalist.org/projects/nhm-london-nature-discovery-gardens)
 
