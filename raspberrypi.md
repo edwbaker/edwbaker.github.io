@@ -2,7 +2,7 @@
 
 ## Power management on Raspberry Pi
 
-[pi-pwr](https://github.com/Wildlife-Systems/pi-pwr): Command line tool for managinf power consumption on Raspberry Pi.
+[pi-pwr](https://github.com/Wildlife-Systems/pi-pwr): Command line tool for managing power consumption on Raspberry Pi.
 
 ## General abstraction
 
