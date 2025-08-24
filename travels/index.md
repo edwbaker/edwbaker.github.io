@@ -21,3 +21,8 @@
 - [Jurassic Coast](/travels/england/jurassic-coast)
 
     - [Notes on the Undercliff](/notes/undercliff)
+
+- [London](/travels/england/london)
+    - [Kings Cross](/travels/england/london/kings-cross)
+    
+    - [River Lea](/travels/england/london/river-lea)
