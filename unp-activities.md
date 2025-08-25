@@ -14,6 +14,8 @@
 
 - Environmental Audit Committee (MP visit)
 
+- Partially-sighted
+
 ### April 2025
 
 - Generation Hope prep
