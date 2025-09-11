@@ -30,6 +30,9 @@ The sensor network will consist of round 25 devices measuring acoustic activity 
 
 - Acoustics
 
+## Publications
+- [Catalysts for change: Museum gardens in a planetary emergency](/pubs/PPP3_70100_JQA.pdf)
+
 ## Visual Observations
 
 There is a long history of visual observations of species, these are currently collected through a mix of transects and ad-hoc recording.
