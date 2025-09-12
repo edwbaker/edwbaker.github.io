@@ -44,6 +44,12 @@ The final phase of the installation is the placement of additional sensors withi
 
 ### Suspending sensors in the water column
 
+{% include figure.html
+   img = "/imgs/sensor-network-install/2025-09-11-pond-install.jpg"
+   caption = "Installing a pond sensor"
+   alt = "Installing a pond sensor"
+%}
+
 {% include figure.html img="/imgs/sensor-network-install/pond-float.JPEG" alt="Sensor suspended in water column." caption="Sensor suspended in water column." %}
 
 ### Ultrasound distance sensor
