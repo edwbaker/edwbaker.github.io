@@ -8,4 +8,4 @@ tags: [ "NHM Urban Research Station"]
    image = "/imgs/sensor-network-install/2025-08-11-pond-install.jpg"
    caption = "Installing a pond sensor"
    alt = "Installing a pond sensor"
-}
+%}
