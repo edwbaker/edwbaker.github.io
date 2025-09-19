@@ -70,6 +70,7 @@ One of a team of software developers working on the Scratchpads virtual research
 - Biodiversity Data Journal - Subject Editor (Blattodea, Orthoptera, Phasmatodea, Mantodea and Dermaptera)
 - Phasmid Studies- Editor
 - [Phasmida SpeciesFile](http://phasmida.speciesfile.org)- Assisstant Editor
+- Frontiers in Ecology and Evolution - Associate Editor (Natural History Insights)
 
 ## Teaching
 
