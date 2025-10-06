@@ -49,6 +49,8 @@ More-than-human appraoches to biodiversity research are looking at how we can ma
 
 ## Media
 
+- [Natural History Museum turns on sensors in high-tech gardens to monitor nature](https://www.independent.co.uk/climate-change/news/natural-history-museum-amazon-web-services-london-museum-south-kensington-b2833217.html)
+
 - [The Nature of Tech](https://aws.amazon.com/uki/cloud-services/sustainability-aws-and-nhm/) - Amazon Web Services and the Natural History Museum (2025) - discussing the use of technology in biodiversity research.
 
 - [Natural History Museum partners with AWS to restore and protect urban nature](https://www.computerweekly.com/news/366599235/Natural-History-Museum-partners-with-AWS-to-restore-and-protect-urban-nature) Computer Weekly 2024

@@ -1,5 +1,7 @@
 # Media and Public Engagement
 
+- [Natural History Museum turns on sensors in high-tech gardens to monitor nature](https://www.independent.co.uk/climate-change/news/natural-history-museum-amazon-web-services-london-museum-south-kensington-b2833217.html)
+
 - [The Nature of Tech](https://aws.amazon.com/uki/cloud-services/sustainability-aws-and-nhm/) - Amazon Web Services and the Natural History Museum (2025) - discussing the use of technology in biodiversity research.
 
 - [Natural History Museum's new gardens aim to restore UK's urban nature](https://www.newscientist.com/video/2440498-natural-history-museums-new-gardens-aim-to-restore-uks-urban-nature/) New Scientist (2024)
