@@ -30,7 +30,7 @@
 
 ## 2023
 
-- [09/11/2023 - Sounds, sensors, specims](talks/2023-11-NR) - NHM UK Nature Recovery Theme Town Hall
+- [09/11/2023 - Sounds, sensors, specimens](talks/2023-11-NR) - NHM UK Nature Recovery Theme Town Hall
 
 - [09/11/2023 - Garden science: sounds, sensors and network](/talks/2023-11-GS) - NHM Internal workshop on Gardens Science
 
