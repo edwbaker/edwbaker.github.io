@@ -2,6 +2,8 @@
 
 ## 2025
 
+- [15/05/2025 - Urban Nature Network: Bioacoustics and Ecoacoustics](/talks/2025-UrbanNatureNetwork) - Urban Nature Network training event
+
 - [22/04/2025 - Urban Research Station launch](/talks/2025-04-URS-launch) - Internal launch of Natural History Museum's Urban Research Station
 
 - [03/03/2025 - Impacts of Urban Noise](/talks/2025-03-UrbanNoiseGlasgow) - RSPB. Kelvn College, Glasgow
