@@ -1,5 +1,7 @@
 # Travels
 
+## [Colombia](/travels/colombia)
+
 ## [England](/travels/england)
 
 - [The Pennines](/travels/england/pennines)
