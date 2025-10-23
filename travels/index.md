@@ -2,6 +2,8 @@
 
 ## [Colombia](/travels/colombia)
 
+- [Cascada La Chorrera](la-chorrera.md) - The tallest waterfall in Colombia.
+
 ## [England](/travels/england)
 
 - [The Pennines](/travels/england/pennines)
