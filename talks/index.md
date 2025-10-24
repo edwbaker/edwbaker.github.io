@@ -2,6 +2,8 @@
 
 ## 2025
 
+- [10/10/2025 - TDWG 2025](/talks/2025-10-tdwg) - Living Data. Bogotá, Colombia.
+
 - [15/05/2025 - Urban Nature Network: Bioacoustics and Ecoacoustics](/talks/2025-UrbanNatureNetwork) - Urban Nature Network training event
 
 - [22/04/2025 - Urban Research Station launch](/talks/2025-04-URS-launch) - Internal launch of Natural History Museum's Urban Research Station
