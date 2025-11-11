@@ -6,7 +6,7 @@
   caption="Cascada La Chorrera in the distance" %}
 
 {% include figure.html
-  img="/imgs/travels/cascada_la_chorrera21.JPEG"
+  img="/imgs/travels/cascada_la_chorrera/2.JPEG"
   alt="Cascada La Chorrera"
   caption="Cascada La Chorrera in the distance" %}
 
