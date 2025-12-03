@@ -34,6 +34,10 @@ Background to some bioacoustics ideas and principles
 
 - [BirdNET in R](https://medium.ebaker.me.uk/birdnet-in-r-b3aea914fc4c) - running [BirdNET](https://birdnet.cornell.edu/) from within an R environment.
 
+### ReVAMP
+
+[ReVAMP](https://revamp.ebaker.me.uk) - R wrapper for [VAMP audio analysis plugins](https://www.vamp-plugins.org/).
+
 ### .wav file size calculator
 
 [.wav file size calculator](https://shiny.ebaker.me.uk/shiny-wav_filesize/): interactive wave file sizer calculator.

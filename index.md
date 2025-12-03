@@ -34,6 +34,8 @@ Calling song of _Horatosphaga raggei_ (Heller & Baker, 2017) a new species first
 
 [tdsc](https://github.com/edwbaker/tdsc): time-domain signal coding in R
 
+[ReVAMP](https://revamp.ebaker.me.uk) - R wrapper for [VAMP audio analysis plugins](https://www.vamp-plugins.org/).
+
 [.wav file size calculator](https://shiny.ebaker.me.uk/shiny-wav_filesize/): interactive wave file sizer calculator.
 
 [zcjs-r](https://github.com/BioAcoustica/zcjs-r): visualise zero-crossing files in R and Shiny using the [zcjs](https://github.com/BioAcoustica/zcjs) library
