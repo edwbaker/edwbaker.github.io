@@ -32,7 +32,7 @@ Calling song of _Horatosphaga raggei_ (Heller & Baker, 2017) a new species first
 
 [SonicScrewdriveR](https://sonicscrewdriver.ebaker.me.uk): multi-tool for bioacoustic analysis and visualisation in R
 
-[tdsc](https://github.com/edwbaker/tdsc): time-domain signal coding in R
+[tdsc](https://tdsc.ebaker.me.uk): time-domain signal coding in R
 
 [ReVAMP](https://revamp.ebaker.me.uk) - R wrapper for [VAMP audio analysis plugins](https://www.vamp-plugins.org/).
 
