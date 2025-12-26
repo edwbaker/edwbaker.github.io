@@ -5,9 +5,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-author: Ed Baker
 url: "https://ebaker.me.uk"
 
 author:
   name: Ed Baker
   url: "https://ebaker.me.uk"
+
+social:
+  name: Ed Baker
+  links:
+    - https://github.com/edwbaker
+    - https://orcid.org/0000-0002-5887-9543
+    - https://linktr.ee/edwbaker
