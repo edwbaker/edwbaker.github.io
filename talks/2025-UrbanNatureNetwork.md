@@ -1,4 +1,4 @@
-# Urban Nature Network: Bioacoustics and Ecoacoustics
+# Urban Nature Network: Bioacoustics and Ecoacoustics (October 2025)
 
 [Slides](/talks/2025-UrbanNatureNetwork.pptx)
 

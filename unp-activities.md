@@ -6,6 +6,10 @@
 
 ## Gardens Tours
 
+### Decmember 2025
+
+ - Becky Lyon
+
 ### August 2025
 
 - Noticing Nature: Mindfulness and Science Tour and Talk.
@@ -49,6 +53,20 @@
 - Air Quality
 
 ## Outreach
+
+## Ocotber 2025
+
+- Urban Nature Network: Bioacoustics and ecoacoustics workshop
+
+- https://www.computerweekly.com/feature/Natural-History-Museum-deploys-sensor-network-to-decode-urban-biodiversity-with-AWS
+
+### September 2025
+
+ - https://www.independent.co.uk/climate-change/news/natural-history-museum-amazon-web-services-london-museum-south-kensington-b2833217.html
+
+### March 2025
+
+ - Nature of Tech
 
 ### February 2025
 
@@ -194,6 +212,10 @@ Goldsmiths Design @ Lewisham
 
 ## Tools
 
+### December 2025
+
+ - ReVAMP
+
 ### November 2024
 
 - [NHMDE FLyTunes Preprocessing Report](https://reports.ebaker.me.uk/NHMDE-FlyTunes-Preprocess)
@@ -207,6 +229,14 @@ Goldsmiths Design @ Lewisham
 - [NHMDE Nature Overheard Preprocessing Report](https://reports.ebaker.me.uk/NHMDE-NO-Preprocess.html)
 
 ## Publications
+
+### Decmeber 2025
+
+ - Linnean
+
+### September 2025
+
+- Plants, People, Planet
 
 ### November 2024
 
