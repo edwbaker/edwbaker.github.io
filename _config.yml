@@ -1,6 +1,12 @@
 title: Ed Baker
+description: Interdisciplinary researcher using sensor networks and acoustics to monitor biodiversity and environments.
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 author: Ed Baker
-  
+url: "https://ebaker.me.uk"   # important for absolute OG URLs
+author:
+  name: Ed Baker
+  url: "https://ebaker.me.uk"
