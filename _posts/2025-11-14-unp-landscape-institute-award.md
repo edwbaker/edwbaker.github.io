@@ -2,6 +2,7 @@
 layout: post
 title: "Urban Nature Project Wins Landscape Institute Award"
 date: 2025-11-14
+tags: ["urban nature project", "landscape design"]
 ---
 
 The Urban Nature Project at the Natural History Museum has been honoured with the Landscape Institute's 2025 award for "Excellence in Landscape Design," announced on 14 November 2025 at the LI Awards ceremony.

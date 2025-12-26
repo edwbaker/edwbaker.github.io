@@ -2,6 +2,7 @@
 layout: post
 title: "Urban Nature Project Wins Gold at Wood Awards"
 date: 2025-12-03
+tags: ["urban nature project", "sustainable-design"]
 ---
 
 Exciting news for the [Urban Nature Project](/urban-nature-project): the project has won a Gold Award in the Education & Public Sector category at the [Wood Awards](https://www.woodawards.com/portfolio/urban-nature-project-natural-history-museum/).
