@@ -7,9 +7,7 @@ plugins:
   - jekyll-seo-tag
 url: "https://ebaker.me.uk"
 
-author:
-  name: Ed Baker
-  url: "https://ebaker.me.uk"
+author: Ed Baker
 
 social:
   name: Ed Baker
