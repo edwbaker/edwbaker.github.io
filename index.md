@@ -30,7 +30,7 @@ Calling song of _Horatosphaga raggei_ (Heller & Baker, 2017) a new species first
 
 ### R bioacoustics tools
 
-{% include figure.html img="/imgs/R-sound-packages.png" alt="Some useful R packages for sound analysis: ReVAMP, SonicScrewdriveR, tdsc" caption="" %}
+![Some useful R packages for sound analysis: ReVAMP, SonicScrewdriveR, tdsc](/imgs/R-sound-packages.png)
 
 [SonicScrewdriveR](https://sonicscrewdriver.ebaker.me.uk): multi-tool for bioacoustic analysis and visualisation in R
 
