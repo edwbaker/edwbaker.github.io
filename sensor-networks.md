@@ -27,3 +27,12 @@ Some thoughts on sensor networks:
 ## Media
 
 - [The Nature of Tech](https://aws.amazon.com/uki/cloud-services/sustainability-aws-and-nhm/) - Amazon Web Services and the Natural History Museum (2025) - discussing the use of technology in biodiversity research.
+
+
+## Reports
+
+### Sensor implementation reports
+
+- [Improvements to sensor-dht11 implementation](https://reports.ebaker.me.uk/WS-Sensor-dht11.html)
+
+- [sensor-w1therm to replace sensor-ds1820](https://reports.ebaker.me.uk/WS-sensor-w1therm.html)
