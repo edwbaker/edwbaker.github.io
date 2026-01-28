@@ -33,6 +33,6 @@ Some thoughts on sensor networks:
 
 ### Sensor implementation reports
 
-- [Improvements to sensor-dht11 implementation](https://reports.ebaker.me.uk/WS-Sensor-dht11.html)
+- [Improvements to sensor-dht11 implementation](https://reports.ebaker.me.uk/WS-sensor-dht11.html)
 
 - [sensor-w1therm to replace sensor-ds1820](https://reports.ebaker.me.uk/WS-sensor-w1therm.html)
