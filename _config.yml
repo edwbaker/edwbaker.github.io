@@ -5,12 +5,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-tagging
 url: "https://ebaker.me.uk"
-
-# Tag page generation
-tag_page_layout: tag
-tag_page_dir: /tags/
 
 author: Ed Baker
 
