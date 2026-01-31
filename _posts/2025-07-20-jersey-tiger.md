@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jersey Tiger Moth"
-tag: "NHM Urban Research Station wildlife"
+tags: "NHM Urban Research Station wildlife"
 ---
 
 {% include figure.html img="/imgs/nhm-urs-wildlife/jersey-tiger-2025.JPEG" 

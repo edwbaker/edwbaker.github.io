@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "South Kensington Green Trail"
-tag: "NHM Urban Research Station"
+tags: "NHM Urban Research Station"
 ---
 
 ![South Kensington Green Trail Logo](/imgs/urban-research-station/wider-context/skzen/GreenTrail_Logo.jpg)
