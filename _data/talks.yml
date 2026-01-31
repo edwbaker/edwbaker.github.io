@@ -1,20 +1,129 @@
-# Talks shown in sidebar
-- title: "Living Data"
+# All talks - used for sidebar (first 5) and talks index page
+# Year 2025
+- title: "TDWG 2025"
   url: /talks/2025-10-tdwg
-  date: "10/2025"
+  date: "10/10/2025"
+  year: 2025
+  description: "Living Data. Bogotá, Colombia."
 
-- title: "Urban Research Station"
+- title: "Urban Nature Network: Bioacoustics and Ecoacoustics"
+  url: /talks/2025-UrbanNatureNetwork
+  date: "15/05/2025"
+  year: 2025
+  description: "Urban Nature Network training event"
+
+- title: "Urban Research Station launch"
   url: /talks/2025-04-URS-launch
   date: "22/04/2025"
+  year: 2025
+  description: "Internal launch of Natural History Museum's Urban Research Station"
 
 - title: "Impacts of Urban Noise"
   url: /talks/2025-03-UrbanNoiseGlasgow
   date: "03/03/2025"
+  year: 2025
+  description: "RSPB. Kelvn College, Glasgow"
 
-- title: "TDWG Kingston Biodiversity Network"
+- title: "Acoustics research at the Natural History Museum"
   url: /talks/2025-Kingston
   date: "22/01/2025"
+  year: 2025
+  description: "Kingston Biodiversity Network"
 
-- title: "NHM x Natural England"
+# Year 2024
+- title: "Garden Science"
   url: /talks/2024-GS
   date: "05/12/2024"
+  year: 2024
+  description: "Natural History Museum x Natural England"
+
+- title: "Digital Dimensions of Nature Recovery"
+  url: /talks/2024-DDNR
+  date: "08/10/2024"
+  year: 2024
+  description: "Jesus College, Oxford."
+
+- title: "BNA"
+  url: /talks/2024-BNA
+  date: "05/10/2024"
+  year: 2024
+
+- title: "Bioacoustics at NHM / The River"
+  url: /talks/2024-TheRiver
+  date: "04/10/2024"
+  year: 2024
+  description: "NHM"
+
+- title: "Bioacoustic and ecoacoustic data in AudiovisualCore"
+  url: /talks/2024-09-tdwg
+  date: "04/09/2024"
+  year: 2024
+  description: "TDWG 2024, Okinawa, Japan"
+
+- title: "Data infrastructures for biological acoustics"
+  url: /talks/2024-Madrid
+  date: "11/07/2024"
+  year: 2024
+  description: "5th World Ecoacoustics Congress, Madrid."
+
+- title: "Advancing digital technology for urban nature"
+  url: /talks/2024-NatureTech
+  date: "25/06/2024"
+  year: 2024
+  description: "Nature Tech Expo, Leeds."
+
+- title: "How data in the cloud could help restore UK's biodiversity"
+  date: "24/04/2024"
+  year: 2024
+  description: "AWS Summit 2024, ExCeL London."
+
+- title: "Next generation monitoring at the Natural History Museum"
+  url: /talks/2024-Hull
+  date: "27/03/2024"
+  year: 2024
+  description: "Seminar at the University of Hull"
+
+# Year 2023
+- title: "Sounds, sensors, specimens"
+  url: /talks/2023-11-NR
+  date: "09/11/2023"
+  year: 2023
+  description: "NHM UK Nature Recovery Theme Town Hall"
+
+- title: "Garden science: sounds, sensors and network"
+  url: /talks/2023-11-GS
+  date: "09/11/2023"
+  year: 2023
+  description: "NHM Internal workshop on Gardens Science"
+
+- title: "IBAC Sapporo, Japan"
+  url: /talks/2023-IBAC
+  date: "28/10/2023"
+  year: 2023
+  description: "Infrastructures for multi-scale bioacoustics analysis"
+
+- title: "RSPB at Kelvingrive Museum"
+  url: /talks/2023-09-RSPB
+  date: "29/09/2023"
+  year: 2023
+  description: "Bioacoustics in the Urban Nature Project"
+
+- title: "British Naturalists' Association"
+  url: /talks/2023-05-BNA
+  date: "15/05/2023"
+  year: 2023
+  description: "Bioacoustics: A (very) brief overview"
+
+# Year 2022
+- title: "Artifical Intelligence for the Natural Sciences"
+  url: /talks/2022-11-AI
+  date: "03/11/2022"
+  year: 2022
+  description: "Some thoughts"
+
+# Year 2017
+- title: "IBAC Haridwar, India"
+  url: /talks/2017-IBAC
+  date: "2017"
+  year: 2017
+  description: "Automated acoustic observatories: scaling for the future"
