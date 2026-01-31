@@ -47,37 +47,39 @@
         </p>
         
         <h2>Latest publications</h2>
-        {% for pub in site.data.publications %}
-        <p class="view"><a href="{{ pub.url }}">{{ pub.title }}</a></p>
-        {% endfor %}
-
-        <p class="view"><a href="https://scholar.google.com/citations?user=44XAtwYAAAAJ">Google Scholar</a></p>
-        
-        <p class="view" style="font-size: smaller;"><a href="/pubs/wikidata-author-cloud">Co-authorship Cloud</a></p>
+        <ul>
+          {% for pub in site.data.publications %}
+          <li><a href="{{ pub.url }}">{{ pub.title }}</a></li>
+          {% endfor %}
+          <li><a href="https://scholar.google.com/citations?user=44XAtwYAAAAJ">Google Scholar</a></li>
+          <li style="font-size: smaller;"><a href="/pubs/wikidata-author-cloud">Co-authorship Cloud</a></li>
+        </ul>
 
         <h2>Latest blog posts</h2>
         <ul>
           {% for post in site.posts limit: 5 %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
+          <li><a href="/all_posts">All blog posts</a></li>
         </ul>
-        <a href="/all_posts">All blog posts</a>
 
         <h2>Talks</h2>
-        {% for talk in site.data.talks %}
-        <p class="view"><a href="{{ talk.url }}">{{ talk.date }} - {{ talk.title }}</a></p>
-        {% endfor %}
-        <p class="view"><a href="/talks">All talks</a></p>
+        <ul>
+          {% for talk in site.data.talks %}
+          <li><a href="{{ talk.url }}">{{ talk.date }} - {{ talk.title }}</a></li>
+          {% endfor %}
+          <li><a href="/talks">All talks</a></li>
+        </ul>
         
         <h2>Notes</h2>
-        {% for note in site.data.notes %}
-        <p class="view"><a href="{{ note.url }}">{{ note.title }}</a></p>
-        {% endfor %}
-        <p class="view"><a href="/notes">All notes</a></p>
+        <ul>
+          {% for note in site.data.notes %}
+          <li><a href="{{ note.url }}">{{ note.title }}</a></li>
+          {% endfor %}
+          <li><a href="/notes">All notes</a></li>
+        </ul>
         
-        <p>Some thoughts on:</p>
+        <h2>Some thoughts on</h2>
         <ul>
           {% for topic in site.data.topics %}
           <li><a href="{{ topic.url }}">{{ topic.title }}</a></li>
