@@ -23,19 +23,19 @@
   year: 2023
   abstract: "Guidelines for establishing and maintaining long-term ecoacoustic monitoring programmes in the UK, covering equipment selection, deployment strategies, data management, and analysis approaches."
 
-- title: "Reviving the sound of a 150-year-old insect: The bioacoustics of Prophalangopsis obscura (Ensifera: Hagloidea)"
+- title: "Reviving the sound of a 150-year-old insect: The bioacoustics of <i>Prophalangopsis obscura</i> (Ensifera: Hagloidea)"
   url: https://doi.org/10.1371/journal.pone.0270498
   authors: "Woodrow, C., Nityananda, V., Baker, E., Jonsson, T. & Montealegre-Z, F."
   year: 2022
   journal: "PLOS ONE"
-  abstract: "We reconstruct the song of Prophalangopsis obscura, a species known only from a single 150-year-old museum specimen, using morphological measurements of its sound-producing structures."
+  abstract: "We reconstruct the song of <i>Prophalangopsis obscura</i>, a species known only from a single 150-year-old museum specimen, using morphological measurements of its sound-producing structures."
 
-- title: "Bioacoustics and systematics of Mecopoda (and related forms) from South East Asia and adjacent areas"
+- title: "Bioacoustics and systematics of <i>Mecopoda</i> (and related forms) from South East Asia and adjacent areas"
   url: https://doi.org/10.11646/zootaxa.5005.2.1
   authors: "Heller, K.-G., Baker, E., Ingrisch, S., Korsunovskaya, O., Liu, C.-X., Riede, K. & Warchałowska-Šliwa, E."
   year: 2021
   journal: "Zootaxa"
-  abstract: "A comprehensive study of the bioacoustics and systematics of Mecopoda katydids from South East Asia, including chromosome data."
+  abstract: "A comprehensive study of the bioacoustics and systematics of <i>Mecopoda</i> katydids from South East Asia, including chromosome data."
 
 - title: "Standardisation of bioacoustic terminology for insects"
   url: https://doi.org/10.3897/BDJ.8.e54222
@@ -72,7 +72,7 @@
   journal: "Biodiversity Data Journal"
   abstract: "Implementation of ecological interaction data within the Scratchpads virtual research environment."
 
-- title: "From an old sound recording to a new species in the genus Horatosphaga"
+- title: "From an old sound recording to a new species in the genus <i>Horatosphaga</i>"
   url: https://doi.org/10.11646/zootaxa.4323.3.10
   authors: "Heller, K.-G. & Baker, E."
   year: 2017
