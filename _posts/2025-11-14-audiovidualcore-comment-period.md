@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New Audiovisual Core comment period"
-tags: [ "tdwg", "audiovisual core" ]
+tags: ["tdwg", "audiovisualcore"]
 ---
 
 A new class for TDWG Audiovisual Core is in public comment (supporting the Darwin Core Data Package proposal).

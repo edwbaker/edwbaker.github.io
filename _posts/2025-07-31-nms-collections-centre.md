@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "National Museum of Scotland Collections Centre Biodiversity Development Area"
-tags: "Urban Biodiversity"
+tags: ["urban biodiversity"]
 ---
 
 {% include figure.html img="/imgs/nms-cc-bdr.jpg"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pomegranate"
-tags: "NHM Urban Research Station wildlife"
+tags: ["NHM Urban Research Station", "wildlife"]
 ---
 
 Pomegranate fruit in the garden team compound.

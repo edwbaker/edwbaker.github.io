@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "White Ermine Caterpillar"
-tags: "urban biodiversity"
+tags: ["urban biodiversity"]
 ---
 
 {% include figure.html img="/imgs/white-ermine-caterpillar-2025.JPEG"

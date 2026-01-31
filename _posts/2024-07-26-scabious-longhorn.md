@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Finding <i>Nemophora metallica</i> on the chalk hill"
-tags: "NHM Urban Research Station wildlife"
+tags: ["NHM Urban Research Station", "wildlife"]
 ---
 
 {% include figure.html img="/imgs/nhm-urs-wildlife/scabious_longhorn.jpg" 

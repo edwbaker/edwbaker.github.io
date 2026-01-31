@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Middle Mill on the River Lym"
-tags: "River Lym"
+tags: ["River Lym"]
 ---
 
 {% include figure.html img="/imgs/travels/river-lym/middle-mill.JPEG"
