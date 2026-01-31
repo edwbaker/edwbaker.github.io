@@ -1,12 +1,122 @@
-# Latest publications shown in sidebar
-- title: "A Gateway to Nature: The Urban Research Station at London's Natural History Museum"
-  url: /pubs/2025-Linnean-Baker.pdf
+# Publications - based on ORCID and Google Scholar
+# Key publications shown in sidebar (first 4), all shown on /publications page
 
 - title: "Catalysts for change: Museum gardens in a planetary emergency"
-  url: /pubs/PPP3_70100_JQA.pdf
+  url: https://doi.org/10.1002/ppp3.70100
+  pdf_url: /pubs/PPP3_70100_JQA.pdf
+  authors: "Baker, E., Kenrick, P., Knapp, S., McCarter, T. & Tweddle, J."
+  year: 2025
+  journal: "Plants, People, Planet"
+  abstract: "Natural history museums can use living plants to create narratives that link outside spaces to inside galleries, bringing to life the challenges facing biodiversity. We describe the redevelopment of the grounds of the Natural History Museum in London to create a garden with plants at its centre to address these challenges."
 
 - title: "Bioacoustic and Ecoacoustic Data in Audiovisual Core"
-  url: https://biss.pensoft.net/article/142073/
+  url: https://doi.org/10.3897/biss.8.142073
+  authors: "Baker, E."
+  year: 2024
+  journal: "Biodiversity Information Science and Standards"
+  abstract: "This abstract describes the incorporation of bioacoustic and ecoacoustic data terms into the TDWG Audiovisual Core standard, enabling better documentation and discovery of acoustic biodiversity recordings."
 
 - title: "Good practice guidelines for long-term ecoacoustic monitoring in the UK"
-  url: /pubs/2023_02_Guidelines.pdf
+  url: https://www.nature.scot/doc/good-practice-guidelines-long-term-ecoacoustic-monitoring-uk
+  pdf_url: /pubs/2023_02_Guidelines.pdf
+  authors: "Baker, E., et al."
+  year: 2023
+  abstract: "Guidelines for establishing and maintaining long-term ecoacoustic monitoring programmes in the UK, covering equipment selection, deployment strategies, data management, and analysis approaches."
+
+- title: "Reviving the sound of a 150-year-old insect: The bioacoustics of Prophalangopsis obscura (Ensifera: Hagloidea)"
+  url: https://doi.org/10.1371/journal.pone.0270498
+  authors: "Woodrow, C., Nityananda, V., Baker, E., Jonsson, T. & Montealegre-Z, F."
+  year: 2022
+  journal: "PLOS ONE"
+  abstract: "We reconstruct the song of Prophalangopsis obscura, a species known only from a single 150-year-old museum specimen, using morphological measurements of its sound-producing structures."
+
+- title: "Bioacoustics and systematics of Mecopoda (and related forms) from South East Asia and adjacent areas"
+  url: https://doi.org/10.11646/zootaxa.5005.2.1
+  authors: "Heller, K.-G., Baker, E., Ingrisch, S., Korsunovskaya, O., Liu, C.-X., Riede, K. & Warchałowska-Šliwa, E."
+  year: 2021
+  journal: "Zootaxa"
+  abstract: "A comprehensive study of the bioacoustics and systematics of Mecopoda katydids from South East Asia, including chromosome data."
+
+- title: "Standardisation of bioacoustic terminology for insects"
+  url: https://doi.org/10.3897/BDJ.8.e54222
+  authors: "Baker, E. & Chesmore, D."
+  year: 2020
+  journal: "Biodiversity Data Journal"
+  abstract: "A review and standardisation of terminology used in insect bioacoustics research to improve consistency and reproducibility."
+
+- title: "Ahead of the curve: three approaches to mass digitisation of vials with a focus on label data capture"
+  url: https://doi.org/10.3897/rio.6.e53606
+  authors: "Dupont, S., Humphries, J., Butcher, A., Baker, E., Balcells, L. & Price, B."
+  year: 2020
+  journal: "Research Ideas and Outcomes"
+  abstract: "We present three approaches to mass digitisation of spirit-preserved specimens in vials, focusing on efficient capture of label data."
+
+- title: "A deafening silence: a lack of data and reproducibility in published bioacoustics research?"
+  url: https://doi.org/10.3897/BDJ.7.e36783
+  authors: "Baker, E. & Vincent, S."
+  year: 2019
+  journal: "Biodiversity Data Journal"
+  abstract: "An analysis of data availability and reproducibility in published bioacoustics research, highlighting the need for better data sharing practices."
+
+- title: "The Natural History Museum Data Portal"
+  url: https://doi.org/10.1093/database/baz038
+  authors: "Scott, B., Baker, E., Woodburn, M., Vincent, S., Hardy, H. & Smith, V.S."
+  year: 2019
+  journal: "Database"
+  abstract: "Description of the Natural History Museum's Data Portal, a platform for accessing and sharing biodiversity data from the Museum's collections."
+
+- title: "Ecological interactions in the Scratchpads virtual research environment"
+  url: https://doi.org/10.3897/BDJ.7.e47043
+  authors: "Baker, E., Dupont, S. & Smith, V."
+  year: 2019
+  journal: "Biodiversity Data Journal"
+  abstract: "Implementation of ecological interaction data within the Scratchpads virtual research environment."
+
+- title: "From an old sound recording to a new species in the genus Horatosphaga"
+  url: https://doi.org/10.11646/zootaxa.4323.3.10
+  authors: "Heller, K.-G. & Baker, E."
+  year: 2017
+  journal: "Zootaxa"
+  abstract: "Description of a new katydid species first identified from its song in historical sound recordings."
+
+- title: "NightLife: A cheap, robust, LED based light trap for collecting aquatic insects in remote areas"
+  url: https://doi.org/10.3897/BDJ.4.e7648
+  authors: "Price, B. & Baker, E."
+  year: 2016
+  journal: "Biodiversity Data Journal"
+  abstract: "Design and construction of an affordable, robust LED-based light trap for collecting aquatic insects in remote field locations."
+
+- title: "The worldwide status of phasmids (Insecta: Phasmida) as pests of agriculture and forestry"
+  url: https://doi.org/10.1186/s40066-015-0040-6
+  authors: "Baker, E."
+  year: 2015
+  journal: "Agriculture and Food Security"
+  abstract: "A review of stick insects as agricultural and forestry pests worldwide, with a generalised theory of phasmid outbreaks."
+
+- title: "BioAcoustica: a free and open repository and analysis platform for bioacoustics"
+  url: https://doi.org/10.1093/database/bav054
+  authors: "Baker, E., et al."
+  year: 2015
+  journal: "Database"
+  abstract: "Description of BioAcoustica, a free and open platform for storing, analysing, and sharing bioacoustic recordings."
+
+- title: "Open source data logger for low-cost environmental monitoring"
+  url: https://doi.org/10.3897/BDJ.2.e1059
+  authors: "Baker, E."
+  year: 2014
+  journal: "Biodiversity Data Journal"
+  abstract: "Design and implementation of an open-source data logger for affordable environmental monitoring applications."
+
+- title: "Linking multiple biodiversity informatics platforms with Darwin Core Archives"
+  url: https://doi.org/10.3897/bdj.2.e1039
+  authors: "Baker, E., et al."
+  year: 2014
+  journal: "Biodiversity Data Journal"
+  abstract: "Methods for integrating multiple biodiversity informatics platforms using Darwin Core Archives as a data exchange standard."
+
+- title: "Scratchpads 2.0: a Virtual Research Environment supporting scholarly collaboration"
+  url: https://doi.org/10.3897/zookeys.150.2193
+  authors: "Smith, V.S., et al."
+  year: 2011
+  journal: "ZooKeys"
+  abstract: "Description of Scratchpads 2.0, a virtual research environment for biodiversity research supporting collaboration, communication, and data publication."

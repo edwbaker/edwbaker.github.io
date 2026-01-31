@@ -48,10 +48,11 @@
         
         <h2>Latest publications</h2>
         <ul>
-          {% for pub in site.data.publications %}
+          {% for pub in site.data.publications limit: 4 %}
           <li><a href="{{ pub.url }}">{{ pub.title }}</a></li>
           {% endfor %}
         </ul>
+        <p class="view"><a href="/publications">All publications</a></p>
         <p class="view"><a href="https://scholar.google.com/citations?user=44XAtwYAAAAJ">Google Scholar</a></p>
         <p class="view" style="font-size: smaller;"><a href="/pubs/wikidata-author-cloud">Co-authorship Cloud</a></p>
 
@@ -61,7 +62,7 @@
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
-        <a href="/all_posts">All blog posts</a>
+        <p class="view"><a href="/all_posts">All blog posts</a></p>
 
         <h2>Talks</h2>
         <ul>
@@ -69,7 +70,7 @@
           <li><a href="{{ talk.url }}">{{ talk.date }} - {{ talk.title }}</a></li>
           {% endfor %}
         </ul>
-        <a href="/talks">All talks</a>
+        <p class="view"><a href="/talks">All talks</a></p>
         
         <h2>Notes</h2>
         <ul>
@@ -77,7 +78,7 @@
           <li><a href="{{ note.url }}">{{ note.title }}</a></li>
           {% endfor %}
         </ul>
-        <a href="/notes">All notes</a>
+        <p class="view"><a href="/notes">All notes</a></p>
         
         <h2>Some thoughts on</h2>
         <ul>
