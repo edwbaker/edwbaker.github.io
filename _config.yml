@@ -5,6 +5,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-optional-front-matter
 url: "https://ebaker.me.uk"
 
 author: Ed Baker
