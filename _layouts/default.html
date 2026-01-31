@@ -47,10 +47,9 @@
         </p>
         
         <h2>Latest publications</h2>
-        <p class="view"><a href="/pubs/2025-Linnean-Baker.pdf">A Gateway to Nature: The Urban Research Station at London’s Natural History Museum</a></p>
-        <p class="view"><a href="/pubs/PPP3_70100_JQA.pdf">Catalysts for change: Museum gardens in a planetary emergency</a></p>
-        <p class="view"><a href="https://biss.pensoft.net/article/142073/">Bioacoustic and Ecoacoustic Data in Audiovisual Core</a></p>
-        <p class="view"><a href="/pubs/2023_02_Guidelines.pdf">Good practice guidelines for long-term ecoacoustic monitoring in the UK</a></p>
+        {% for pub in site.data.publications %}
+        <p class="view"><a href="{{ pub.url }}">{{ pub.title }}</a></p>
+        {% endfor %}
 
         <p class="view"><a href="https://scholar.google.com/citations?user=44XAtwYAAAAJ">Google Scholar</a></p>
         
@@ -67,27 +66,22 @@
         <a href="/all_posts">All blog posts</a>
 
         <h2>Talks</h2>
-        <p class="view"><a href="/talks/2025-10-tdwg">10/2025 - Living Data</a></p>
-        <p class="view"><a href="/talks/2025-04-URS-launch">22/04/2025 - Urban Research Station</a></p>
-        <p class="view"><a href="/talks/2025-03-UrbanNoiseGlasgow">03/03/2025 - Impacts of Urban Noise</a></p>
-        <p class="view"><a href="/talks/2025-Kingston">22/01/2025 - TDWG Kingston Biodiversity Network</a></p>
-        <p class="view"><a href="/talks/2024-GS">05/12/2024 - NHM x Natural England</a></p>
-       <p class="view"><a href="/talks">All talks</a></p>
+        {% for talk in site.data.talks %}
+        <p class="view"><a href="{{ talk.url }}">{{ talk.date }} - {{ talk.title }}</a></p>
+        {% endfor %}
+        <p class="view"><a href="/talks">All talks</a></p>
         
         <h2>Notes</h2>
-        <p class="view"><a href="/notes/prophalangopsis"><i>Prophalangopsis obscura</i></a></p>
-        <p class="view"><a href="/notes/linux-audio-recipes">Linux audio recipes</a></p>
-        <p class="view"><a href="/notes/acoustics-figures">Acoustics figures</a></p>
-        <p class="view"><a href="/notes/SANE-defaults">SANE defaults</a></p>
+        {% for note in site.data.notes %}
+        <p class="view"><a href="{{ note.url }}">{{ note.title }}</a></p>
+        {% endfor %}
         <p class="view"><a href="/notes">All notes</a></p>
         
         <p>Some thoughts on:</p>
         <ul>
-          <li><a href="/bioacoustics">Bioacoustics</a></li>
-          <li><a href="/sensor-networks">Sensor networks</a></li>
-          <li><a href="/mathematical-visualisations">Mathematical visualisations</a></li>
-          <li><a href="/raspberrypi">Raspberry Pi</a></li>
-          <li><a href="/more-than-human">More than Human</a></li>
+          {% for topic in site.data.topics %}
+          <li><a href="{{ topic.url }}">{{ topic.title }}</a></li>
+          {% endfor %}
         </ul>
         
         {% assign sorted = site.html_pages | sort:"rank" %}
