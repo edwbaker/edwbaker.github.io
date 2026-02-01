@@ -7,6 +7,8 @@
   authors: "Baker, E., Kenrick, P., Knapp, S., McCarter, T. & Tweddle, J."
   year: 2025
   journal: "Plants, People, Planet"
+  topics:
+    - biodiversity-technologies
   abstract: "Natural history museums are often seen as places with indoor galleries full of dry-dusty specimens, usually of animals. But if they have gardens associated with them, museums can use living plants to create narratives that link outside spaces to inside galleries, bringing to life the challenges facing biodiversity. We describe the redevelopment of the grounds of the Natural History Museum in London to create a garden with plants at its centre to address these challenges. People are key to the future of our planet and reaching them in novel ways will be central to creating advocates for the planet. The South Kensington site of the Natural History Museum in London is framed by two hectares of grounds that have had a variety of uses since the opening of the buildings in 1881. Original plans for their development were never carried out, and most of the site was planted in amenity grassland, although a small Wildlife Garden was established in the 1990s. Redevelopment of the grounds through the Urban Nature Project has allowed using the space to create new narratives of evolution and individual action, with plants central to the design. With more than 6 million visitors a year, the Museum has a unique opportunity to use its gardens to place nature at the forefront of the visitor experience. Here, we describe the background to this redevelopment and the resultant spaces created, and highlight the opportunities for museums to develop outdoor spaces into new areas for both visitor experience and scientific research."
 
 - title: "Bioacoustic and Ecoacoustic Data in Audiovisual Core"
@@ -14,6 +16,10 @@
   authors: "Baker, E."
   year: 2024
   journal: "Biodiversity Information Science and Standards"
+  topics:
+    - bioacoustics
+    - ecoacoustics
+    - data-standards
   abstract: "Audiovisual Core (Audiovisual Core Maintenance Group 2023), is the TDWG standard for metadata related to biodiversity multimedia. The Audiovisual Core Maintenance Group has been working to expand the standard to provide the terms necessary for handling sound recordings. Audiovisual Core can now handle acoustic metadata related to biodiversity from single species (bioacoustics) to the ecosystem scale (ecoacoustics)."
 
 - title: "Good practice guidelines for long-term ecoacoustic monitoring in the UK"
@@ -21,6 +27,8 @@
   pdf_url: /pubs/2023_02_Guidelines.pdf
   authors: "Metcalf, O., Abrahams, C., Sheridan, B., Baker, E., Bradfer-Lawrence, T., Browning, E., Carruthers-Jones, J., Sheridan, J., Dick, J., Eldridge, A., Elliott, D., Heath, B., Howden-Leach, P., Johnston, A., Lees, A., Meyer, C., Ruiz Arana, U. & Smyth, S."
   year: 2023
+  topics:
+    - ecoacoustics
   abstract: "Our good practice guidelines represent the opinions of an experienced team of researchers and consultants who have come together to synthesise the latest academic research and expert judgement on field-proven ways to apply ecoacoustic survey techniques, especially tailored to long-term biodiversity monitoring. The guidelines are focussed on the use of ecoacoustic monitoring of audible sounds within terrestrial, temperate ecosystems typical of the UK and elsewhere in Europe, but we hope they will have wider application. We explicitly do not consider biodiversity that sonifies in the ultrasonic, or marine acoustics, as well-developed monitoring protocols already exist for this purpose - although naturally there is a degree of overlap. The co-production of these guidelines follows a UK Acoustics Network (UKAN+) ecoacoustics symposium held at Manchester Metropolitan University, Manchester, UK on 15-16th June 2022, and attended by over 160 people both online and in-person. The guidelines are intended to reflect the discussions and emerging conclusions from that event - as well as applicable information and research generated around the world on the topic."
 
 - title: "Reviving the sound of a 150-year-old insect: The bioacoustics of <i>Prophalangopsis obscura</i> (Ensifera: Hagloidea)"
@@ -28,6 +36,9 @@
   authors: "Woodrow, C., Nityananda, V., Baker, E., Jonsson, T. & Montealegre-Z, F."
   year: 2022
   journal: "PLOS ONE"
+  topics:
+    - bioacoustics
+    - orthoptera
   abstract: "Determining the acoustic ecology of extinct or rare species is challenging due to the inability to record their acoustic signals or hearing thresholds. Katydids and their relatives (Orthoptera: Ensifera) offer a model for inferring acoustic ecology of extinct and rare species, due to allometric parameters of their sound production organs. Here, the bioacoustics of the orthopteran <i>Prophalangopsis obscura</i> are investigated. This species is one of only eight remaining members of an ancient family with over 90 extinct species that dominated the acoustic landscape of the Jurassic. The species is known from only a single confirmed specimen–the 150-year-old holotype material housed at the London Natural History Museum. Using Laser-Doppler Vibrometry, 3D surface scanning microscopy, and known scaling relationships, it is shown that <i>P. obscura</i> produces a pure-tone song at a frequency of ~4.7 kHz. This frequency range is distinct but comparable to the calls of Jurassic relatives, suggesting a limitation of early acoustic signals in insects to sonic frequencies (<20 kHz). The acoustic ecology and importance of this species in understanding ensiferan evolution, is discussed."
 
 - title: "Bioacoustics and systematics of <i>Mecopoda</i> (and related forms) from South East Asia and adjacent areas"
@@ -36,6 +47,9 @@
   authors: "Heller, K.-G., Baker, E., Ingrisch, S., Korsunovskaya, O., Liu, C.-X., Riede, K. & Warchałowska-Šliwa, E."
   year: 2021
   journal: "Zootaxa"
+  topics:
+    - bioacoustics
+    - orthoptera
   abstract: "Bush-crickets (or katydids) of the genus <i>Mecopoda</i> are relatively large insects well-known for their sounds for centuries. Bioacoustic studies in India and China revealed a surprisingly large diversity of sound patterns. We extend these studies into the tropics of South East Asia using integrative taxonomy, combining song analysis, morphology of sound producing organs and male genitalia as well as chromosomes, to get a better understanding of the phylogeny and evolution of this widespread group. Besides the closely related genus <i>Eumecopoda</i>, the genus <i>Mecopoda</i> contains some isolated species and a large group of species which we assign to the <i>Mecopoda elongata</i> group. Some species of this group have broad tegmina and stridulatory files with different tooth spacing patterns and produce continuous, often relatively complicated, trill-like songs. The species of another subgroup with narrower wings have all similar files. Their songs consist of echemes (groups of syllables) which differ in syllable number and syllable repetition rate and also in echeme repetition rate. Our results show that South East Asia harbours a large and certainly not yet fully explored number of <i>Mecopoda</i> species which are most easily and clearly identified by song. Based on the data, five new forms are described: <i>Mecopoda mahindai</i> Heller sp. nov., <i>Mecopoda paucidens</i> Ingrisch, Su & Heller sp. nov., <i>Mecopoda sismondoi</i> Heller sp. nov., <i>Mecopoda niponensis vietnamica</i> Heller & Korsunovskaya subsp. nov., <i>Eumecopoda cyrtoscelis zhantievi</i> Heller subsp. nov. In addition, some taxonomic changes are proposed: <i>Eumecopoda</i> Hebard, 1922 stat. rev., <i>Paramecopoda</i> Gorochov, 2020, syn. nov. of <i>Eumecopoda</i> Hebard, 1922, <i>Mecopoda javana</i> (Johansson, 1763) stat. nov. (neotype selected) with <i>M. javana minahasa</i> Gorochov, 2020 stat. nov., <i>M. javana darevskyi</i> Gorochov, 2020 stat. nov., <i>M. javana buru</i> Gorochov, 2020 stat. nov., <i>Mecopoda macassariensis</i> (Haan, 1843) stat. rev., <i>Mecopoda ampla malayensis</i> Gorochov, 2020 syn. nov., <i>Mecopada ampla javaensis</i> Gorochov, 2020 syn. nov., <i>Mecopoda fallax aequatorialis</i> Gorochov, 2020 syn. nov., the last three are all synonyms of <i>Mecopoda himalaya</i> Liu, 2020, <i>Mecopoda yunnana</i> Liu 2020, stat. nov."
 
 - title: "Standardisation of bioacoustic terminology for insects"
@@ -43,6 +57,9 @@
   authors: "Baker, E. & Chesmore, D."
   year: 2020
   journal: "Biodiversity Data Journal"
+  topics:
+    - bioacoustics
+    - data-standards
   abstract: "After reviewing the published literature on sound production in insects, a standardised terminology and controlled vocabularies have been created. This combined terminology has potential for use in automated identification systems, evolutionary studies, and other use cases where the synthesis of bioacoustic traits from the literature is required. An example implementation has been developed for the BioAcoustica platform. It is hoped that future development of controlled vocabularies will become a community effort."
 
 - title: "Ahead of the curve: three approaches to mass digitisation of vials with a focus on label data capture"
@@ -50,6 +67,8 @@
   authors: "Dupont, S., Humphries, J., Butcher, A., Baker, E., Balcells, L. & Price, B."
   year: 2020
   journal: "Research Ideas and Outcomes"
+  topics:
+    - digitisation
   abstract: "There has been little research on novel approaches to digitising liquid-preserved natural history specimens stored in jars or vials. This paper discusses and analyses three different prototypes for high-throughput digitisation using cheap, readily available components. This paper has been written for other digitisation teams or curators who want to trial or improve upon these new digitisation approaches in liquid preserved collections."
 
 - title: "A deafening silence: a lack of data and reproducibility in published bioacoustics research?"
@@ -57,6 +76,8 @@
   authors: "Baker, E. & Vincent, S."
   year: 2019
   journal: "Biodiversity Data Journal"
+  topics:
+    - bioacoustics
   abstract: "A study of 100 papers from five journals that make use of bioacoustic recordings shows that only a minority (21%) deposit any of the recordings in a repository, supplementary materials section or a personal website. This lack of deposition hinders re-use of the raw data by other researchers, prevents the reproduction of a project's analyses and confirmation of its findings and impedes progress within the broader bioacoustics community. We make some recommendations for researchers interested in depositing their data."
 
 - title: "The Natural History Museum Data Portal"
@@ -64,6 +85,8 @@
   authors: "Scott, B., Baker, E., Woodburn, M., Vincent, S., Hardy, H. & Smith, V.S."
   year: 2019
   journal: "Database"
+  topics:
+    - data-standards
   abstract: "The Natural History Museum, London (NHM), generates and holds some of the largest global data sets relating to the biological and geological diversity of the natural world. A majority of these data were, until 2015, not widely accessible, and, even when published, were typically hard to find, poorly documented and in formats that impede discovery and integration. To better serve the bespoke needs of user communities outside and within the NHM, a dedicated data portal was developed to surface these data sets and provide a sustainable platform to encourage their citation and reuse. This paper describes the technical development of the data portal, from its inception to beta launch in December 2015, its first 2 years of operation, and future plans for the project. It outlines the development principles adopted for this prototypical project, which subsequently informed new digital project management methodologies at the NHM. The process of developing the data portal acted as a driver to implement policies necessary to encourage a culture of data sharing at the NHM."
 
 - title: "Ecological interactions in the Scratchpads virtual research environment"
@@ -71,6 +94,8 @@
   authors: "Baker, E., Dupont, S. & Smith, V."
   year: 2019
   journal: "Biodiversity Data Journal"
+  topics:
+    - data-standards
   abstract: "The Natural History Museum, London has a number of online databases that describe interactions between species, including the HOSTS database of lepidopteran host plants (Robinson et al. 2010) and a database of Dipterocarp Seed Predators. These databases were generally bespoke software, which has increased the technical work necessary to sustain these resources. The decision was taken to migrate these to either the Scratchpads Virtual Research Environment (VRE) (Smith et al. 2011) or to the museum's Data Portal (Scott et al. 2019), depending on the complexity of the existing resource, as both are being sustained by the Informatics Group at the Natural History Museum, London. Resources that can be best represented as a single table were moved to the Data Portal, while those best represented in a relational model were transferred to Scratchpads. In addition, the Phthiraptera.info Scratchpad (Smith and Broom 2019), which already contained ecological interaction data, was migrated to the new system."
 
 - title: "From an old sound recording to a new species in the genus <i>Horatosphaga</i>"
@@ -79,6 +104,9 @@
   authors: "Heller, K.-G. & Baker, E."
   year: 2017
   journal: "Zootaxa"
+  topics:
+    - bioacoustics
+    - orthoptera
   abstract: "Among insects, Orthoptera are a group famous for communicating by sound. This is especially true for bush-crickets (or katydids; Tettigonioidea). All acoustically active species produce sound by rubbing the fore wings (tegmina) against each other, using a stridulatory file situated on the lower side of the left tegmen and a scraper formed by the inner edge of the right tegmen. Bush-cricket species of the tribe Acrometopini often have complicated stridulatory files and also complex songs. During the preparation of a recent study we discovered a sound record of a species of the group taken on 16th March 1972 by the entomologist David Hollis in Angola as part of the multi-disciplinary entomological South Western Africa Expedition. The sound recording was deposited in the British Museum (Natural History) Library of Recorded Insect Sounds, and was later made openly accessible in the BioAcoustica repository. Hollis had found the animal at light, recorded it on the same day singing on a bush, and brought the specimen (together with two conspecific males) to the Natural History Museum (NHM), London. Here it was later identified as <i>Horatosphaga</i> ?<i>stuhlmanni</i> (Karsch 1896) by D. Ragge, the curator of Orthoptera at the NHM at that time. <i>Horatosphaga</i> males are fully winged while females are flightless and plump; sexual dimorphism reaches its extreme form in this group of species. Species of this genus are mostly recorded from open grasslands in savanna habitats up to montane elevations."
 
 - title: "NightLife: A cheap, robust, LED based light trap for collecting aquatic insects in remote areas"
@@ -86,6 +114,8 @@
   authors: "Price, B. & Baker, E."
   year: 2016
   journal: "Biodiversity Data Journal"
+  topics:
+    - biodiversity-technologies
   abstract: "There are approximately one hundred thousand aquatic insect species currently known to science and this figure is likely a significant underestimation. The ecology of aquatic insect groups has been studied due to their role as bioindicators of water quality and in the case of Diptera, their role as vectors of disease. Light trapping targets emergent adults, using mercury vapour bulbs or actinic fluorescent tubes, however these light sources are unsuitable for sampling remote regions due to their power requirements, which limit their mobility. Most insects studied have three types of photoreceptors corresponding to UV, blue and green light. We describe the NightLife: a cheap, robust, portable, LED based light source which targets insect trichromatic vision, is capable of autonomous operation and is powered by a single AA battery. Field trials show that the NightLife is capable of collecting sufficient samples of 12 insect orders, including all aquatic orders commonly collected by traditional light trapping and compares favourably with actinic fluorescent tubes and white LEDs. Future development in LED technology will likely result in LEDs replacing traditional light sources for collecting insects more widely."
 
 - title: "The worldwide status of phasmids (Insecta: Phasmida) as pests of agriculture and forestry"
@@ -93,13 +123,19 @@
   authors: "Baker, E."
   year: 2015
   journal: "Agriculture and Food Security"
+  topics:
+    - phasmids
   abstract: "Stick insects have been reported as significant phytophagous pests of agricultural and timber crops since the 1880s in North America, China, Australia and Pacific Islands. Much of the early literature comes from practical journals for farmers, and even twentieth Century reports can be problematic to locate. Unlike the plaguing Orthoptera, there has been no synthesis of the pest status of this enigmatic order of insects. This paper provides a literature synthesis of those species known to cause infestation or that are known to damage plants of economic importance; summarises historical and modern techniques for infestation management; and lists known organisms with potential for use as biological control agents. A generalised theory of outbreaks is presented and suggestions for future research efforts are made."
 
 - title: "BioAcoustica: a free and open repository and analysis platform for bioacoustics"
   url: https://doi.org/10.1093/database/bav054
-  authors: "Baker, E., et al."
+  authors: "Baker, E., Price, B.W., Rycroft, S.D., Hill, J. & Smith, V.S."
   year: 2015
   journal: "Database"
+  topics:
+    - bioacoustics
+    - data-standards
+    - digitisation
   abstract: "We describe an online open repository and analysis platform, BioAcoustica (http://bio.acousti.ca), for recordings of wildlife sounds. Recordings can be annotated using a crowdsourced approach, allowing voice introductions and sections with extraneous noise to be removed from analyses. This system is based on the Scratchpads virtual research environment, the BioVeL portal and the Taverna workflow management tool, which allows for analysis of recordings using a grid computing service. At present the analyses include spectrograms, oscillograms and dominant frequency analysis. Further analyses can be integrated to meet the needs of specific researchers or projects. Researchers can upload and annotate their recordings to supplement traditional publication."
 
 - title: "Open source data logger for low-cost environmental monitoring"
@@ -107,18 +143,24 @@
   authors: "Baker, E."
   year: 2014
   journal: "Biodiversity Data Journal"
+  topics:
+    - biodiversity-technologies
   abstract: "The increasing transformation of biodiversity into a data-intensive science has seen numerous independent systems linked and aggregated into the current landscape of biodiversity informatics. This paper outlines how we can move forward with this programme, incorporating real time environmental monitoring into our methodology using low-power and low-cost computing platforms."
 
 - title: "Linking multiple biodiversity informatics platforms with Darwin Core Archives"
   url: https://doi.org/10.3897/bdj.2.e1039
-  authors: "Baker, E., et al."
+  authors: "Baker, E., Rycroft, S. & Smith, V."
   year: 2014
   journal: "Biodiversity Data Journal"
+  topics:
+    - data-standards
   abstract: "We describe an implementation of the Darwin Core Archive (DwC-A) standard that allows for the exchange of biodiversity information contained within the Scratchpads virtual research environment with external collaborators. Using this single archive file Scratchpad users can expose taxonomies, specimen records, species descriptions and a range of other data to a variety of third-party aggregators and tools (currently Encyclopedia of Life, eMonocot Portal, CartoDB, and the Common Data Model) for secondary use. This paper describes our technical approach to dynamically building and validating Darwin Core Archives for the 600+ Scratchpad user communities, which can be used to serve the diverse data needs of all of our content partners."
 
-- title: "Scratchpads 2.0: a Virtual Research Environment supporting scholarly collaboration"
+- title: "Scratchpads 2.0: a Virtual Research Environment supporting scholarly collaboration, communication and data publication in biodiversity science"
   url: https://doi.org/10.3897/zookeys.150.2193
-  authors: "Smith, V.S., et al."
+  authors: "Smith, V.S., Rycroft, S.D., Harman, K.T., Scott, B. & Roberts, D."
   year: 2011
   journal: "ZooKeys"
+  topics:
+    - data-standards
   abstract: "The Scratchpad Virtual Research Environment (http://scratchpads.eu/) is a flexible system for people to create their own research networks supporting natural history science. Here we describe Version 2 of the system characterised by the move to Drupal 7 as the Scratchpad core development framework and timed to coincide with the fifth year of the project's operation in late January 2012. The development of Scratchpad 2 reflects a combination of technical enhancements that make the project more sustainable, combined with new features intended to make the system more functional and easier to use. A roadmap outlining strategic plans for development of the Scratchpad project over the next two years concludes this article."

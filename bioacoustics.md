@@ -18,6 +18,14 @@ Background to some bioacoustics ideas and principles
 
 - [G. W. Pierce](https://medium.ebaker.me.uk/bioacoustic-pioneers-g-w-pierce-ca088d9e3b69) Physicist who made his own devices to study the songs of Orthoptera, started the misuse of the word _pulse_, and made early hydrophones.
 
+## Publications
+
+{% for pub in site.data.publications %}
+{% if pub.topics contains "bioacoustics" %}
+- [{{ pub.title }}]({{ pub.url }}) ({{ pub.year }}){% if pub.journal %} _{{ pub.journal }}_{% endif %}
+{% endif %}
+{% endfor %}
+
 ## Tools
 
 ### sonicscrewdriver
