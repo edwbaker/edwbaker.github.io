@@ -74,6 +74,7 @@
   abstract: "The Natural History Museum, London has a number of online databases that describe interactions between species, including the HOSTS database of lepidopteran host plants (Robinson et al. 2010) and a database of Dipterocarp Seed Predators. These databases were generally bespoke software, which has increased the technical work necessary to sustain these resources. The decision was taken to migrate these to either the Scratchpads Virtual Research Environment (VRE) (Smith et al. 2011) or to the museum's Data Portal (Scott et al. 2019), depending on the complexity of the existing resource, as both are being sustained by the Informatics Group at the Natural History Museum, London. Resources that can be best represented as a single table were moved to the Data Portal, while those best represented in a relational model were transferred to Scratchpads. In addition, the Phthiraptera.info Scratchpad (Smith and Broom 2019), which already contained ecological interaction data, was migrated to the new system."
 
 - title: "From an old sound recording to a new species in the genus <i>Horatosphaga</i>"
+  pdf_url: /pubs/Horatosphaga.pdf
   url: https://doi.org/10.11646/zootaxa.4323.3.10
   authors: "Heller, K.-G. & Baker, E."
   year: 2017
