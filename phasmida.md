@@ -13,4 +13,4 @@ Phasmida (stick insects and leaf insects) are a fascinating order of insects kno
 ## External Resources
 
 - [Phasmida Species File](https://phasmida.speciesfile.org/) - Comprehensive taxonomic database for Phasmida
-- [Phasmid Study Group](https://phasmid-study-group.org/) - Organisation for the study and conservation of stick insects
+- [Phasmid Study Group](https://phasmid-study-group.org/) - Organisation for the study of stick insects
