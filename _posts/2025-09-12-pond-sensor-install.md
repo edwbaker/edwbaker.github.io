@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pond sensor install"
-tags: [ "NHM Urban Research Station"]
+tags: [ "NHM Urban Research Station", "sensor networks"]
 ---
 
 {% include figure.html
