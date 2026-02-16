@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NHM Gardens Opening Celebration"
-tags: ["NHM Urban Research Station"]
+tags: ["NHM Urban Research Station", "urban nature project"]
 ---
 
 {% include figure.html img="/imgs/urban-research-station/UNP-Gardens-Celebration-0353.jpg"

@@ -82,3 +82,14 @@ More-than-human appraoches to biodiversity research are looking at how we can ma
 - [Urban Nature at the Museum of Edinburgh](/notes/museum-of-edinburgh-urban-nature) - Courtyard Gallery and an exhibition showcasing the relationship between children’s literature and nature.
 
 - [Biodiversity Development Area at the National Museum of Scotland Collections Centre](/2025/07/31/nms-collections-centre.html)
+
+## Relevant blog posts
+
+{% assign tag_name = "NHM Urban Research Station" %}
+{% if site.tags[tag_name] %}
+<ul>
+{% for post in site.tags[tag_name] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%Y-%m-%d" }})</small></li>
+{% endfor %}
+</ul>
+{% endif %}

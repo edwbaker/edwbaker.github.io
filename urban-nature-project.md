@@ -27,3 +27,14 @@ The Urban Nature Project is a major initiative at the Natural History Museum, Lo
 ## Miscellaneous Activities
 
 - [List](/unp-activities) - a list of activities related to the Urban Nature Project.
+
+## Relevant blog posts
+
+{% assign tag_name = "urban nature project" %}
+{% if site.tags[tag_name] %}
+<ul>
+{% for post in site.tags[tag_name] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%Y-%m-%d" }})</small></li>
+{% endfor %}
+</ul>
+{% endif %}

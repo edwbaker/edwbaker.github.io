@@ -2,7 +2,7 @@
 layout: post
 title: "Voices for Change: A Night of Climate Action"
 date: 2025-11-17
-tags: ["events", "natural history museum", "urban biodiversity"]
+tags: ["events", "natural history museum", "urban biodiversity", "NHM Urban Research Station"]
 ---
 
 On Monday 17 November 2025, the Natural History Museum hosted [Voices for Change: A Night of Climate Action](https://www.nhm.ac.uk/events/voices-for-change-a-night-of-climate-action.html), a free evening event exploring climate challenges and solutions during COP30.
