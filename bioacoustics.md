@@ -58,6 +58,17 @@ Background to some bioacoustics ideas and principles
 
 [audioBlast!](https://audioblast.org) - protoytpe tool to search across multiple sound collections.
 
+## Relevant blog posts
+
+{% assign tag_name = "bioacoustics" %}
+{% if site.tags[tag_name] %}
+<ul>
+{% for post in site.tags[tag_name] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%Y-%m-%d" }})</small></li>
+{% endfor %}
+</ul>
+{% endif %}
+
 ## Press stories
 
 - [Insect Orchestra](https://www.nhm.ac.uk/discover/insect-sounds.html) article for NHM website.
