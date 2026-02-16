@@ -36,3 +36,14 @@ Some thoughts on sensor networks:
 - [Improvements to sensor-dht11 implementation](https://reports.ebaker.me.uk/WS-sensor-dht11.html)
 
 - [sensor-w1therm to replace sensor-ds1820](https://reports.ebaker.me.uk/WS-sensor-w1therm.html)
+
+## Relevant blog posts
+
+{% assign tag_name = "sensor networks" %}
+{% if site.tags[tag_name] %}
+<ul>
+{% for post in site.tags[tag_name] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%Y-%m-%d" }})</small></li>
+{% endfor %}
+</ul>
+{% endif %}

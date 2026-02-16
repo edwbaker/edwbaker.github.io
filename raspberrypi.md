@@ -19,3 +19,14 @@
 ## Managing Raspberry Pi sensor networks
 
 [Useful tools for maintaining Raspberry Pi sensor networks](/notes/raspberry-pi-tools): A list of tools and equipment that are useful for maintaining Raspberry Pi sensor networks.
+
+## Relevant blog posts
+
+{% assign tag_name = "Raspberry Pi" %}
+{% if site.tags[tag_name] %}
+<ul>
+{% for post in site.tags[tag_name] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%Y-%m-%d" }})</small></li>
+{% endfor %}
+</ul>
+{% endif %}
