@@ -5,7 +5,7 @@ date: 2026-02-16
 tags: ["Raspberry Pi", "sensor networks", "DS1821"]
 ---
 
-The Dallas DS1821 is an unusual 1-Wire "compatible! device. It functions as both a thermometer and a standalone thermostat, but it does not conform to the standard 1-Wire ROM protocol. As a result, the Linux kernel's `w1_therm` driver cannot detect or communicate with it.
+The Dallas DS1821 is an unusual 1-Wire "compatible" device. It functions as both a thermometer and a standalone thermostat, but it does not conform to the standard 1-Wire ROM protocol. As a result, the Linux kernel's `w1_therm` driver cannot detect or communicate with it.
 
 **[DS1821-Pi](https://github.com/edwbaker/ds1821-pi)** provides a set of C utilities and shell scripts that communicate with the DS1821 by bit-banging the 1-Wire protocol directly over GPIO, without requiring a kernel driver.
 
