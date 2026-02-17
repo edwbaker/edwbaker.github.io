@@ -8,6 +8,7 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-default-layout
 url: "https://ebaker.me.uk"
+permalink: /:year/:month/:day/:title.html
 
 author: Ed Baker
 
