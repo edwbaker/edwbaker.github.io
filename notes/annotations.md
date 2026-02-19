@@ -1,3 +1,8 @@
+---
+title: "Annotations"
+note_category: "Bioacoustics"
+---
+
 # Annotations
 
 ## Data standards

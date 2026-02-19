@@ -1,3 +1,8 @@
+---
+title: "Digital twins"
+note_category: "Urban Nature"
+---
+
 # Digital twins
 
 ## What is a digital twin?

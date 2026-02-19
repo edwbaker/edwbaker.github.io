@@ -1,3 +1,8 @@
+---
+title: "Sensor network install"
+note_category: "Sensor Networks"
+---
+
 # Sensor network install
 
 This page documents the installation of the sensor network part of the [Urban Research Station](/urban-research-station) at the Natural History Museum.

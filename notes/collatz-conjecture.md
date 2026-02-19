@@ -1,3 +1,8 @@
+---
+title: "Collatz Conjecture"
+note_category: "Mathematical visualisations"
+---
+
 # Visualisation of Collatz Conjecture in R
 
 ## Intro

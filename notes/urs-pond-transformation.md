@@ -1,3 +1,8 @@
+---
+title: "NHM Pond Transformation"
+note_category: "Urban Nature"
+---
+
 # NHM Urban Research Station Pond Transformation
 
 {% include figure.html img="/imgs/urban-research-station/garden-transformation/2020-old-ponds.jpg"

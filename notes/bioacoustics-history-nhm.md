@@ -1,3 +1,7 @@
+---
+title: "History of Bioacoustics at the Natural History Museum, London"
+note_category: "Bioacoustics"
+---
 # History of bioacoustics at the Natural History Museum, London
 
 ## Equipment

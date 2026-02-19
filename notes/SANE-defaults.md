@@ -1,3 +1,9 @@
+---
+title: "SANE defaults"
+note_category: "Coding"
+note_subcategory: "General"
+---
+
 # SANE defaults
 
 The default behaviour of functions, APIs, applications, etc is often specified or designed to be 'sane' - but does this actually mean? Use the SANE default acronym.

@@ -1,3 +1,9 @@
+---
+title: "Invert a polynomial in R"
+note_category: "Coding"
+note_subcategory: "R"
+---
+
 # Inverting a polynomial using R
 
 R code to numerically find the inverse of a polynomial.

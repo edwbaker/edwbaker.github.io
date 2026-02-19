@@ -1,3 +1,8 @@
+---
+title: "Useful tools for maintaining Raspberry Pi sensor networks"
+note_category: "Sensor Networks"
+---
+
 # Useful tools for maintaining Raspberry Pi sensor networks
 
 This document lists tools and equipment that are useful for maintaining Raspberry Pi sensor networks.

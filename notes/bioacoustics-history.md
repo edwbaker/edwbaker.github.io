@@ -1,3 +1,8 @@
+---
+title: "History of Bioacoustics"
+note_category: "Bioacoustics"
+---
+
 # History of Bioacoustics
 
 See also: [History of Bioacoustics at the Natural History Museum, London](/notes/bioacoustics-history-nhm).

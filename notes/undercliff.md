@@ -1,3 +1,8 @@
+---
+title: "Axmouth to Lyme Regis Undercliff"
+note_category: "Miscellaneous"
+---
+
 # Axmouth to Lyme Regis Undercliff
 
 The Undercliff, previousy grazed farmland, can be considered an early (although unintended) example of rewilding. Following large landslides in the 19th century, the area was abandoned and has since been left to nature. The Undercliff is now a Site of Special Scientific Interest (SSSI), a National Nature Reserve (NNR), and part of the Jurassic Coast UNESCO World Heritage Site. The only current traversal of the Undercliff is the South West Coast Path.

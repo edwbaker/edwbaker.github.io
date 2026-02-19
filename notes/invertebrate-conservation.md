@@ -1,3 +1,8 @@
+---
+title: "Interesting invertebrate conservation projects"
+note_category: "General Invertebrates"
+---
+
 # Interesting Invertebrate Conservation Ideas
 
 ## Bowlees Molluscarium

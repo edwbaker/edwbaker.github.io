@@ -1,3 +1,8 @@
+---
+title: "Books on bioacoustics and ecoacoustics"
+note_category: "Bioacoustics"
+---
+
 # Some books on bioacoustics and ecoacoustics
 
 ## General works on sound of broader interest

@@ -1,3 +1,8 @@
+---
+title: "Acoustics figures"
+note_category: "General acoustics"
+---
+
 # Acoustic figures
 
 Acoustic figures and diagrams using R.

@@ -74,7 +74,8 @@
         
         <h2>Notes</h2>
         <ul>
-          {% for note in site.data.notes limit: 4 %}
+          {% assign note_pages = site.pages | where_exp: "p", "p.note_category" | sort: "title" %}
+          {% for note in note_pages limit: 4 %}
           <li><a href="{{ note.url }}">{{ note.title }}</a></li>
           {% endfor %}
         </ul>

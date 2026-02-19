@@ -1,3 +1,8 @@
+---
+title: "Sensor network philosophy"
+note_category: "Sensor Networks"
+---
+
 # Sensor network philosophy
 
 ## Don't innovate the basics

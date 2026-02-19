@@ -1,3 +1,8 @@
+---
+title: "Urban Nature at the Museum of Edinburgh"
+note_category: "Urban Nature"
+---
+
 # Urban Nature at the Museum of Edinburgh
 
 ## Nurture Through Nature with Children’s Books

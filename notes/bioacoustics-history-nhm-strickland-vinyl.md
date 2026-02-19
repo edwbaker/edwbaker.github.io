@@ -1,3 +1,8 @@
+---
+title: "Entomological Acoustics (European Gryllotalpidae)"
+note_category: "Bioacoustics"
+---
+
 # Entomological Acoustics (European Gryllotalpidae)
 
 {% include figure.html img="/imgs/bioacoustics_history_nhm/vinyl_cover.jpeg"

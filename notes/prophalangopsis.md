@@ -1,3 +1,8 @@
+---
+title: "<i>Prophalangopsis obscura</i> (Walker, 1869)"
+note_category: "Orthoptera"
+---
+
 # Some notes on _Prophalangopsis obscura_ (Walker, 1869)
 
 {% include figure.html img="/imgs/prophalangopsis.jpg" alt="Reconstruction of <i>Prophalangopsis obscura</i>" %}

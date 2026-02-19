@@ -1,3 +1,8 @@
+---
+title: "NHM Urban Research Station Heat Islands Study"
+note_category: "Urban Nature"
+---
+
 # NHM Urban Research Station Heat Islands Study
 
 The NHM Urban Research Station is conducting a study on urban heat islands. This research aims to understand the impact of urbanisation on temperature variations and to develop strategies for mitigating heat effects in cities.

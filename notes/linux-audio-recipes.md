@@ -1,3 +1,8 @@
+---
+title: "Linux audio recipes"
+note_category: "General acoustics"
+---
+
 # Linux audio recipes
 
 This is a collection of small techniques for manipulating audio data on the command line. They have been compiled over a number of years from my work on bioacoustic and ecoacoustic datsets, although they should prove useful to anyone who works with audio files.
