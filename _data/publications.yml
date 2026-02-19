@@ -1,6 +1,27 @@
 # Publications - based on ORCID and Google Scholar
 # Key publications shown in sidebar (first 4), all shown on /publications page
 
+- title: "A Gateway to Nature: The Urban Research Station at London's Natural History Museum"
+  pdf_url: https://ebaker.me.uk/pubs/2025-Linnean-Baker.pdf
+  authors: "Baker, E."
+  year: 2025
+  journal: "The Linnean"
+  topics:
+    - urban-nature
+    - urban-nature-project
+    - urban-research-station
+  abstract: "It is forecast that 68% of the world’s population will live in cities by the year 2050
+    (United Nations 2018). Natural history museums can play a pivotal role in publicly
+    addressing the interconnected biodiversity and climate crises (Baker et al. 2025).
+    Here, Ed Baker FLS looks into how the green public spaces of these institutions can
+    serve not only as places for public education and engagement, but also as vital
+    research centres for understanding biodiversity and ecology in urban environments.
+    The recent redevelopment of the gardens at the Natural History Museum's site in South Kensington
+    (Baker et al. 2025) has enabled the London-based Museum to use new technologies alongside
+    existing techniques to begin collecting datasets that can be used for generating effective urban policy.
+    In short, we aim to address the question 'how can we make urban environments better for people
+    and for nature?"
+
 - title: "Catalysts for change: Museum gardens in a planetary emergency"
   url: https://doi.org/10.1002/ppp3.70100
   pdf_url: /pubs/PPP3_70100_JQA.pdf
@@ -9,6 +30,8 @@
   journal: "Plants, People, Planet"
   topics:
     - biodiversity-technologies
+    - urban-research-station
+    - urban-nature-project
   abstract: "Natural history museums are often seen as places with indoor galleries full of dry-dusty specimens, usually of animals. But if they have gardens associated with them, museums can use living plants to create narratives that link outside spaces to inside galleries, bringing to life the challenges facing biodiversity. We describe the redevelopment of the grounds of the Natural History Museum in London to create a garden with plants at its centre to address these challenges. People are key to the future of our planet and reaching them in novel ways will be central to creating advocates for the planet. The South Kensington site of the Natural History Museum in London is framed by two hectares of grounds that have had a variety of uses since the opening of the buildings in 1881. Original plans for their development were never carried out, and most of the site was planted in amenity grassland, although a small Wildlife Garden was established in the 1990s. Redevelopment of the grounds through the Urban Nature Project has allowed using the space to create new narratives of evolution and individual action, with plants central to the design. With more than 6 million visitors a year, the Museum has a unique opportunity to use its gardens to place nature at the forefront of the visitor experience. Here, we describe the background to this redevelopment and the resultant spaces created, and highlight the opportunities for museums to develop outdoor spaces into new areas for both visitor experience and scientific research."
 
 - title: "Bioacoustic and Ecoacoustic Data in Audiovisual Core"
