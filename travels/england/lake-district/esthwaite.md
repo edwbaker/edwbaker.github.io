@@ -1,7 +1,5 @@
 # Esthwaite Water
 
-↑ [The Lake District](/travels/england/lake-district)
-
 {% include figure.html
   img="/imgs/travels/esthwaite/esthwaite-2025.JPEG"
   alt="Esthwaite Water"

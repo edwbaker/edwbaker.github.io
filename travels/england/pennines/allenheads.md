@@ -1,7 +1,5 @@
 # Allenheads
 
-↑ [The Pennines](/travels/england/pennines)
-
 ## W. G. Armstrong Engine
 
 {% include figure.html

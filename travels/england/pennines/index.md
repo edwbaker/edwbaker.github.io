@@ -1,7 +1,5 @@
 # The Pennines
 
-↑ [England](/travels/england)
-
 
 ## The Pennine Way
 

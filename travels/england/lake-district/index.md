@@ -1,7 +1,5 @@
 # The Lake District
 
-↑ [England](/travels/england)
-
 
 ## Bassenthwaite
 

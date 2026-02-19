@@ -1,10 +1,10 @@
 {%- comment -%}
-  Generates BreadcrumbList JSON-LD structured data for pages under /travels/
-  following Google's guidelines:
+  Generates visible breadcrumb navigation and BreadcrumbList JSON-LD
+  structured data for pages under /travels/.
   https://developers.google.com/search/docs/appearance/structured-data/breadcrumb
 
   Display names are looked up from _data/breadcrumb_names.yml.
-  The last item omits "item" (Google uses the containing page URL).
+  The last item omits "item" in JSON-LD (Google uses the containing page URL).
   Only outputs when there are at least 2 breadcrumb levels.
 {%- endcomment -%}
 {%- if page.url contains '/travels/' -%}
@@ -15,6 +15,24 @@
   {%- if segment != "" -%}{%- assign part_count = part_count | plus: 1 -%}{%- endif -%}
 {%- endfor -%}
 {%- if part_count >= 2 %}
+<nav aria-label="Breadcrumb" class="breadcrumbs">
+  <ol>
+    {%- assign crumb_path = "" -%}
+    {%- assign position = 0 -%}
+    {%- for segment in url_parts -%}
+      {%- if segment != "" -%}
+        {%- assign position = position | plus: 1 -%}
+        {%- assign crumb_path = crumb_path | append: "/" | append: segment -%}
+        {%- assign crumb_name = site.data.breadcrumb_names[segment] | default: segment -%}
+        {%- if position == part_count %}
+    <li aria-current="page">{{ crumb_name }}</li>
+        {%- else %}
+    <li><a href="{{ crumb_path }}">{{ crumb_name }}</a></li>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor %}
+  </ol>
+</nav>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -1,7 +1,5 @@
 # Ashgill Force
 
-↑ [The Pennines](/travels/england/pennines)
-
 ## Geology
 
 Ashgill Force falls where the South Tyne River breaks through the Scar Limestone. The limestone rests on softer shales that are more easily eroded and creates the undercut behind the waterfall (the undercut is similar to that at [Gilbert's Cave](/travels/england/pennines/bowlees)).
