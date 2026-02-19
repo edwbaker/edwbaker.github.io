@@ -1,15 +1,16 @@
+{%- assign vid_thumbnail = include.thumbnail -%}
+{%- unless vid_thumbnail -%}
+  {%- assign vid_thumbnail = include.src | replace: '.mp4', '.jpg' | replace: '.webm', '.jpg' -%}
+{%- endunless -%}
  <div class="eb-video">
-        <video width="100%" controls>
+        <video width="100%" controls poster="{{ vid_thumbnail }}" preload="none">
         <source src="{{ include.src }}" type="{{ include.type }}">
         Your browser does not support the video tag.
         </video>
 </div>
 {%- assign vid_name = include.name | default: page.title -%}
 {%- assign vid_description = include.description | default: page.description -%}
-{%- assign vid_thumbnail = include.thumbnail -%}
-{%- unless vid_thumbnail -%}
-  {%- assign vid_thumbnail = include.src | replace: '.mp4', '.jpg' | replace: '.webm', '.jpg' | prepend: site.url -%}
-{%- endunless -%}
+{%- assign vid_thumbnail_url = vid_thumbnail | prepend: site.url -%}
 {%- assign vid_upload_date = include.uploadDate | default: page.date | date_to_xmlschema -%}
 {%- assign vid_content_url = site.url | append: include.src -%}
 {%- if vid_name and vid_upload_date -%}
@@ -18,7 +19,7 @@
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": {{ vid_name | jsonify }},
-  "thumbnailUrl": {{ vid_thumbnail | jsonify }},
+  "thumbnailUrl": {{ vid_thumbnail_url | jsonify }},
   "uploadDate": {{ vid_upload_date | jsonify }},
   "contentUrl": {{ vid_content_url | jsonify }}
   {%- if vid_description %},

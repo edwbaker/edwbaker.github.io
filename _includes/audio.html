@@ -4,3 +4,25 @@
         Your browser does not support the audio element.
     </audio>
 </div>
+{%- assign audio_name = include.name | default: page.title -%}
+{%- assign audio_description = include.description | default: page.description -%}
+{%- assign audio_content_url = site.url | append: include.src -%}
+{%- assign audio_upload_date = include.uploadDate | default: page.date | date_to_xmlschema -%}
+{%- if audio_name and audio_upload_date -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AudioObject",
+  "name": {{ audio_name | jsonify }},
+  "contentUrl": {{ audio_content_url | jsonify }},
+  "encodingFormat": {{ include.type | jsonify }},
+  "uploadDate": {{ audio_upload_date | jsonify }}
+  {%- if audio_description %},
+  "description": {{ audio_description | jsonify }}
+  {%- endif %}
+  {%- if include.duration %},
+  "duration": {{ include.duration | jsonify }}
+  {%- endif %}
+}
+</script>
+{%- endif -%}

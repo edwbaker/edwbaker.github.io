@@ -1,8 +1,8 @@
 <figure class="image">
     <a href="{{ include.img }}" class="image-link" title="{{ include.description }}" target="_blank">
-        <img src="{{ include.img }}" alt="{{ include.description }}">
+        <img src="{{ include.img }}" alt="{{ include.description }}" loading="lazy">
     </a>
-    {% if include.caption And include.caption != "" And include.caption != nil %}
+    {% if include.caption and include.caption != "" and include.caption != nil %}
     <figcaption>{{ include.caption }}</figcaption>
     {% endif %}
 </figure>

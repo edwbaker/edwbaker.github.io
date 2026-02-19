@@ -1,3 +1,9 @@
+---
+title: "Bioacoustics at NHM / The River"
+talk_date: "04/10/2024"
+description: "NHM"
+---
+
 # Soundings: A Celebration of The River by Jana Winderen
 
 <img src="/imgs/river-banner.jpg" alt="FlyTunes banner" width="100%" height="435" />

@@ -1,3 +1,9 @@
+---
+title: "Urban Nature Network: Bioacoustics and Ecoacoustics"
+talk_date: "15/05/2025"
+description: "Urban Nature Network training event"
+---
+
 # Urban Nature Network: Bioacoustics and Ecoacoustics (October 2025)
 
 [Slides](/talks/2025-UrbanNatureNetwork.pptx)

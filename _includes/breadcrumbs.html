@@ -125,15 +125,7 @@
 
 {%- comment -%}--- TALKS BREADCRUMBS ---{%- endcomment -%}
 {%- elsif page.url contains '/talks/' and page.url != '/talks/' -%}
-{%- assign talk_clean_url = page.url | replace: '.html', '' | replace: '/index.html', '' -%}
-{%- assign talk_entry = nil -%}
-{%- for t in site.data.talks -%}
-  {%- if t.url == talk_clean_url -%}
-    {%- assign talk_entry = t -%}
-    {%- break -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- assign talk_title = talk_entry.title | default: page.title | default: page.url | split: '/' | last -%}
+{%- assign talk_title = page.title | default: page.url | split: '/' | last -%}
 <nav aria-label="Breadcrumb" class="breadcrumbs">
   <ol>
     <li><a href="/talks">Talks</a></li>
@@ -183,6 +175,35 @@
       "@type": "ListItem",
       "position": 2,
       "name": "{{ page.tag }}"
+    }
+  ]
+}
+</script>
+
+{%- comment -%}--- VIDEOS BREADCRUMBS ---{%- endcomment -%}
+{%- elsif page.url contains '/videos/' and page.url != '/videos/' -%}
+{%- assign vid_title = page.title | default: page.url | split: '/' | last | replace: '.html', '' -%}
+<nav aria-label="Breadcrumb" class="breadcrumbs">
+  <ol>
+    <li><a href="/videos">Videos</a></li>
+    <li aria-current="page">{{ vid_title }}</li>
+  </ol>
+</nav>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Videos",
+      "item": "{{ site.url }}/videos"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ vid_title }}"
     }
   ]
 }
