@@ -37,6 +37,15 @@ jobs:
           bundler-cache: true
       - name: Install dependencies
         run: bundle install
+      - name: Generate video thumbnails
+        run: |
+          for video in videos/*.mp4; do
+            [ -f "$video" ] || continue
+            thumb="${video%.mp4}.jpg"
+            if [ ! -f "$thumb" ]; then
+              ffmpeg -i "$video" -ss 00:00:01 -vframes 1 -q:v 2 "$thumb" -y 2>/dev/null || true
+            fi
+          done
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

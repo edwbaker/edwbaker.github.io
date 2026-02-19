@@ -4,3 +4,29 @@
         Your browser does not support the video tag.
         </video>
 </div>
+{%- assign vid_name = include.name | default: page.title -%}
+{%- assign vid_description = include.description | default: page.description -%}
+{%- assign vid_thumbnail = include.thumbnail -%}
+{%- unless vid_thumbnail -%}
+  {%- assign vid_thumbnail = include.src | replace: '.mp4', '.jpg' | replace: '.webm', '.jpg' | prepend: site.url -%}
+{%- endunless -%}
+{%- assign vid_upload_date = include.uploadDate | default: page.date | date_to_xmlschema -%}
+{%- assign vid_content_url = site.url | append: include.src -%}
+{%- if vid_name and vid_upload_date -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": {{ vid_name | jsonify }},
+  "thumbnailUrl": {{ vid_thumbnail | jsonify }},
+  "uploadDate": {{ vid_upload_date | jsonify }},
+  "contentUrl": {{ vid_content_url | jsonify }}
+  {%- if vid_description %},
+  "description": {{ vid_description | jsonify }}
+  {%- endif %}
+  {%- if include.duration %},
+  "duration": {{ include.duration | jsonify }}
+  {%- endif %}
+}
+</script>
+{%- endif -%}
