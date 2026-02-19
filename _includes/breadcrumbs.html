@@ -1,13 +1,61 @@
 {%- comment -%}
   Generates visible breadcrumb navigation and BreadcrumbList JSON-LD
-  structured data for pages under /travels/.
+  structured data for:
+    - Pages under /travels/ (path-based breadcrumbs)
+    - Blog posts (Blog > Year > Month > Post title)
   https://developers.google.com/search/docs/appearance/structured-data/breadcrumb
 
-  Display names are looked up from _data/breadcrumb_names.yml.
+  Display names are looked up from _data/breadcrumb_names.yml (travels).
   The last item omits "item" in JSON-LD (Google uses the containing page URL).
-  Only outputs when there are at least 2 breadcrumb levels.
 {%- endcomment -%}
-{%- if page.url contains '/travels/' -%}
+
+{%- comment -%}--- BLOG POST BREADCRUMBS ---{%- endcomment -%}
+{%- if page.layout == "post" and page.date -%}
+{%- assign post_year = page.date | date: "%Y" -%}
+{%- assign post_month_num = page.date | date: "%m" -%}
+{%- assign post_month_name = page.date | date: "%B" -%}
+<nav aria-label="Breadcrumb" class="breadcrumbs">
+  <ol>
+    <li><a href="/all_posts">Blog</a></li>
+    <li><a href="/{{ post_year }}/">{{ post_year }}</a></li>
+    <li><a href="/{{ post_year }}/{{ post_month_num }}/">{{ post_month_name }}</a></li>
+    <li aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Blog",
+      "item": "{{ site.url }}/all_posts"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ post_year }}",
+      "item": "{{ site.url }}/{{ post_year }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ post_month_name }}",
+      "item": "{{ site.url }}/{{ post_year }}/{{ post_month_num }}/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "{{ page.title }}"
+    }
+  ]
+}
+</script>
+
+{%- comment -%}--- TRAVELS BREADCRUMBS ---{%- endcomment -%}
+{%- elsif page.url contains '/travels/' -%}
 {%- assign clean_url = page.url | replace: '/index.html', '' | replace: '.html', '' -%}
 {%- assign url_parts = clean_url | split: '/' -%}
 {%- assign part_count = 0 -%}
