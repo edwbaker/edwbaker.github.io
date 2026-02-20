@@ -2,6 +2,7 @@
 layout: post
 title: "Sheep in the NHM Gardens"
 date: 2026-02-11
+description: "Sheep grazing in the NHM Gardens captured at night by sensor network cameras."
 tags: ["NHM Urban Research Station", "wildlife", "sensor networks"]
 ---
 

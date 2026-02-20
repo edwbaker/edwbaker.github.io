@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "NHM Gardens BioBlitz 28/07/2025"
+description: "Family-friendly BioBlitz event at the Natural History Museum Gardens on 28 July 2025."
 tags: ["NHM Urban Research Station", "BioBlitz"]
 ---
 

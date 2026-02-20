@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Noticing Nature: Mindfulness and Science Tour and Talk "
+description: "Mindfulness and science garden tour at the Natural History Museum with Camille Lesforis and Ed Baker."
 tags: ["NHM Urban Research Station"]
 ---
 

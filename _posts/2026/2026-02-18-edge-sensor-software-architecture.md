@@ -2,6 +2,7 @@
 layout: post
 title: "Why Environmental Monitoring on Edge Devices Needs a Better Software Architecture"
 date: 2026-02-18
+description: "A better software architecture for autonomous environmental monitoring on Raspberry Pi edge devices."
 tags: ["sensor networks", "Raspberry Pi"]
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Introductory bioacoustics course"
+description: "Three-hour introductory bioacoustics session at the Natural History Museum on 15 October."
 tags: [ "bioacoustics", "training" ]
 ---
 

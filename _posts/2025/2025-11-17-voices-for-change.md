@@ -2,6 +2,7 @@
 layout: post
 title: "Voices for Change: A Night of Climate Action"
 date: 2025-11-17
+description: "Voices for Change: A Night of Climate Action at the Natural History Museum during COP30."
 tags: ["events", "natural history museum", "urban biodiversity", "NHM Urban Research Station"]
 ---
 

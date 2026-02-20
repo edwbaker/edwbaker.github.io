@@ -84,7 +84,7 @@ MSc Ecology and Urban Engineering (University College London)
 
 Urban Nature Network 
 
-- [Bioacoustics and Ecoacoustics](/talks/2025-UrbanNatureNetwork/)
+- [Bioacoustics and Ecoacoustics](/talks/2025-UrbanNatureNetwork)
 
 ## Travels
 

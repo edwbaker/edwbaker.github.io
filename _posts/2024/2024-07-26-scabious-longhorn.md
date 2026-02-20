@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Finding <i>Nemophora metallica</i> on the chalk hill"
+description: "Finding the Scabious Longhorn Moth (Nemophora metallica) on the chalk hill in the NHM Gardens."
 tags: ["NHM Urban Research Station", "wildlife"]
 ---
 

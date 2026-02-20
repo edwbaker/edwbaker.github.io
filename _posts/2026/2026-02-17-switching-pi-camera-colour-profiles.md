@@ -2,6 +2,7 @@
 layout: post
 title: "Switching Pi NoIR Camera Profiles at Runtime"
 date: 2026-02-17
+description: "Switching Raspberry Pi NoIR camera colour tuning between day and night modes at runtime."
 tags: ["Raspberry Pi", "sensor networks"]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Urban Nature Project Wins Gold at Wood Awards"
 date: 2025-12-03
+description: "The Urban Nature Project wins Gold in the Education and Public Sector category at the Wood Awards."
 tags: ["urban nature project", "sustainable-design"]
 ---
 

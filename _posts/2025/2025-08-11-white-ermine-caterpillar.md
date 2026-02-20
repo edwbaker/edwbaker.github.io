@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "White Ermine Caterpillar"
+description: "White Ermine caterpillar (Spilosoma lubricipeda) at Rodden Nature Reserve, Frome."
 tags: ["urban biodiversity"]
 ---
 

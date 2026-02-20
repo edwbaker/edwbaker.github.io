@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "New Audiovisual Core comment period"
+description: "Public comment period for a new TDWG Audiovisual Core class supporting the Darwin Core Data Package."
 tags: ["tdwg", "audiovisualcore"]
 ---
 

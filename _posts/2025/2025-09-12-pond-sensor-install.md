@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Pond sensor install"
+description: "Installing a new sensor at the Natural History Museum Gardens pond."
 tags: [ "NHM Urban Research Station", "sensor networks"]
 ---
 

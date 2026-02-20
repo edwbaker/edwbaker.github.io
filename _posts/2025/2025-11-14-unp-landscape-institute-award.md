@@ -2,6 +2,7 @@
 layout: post
 title: "Urban Nature Project Wins Landscape Institute Award"
 date: 2025-11-14
+description: "The Urban Nature Project wins the Landscape Institute's 2025 Excellence in Landscape Design award."
 tags: ["urban nature project", "landscape design"]
 ---
 

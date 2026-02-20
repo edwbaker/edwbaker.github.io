@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Andy Goldsworthy: 50 Years"
+description: "Retrospective exhibition celebrating 50 years of Andy Goldsworthy's work at the National Galleries of Scotland."
 tags: [ "art", "nature", "edinburgh", "national galleries of scotland"]
 ---
 

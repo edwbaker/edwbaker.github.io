@@ -2,6 +2,7 @@
 layout: post
 title: "TDWG Audiovisual Core: Image Quality and AI"
 date: 2026-01-30
+description: "New TDWG task group to extend Audiovisual Core with terms for media quality and AI-readiness."
 tags: ["tdwg", "audiovisual-core", "artificial-intelligence", "data-standards"]
 ---
 

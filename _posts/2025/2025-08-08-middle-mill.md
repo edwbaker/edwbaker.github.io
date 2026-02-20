@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Middle Mill on the River Lym"
+description: "Middle Mill on the River Lym."
 tags: ["River Lym"]
 ---
 

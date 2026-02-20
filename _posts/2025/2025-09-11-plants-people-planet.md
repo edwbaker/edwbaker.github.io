@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Catalysts for change: Museum gardens in a planetary emergency"
+description: "First paper on the new NHM gardens published in Plants, People, Planet."
 tags: [ "NHM Urban Research Station", "publications"]
 ---
 

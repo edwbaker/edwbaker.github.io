@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Pomegranate"
+description: "Pomegranate fruit growing in the Natural History Museum garden team compound."
 tags: ["NHM Urban Research Station", "wildlife"]
 ---
 

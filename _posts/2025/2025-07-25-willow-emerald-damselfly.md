@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Willow Emerald Damselfly"
+description: "Willow Emerald Damselfly recorded in the Natural History Museum Gardens."
 tags: ["NHM Urban Research Station", "wildlife"]
 ---
 

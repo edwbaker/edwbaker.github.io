@@ -2,6 +2,7 @@
 layout: post
 title: "Support for the DS1821 Thermometer on Raspberry Pi"
 date: 2026-02-16
+description: "How to read the Dallas DS1821 thermometer on a Raspberry Pi using 1-Wire."
 tags: ["Raspberry Pi", "sensor networks", "DS1821"]
 ---
 

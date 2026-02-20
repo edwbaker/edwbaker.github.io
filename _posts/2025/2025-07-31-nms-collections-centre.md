@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "National Museum of Scotland Collections Centre Biodiversity Development Area"
+description: "The National Museum of Scotland Collections Centre Biodiversity Development Area."
 tags: ["urban biodiversity"]
 ---
 

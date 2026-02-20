@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "South Kensington Green Trail"
+description: "Pop-up green installations on Exhibition Road outside the Natural History Museum, Science Museum and Imperial College."
 tags: ["NHM Urban Research Station"]
 ---
 

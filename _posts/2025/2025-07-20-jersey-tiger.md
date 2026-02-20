@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Jersey Tiger Moth"
+description: "Jersey Tiger moth spotted in the Natural History Museum Gardens."
 tags: ["NHM Urban Research Station", "wildlife"]
 ---
 
