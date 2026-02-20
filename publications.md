@@ -26,28 +26,21 @@ description: Complete list of publications by Ed Baker
   {%- if pub.authors %},
   "author": [
     {%- assign pub_authors = pub.authors | split: ", " -%}
-    {%- assign i = 0 -%}
-    {%- while i < pub_authors.size -%}
-      {%- assign surname = pub_authors[i] -%}
-      {%- assign given_idx = i | plus: 1 -%}
-      {%- if given_idx < pub_authors.size -%}
-        {%- assign given = pub_authors[given_idx] -%}
-        {%- assign next_idx = given_idx | plus: 1 -%}
-        {%- if given contains "." -%}
+    {%- assign last_index = pub_authors.size | minus: 1 -%}
+    {%- for i in (0..last_index) -%}
+      {%- if i | modulo: 2 == 0 -%}
+        {%- assign surname = pub_authors[i] -%}
+        {%- assign given_idx = i | plus: 1 -%}
+        {%- if given_idx <= last_index -%}
+          {%- assign given = pub_authors[given_idx] -%}
           {%- if i > 0 %},{% endif %}
     {"@type": "Person", "familyName": {{ surname | jsonify }}, "givenName": {{ given | jsonify }}}
-          {%- assign i = next_idx -%}
         {%- else -%}
           {%- if i > 0 %},{% endif %}
     {"@type": "Person", "name": {{ surname | jsonify }}}
-          {%- assign i = given_idx -%}
         {%- endif -%}
-      {%- else -%}
-        {%- if i > 0 %},{% endif %}
-    {"@type": "Person", "name": {{ surname | jsonify }}}
-        {%- assign i = i | plus: 1 -%}
       {%- endif -%}
-    {%- endwhile -%}
+    {%- endfor -%}
   ]
   {%- endif %}
   {%- if pub.year %},
