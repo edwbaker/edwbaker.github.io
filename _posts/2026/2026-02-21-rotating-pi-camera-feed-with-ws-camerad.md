@@ -6,8 +6,6 @@ description: "How to use ws-camerad and v4l2loopback to rotate a Raspberry Pi ca
 tags: ["Raspberry Pi", "sensor networks", "ws-camerad"]
 ---
 
-# How to Rotate a Camera Feed 90 Degrees Using a Virtual Camera on Raspberry Pi
-
 If you have mounted a camera sideways — on a doorframe, along a corridor, or inside a narrow enclosure — every application that reads the feed receives a landscape image where you need a portrait one. You could rotate the image in each consumer application individually, but that approach scales poorly when multiple processes need the same corrected feed, and some consumers (e.g. web browsers) offer no rotation controls at all.
 
 This guide walks through using ws-camerad with the `v4l2loopback` kernel module to rotate the feed once at the source and present the corrected output as a standard V4L2 device. The end result is a virtual camera at `/dev/video10` (or any device number you choose) that any application — OpenCV, FFmpeg, OBS, a browser — can open and read as if it were a physical camera, receiving pre-rotated frames with no additional work.

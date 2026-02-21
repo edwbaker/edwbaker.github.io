@@ -6,11 +6,15 @@
 
 ## General abstraction
 
-[pi-data](https://github.com/Wildlife-Systems/pi-data): General abstraction layer for Raspberry Pi data.
+[pi-data](https://github.com/Wildlife-Systems/pi-data): General abstraction layer for Raspberry Pi data
 
 ## Install and control sound devices
 
 [sound-device-control](https://github.com/Wildlife-Systems/sound-device-control): Install and control sound devices on Raspberry Pi.
+
+## Camera daemon
+
+[ws-camerad](/notes/ws-camerad): Camera daemon for Raspberry Pi with frame rotation and virtual camera output via v4l2loopback.
 
 ## Install and control sensors
 

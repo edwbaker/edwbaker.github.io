@@ -6,8 +6,6 @@ description: "A better software architecture for autonomous environmental monito
 tags: ["sensor networks", "Raspberry Pi"]
 ---
 
-# Why Environmental Monitoring on Edge Devices Needs a Better Software Architecture
-
 ## The Problem
 
 Autonomous environmental monitoring — deploying sensor nodes in the field to collect temperature, humidity, air quality, and other measurements over extended periods — is increasingly important for ecological research [1]. Raspberry Pi single-board computers have become a popular platform for this work, with applications ranging from autonomous acoustic ecosystem monitoring to remote bird observation and precision agriculture [2][3]: they are inexpensive, widely available, and run a full Linux operating system [4].

@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Switching Pi NoIR Camera Profiles at Runtime"
+title: "Switching Pi NoIR Camera Profiles at Runtime — Without Restarting Anything"
 date: 2026-02-17
 description: "Switching Raspberry Pi NoIR camera colour tuning between day and night modes at runtime."
-tags: ["Raspberry Pi", "sensor networks"]
+tags: ["Raspberry Pi", "sensor networks", "ws-camerad"]
 ---
-
-# Switching Pi NoIR Camera Profiles at Runtime — Without Restarting Anything
 
 If you've deployed a Raspberry Pi NoIR camera for outdoor monitoring, you've probably hit this problem: the NoIR module needs different colour tuning for day and night, but switching the tuning file means restarting the camera process. Every application reading from the camera (your OpenCV pipeline, recording service, streaming server) loses its connection and has to be restarted too.
 
