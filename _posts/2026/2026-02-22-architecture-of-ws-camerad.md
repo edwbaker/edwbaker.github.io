@@ -6,8 +6,6 @@ description: "A detailed look at the internal architecture of ws-camerad, a mult
 tags: ["Raspberry Pi", "sensor networks", "ws-camerad"]
 ---
 
-# Architecture of ws-camerad: A Multi-Consumer Camera Daemon for Raspberry Pi
-
 On Linux-based systems, a single process holds exclusive access to a camera device at any given time. This constraint presents a fundamental problem for systems in which multiple consumers — motion detectors, machine learning classifiers, video archivers, human operators — require concurrent access to the same frame data. ws-camerad addresses this by operating as a long-running daemon that acquires the camera once and distributes frames to an arbitrary number of consumers through several independent transport mechanisms.
 
 This post provides a detailed technical account of the daemon's internal architecture: how frames move from the image sensor through the processing pipeline to each consumer endpoint, and the implementation decisions that govern each stage.
