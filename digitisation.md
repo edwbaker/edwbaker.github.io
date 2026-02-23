@@ -1,5 +1,7 @@
 # Sound collection digitisation
 
+- [Tape collection digitisation](https://🦗.fm/tape.htm) - on 🦗.fm
+
 I have a collection of machinery for digitising obsolete formats of audio collections.
 
 ## CD - not quite obsolete but getting there

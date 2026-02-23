@@ -12,7 +12,7 @@ I am the Acoustic Biology Researcher at the [Natural History Museum, London](htt
 
 {% include audio.html src="/sounds/h_raggei.wav" type="audio/wav" %}
 
-Calling song of _Horatosphaga raggei_ (Heller & Baker, 2017) a new species first identified from its song.
+Calling song of [_Horatosphaga raggei_](https://🦗.fm/hr.htm) (Heller & Baker, 2017) a new species first identified from its song.
 
 ## Current projects
 

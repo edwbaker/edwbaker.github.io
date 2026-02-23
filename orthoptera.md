@@ -17,3 +17,5 @@ Orthoptera (grasshoppers, crickets, and katydids) are one of the most acoustical
 ## External Resources
 
 - [BioAcoustica](https://bio.acousti.ca) - Sound recordings of Orthoptera and other insects
+
+- [Laser Scans of Acoustic Burrows](https://🦗.fm/laser.htm) - on 🦗.fm

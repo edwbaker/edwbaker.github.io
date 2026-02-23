@@ -43,5 +43,7 @@ Zeuner FE (1939) Fossil Orthoptera, Ensifera
 
 ## Research work
 
+- [Reviving the sound of a 150-year-old insect](https://🦗.fm/index.htm) - on 🦗.fm
+
 - [Reviving the sound of a 150-year-old insect: The bioacoustics of _Prophalangopsis obscura_ (Ensifera: Hagloidea)](https://doi.org/10.1371/journal.pone.0270498)  
   Determining the acoustic ecology of extinct or rare species is challenging due to the inability to record their acoustic signals or hearing thresholds. Katydids and their relatives (Orthoptera: Ensifera) offer a model for inferring acoustic ecology of extinct and rare species, due to allometric parameters of their sound production organs. Here, the bioacoustics of the orthopteran Prophalangopsis obscura are investigated. This species is one of only eight remaining members of an ancient family with over 90 extinct species that dominated the acoustic landscape of the Jurassic. The species is known from only a single confirmed specimen–the 150-year-old holotype material housed at the London Natural History Museum. Using Laser-Doppler Vibrometry, 3D surface scanning microscopy, and known scaling relationships, it is shown that P. obscura produces a pure-tone song at a frequency of ~4.7 kHz. This frequency range is distinct but comparable to the calls of Jurassic relatives, suggesting a limitation of early acoustic signals in insects to sonic frequencies (<20 kHz). The acoustic ecology and importance of this species in understanding ensiferan evolution, is discussed.
