@@ -4,14 +4,10 @@ module Jekyll
     priority :lowest
 
     def generate(site)
-      pages_to_redirect = site.posts.docs + site.pages
+      site.posts.docs.each do |post|
+        url = post.url
 
-      pages_to_redirect.each do |page|
-        url = page.url
-
-        # If the page already ends with .html, skip
         next if url.end_with?('.html')
-        # Skip pages with no meaningful path
         next if url == '/'
 
         html_url = "#{url}.html"
