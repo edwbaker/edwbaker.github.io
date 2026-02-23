@@ -118,6 +118,16 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      // Redirect .html URLs to clean URLs
+      (function() {
+        var path = window.location.pathname;
+        if (path.endsWith('.html') && path !== '/404.html') {
+          var clean = path.slice(0, -5);
+          window.location.replace(clean + window.location.search + window.location.hash);
+        }
+      })();
+    </script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
