@@ -1,6 +1,9 @@
 ---
 title: "Underground"
 description: "Speculative human-computer interaction for a digital twin of the NHM Gardens."
+video:
+  src: /videos/underground.mp4
+  thumbnail: /videos/underground.jpg
 ---
 
 # Underground
