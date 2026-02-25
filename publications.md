@@ -28,7 +28,8 @@ description: Complete list of publications by Ed Baker
     {%- assign pub_authors = pub.authors | split: ", " -%}
     {%- assign last_index = pub_authors.size | minus: 1 -%}
     {%- for i in (0..last_index) -%}
-      {%- if i | modulo: 2 == 0 -%}
+      {%- assign mod_check = i | modulo: 2 -%}
+      {%- if mod_check == 0 -%}
         {%- assign surname = pub_authors[i] -%}
         {%- assign given_idx = i | plus: 1 -%}
         {%- if given_idx <= last_index -%}

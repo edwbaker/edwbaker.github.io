@@ -12,6 +12,12 @@ module Jekyll
 
         html_url = "#{url}.html"
 
+        # Skip if the post's own destination already lives at this .html path.
+        # Jekyll writes posts to <url>.html (or <url>/index.html) so creating
+        # a redirect page at the same path causes a conflict warning.
+        dest = post.destination(site.dest)
+        next if dest.end_with?("#{url}.html") || dest.end_with?("#{url}/index.html")
+
         site.pages << RedirectPage.new(site, site.source, html_url, url)
       end
     end
