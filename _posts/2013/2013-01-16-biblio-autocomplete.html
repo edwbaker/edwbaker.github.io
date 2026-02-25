@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Biblio autocomplete"
+date: 2013-01-16 15:48:00
+source: pblog
+tags: ["drupal 6", "drupal 7", "drupal-planet", "drupal", "autocomplete", "biblio"]
+redirect_from:
+  - "/2012/07/biblio-autocomplete.html"
+---
+
+A new Drupal module: <a href="http://drupal.org/project/biblio_autocomplete">Biblio autocomplete</a>.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;"><a href="http://drupal.org/files/project-images/biblio_autocomplete_chilean.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="376" src="http://drupal.org/files/project-images/biblio_autocomplete_chilean.jpg" width="640" /></a></div><br />
+<br />
+Previsoulsy as part of <a href="http://e-monocot.org/">eMonocot</a> we started to <a href="http://e-monocot.org/using-ipni-autocomplete-publication-names">use the IPNI webservice to autocomplete some fields in the Biblio content type</a>. As one of the <a href="http://e-monocot.org/objectives">eMonocot objectives</a> is to "Ensure that the tools developed are compliant with zoological nomenclature" I have extended this functionality to use the <a href="http://zoobank.org/">ZooBank</a> API which is currently in a testing phase. In addition values for the autocomplete suggestions can be made from values previous entered in other Biblio nodes.<br />
+<br />
+Instead of having either previsously entered values, IPNI or ZooBank attempt to autocomplete the field this module has been developed to allow any combination of these plugins to attempt the autocompletion. This will have uses in cases like the recent <a href="http://lymeregis.e-monocot.org/">Lyme Regis Geo-BioBlitz</a> where a single classification spand both animal and plant kingdoms (in this case the <a href="http://lymeregis.e-monocot.org/taxonomy/term/13">Dictioanry of UK Species</a>).<br />
+<br />
+The module is designed so that additional plugin modules can easily contribute results for other webservices.<br />
+<br />
+This work was done as part of <a href="http://e-monocot.org/" rel="nofollow"> eMonocot</a> as a contribution to the <a href="http://scratchpads.eu/" rel="nofollow">Scratchpads</a> project.

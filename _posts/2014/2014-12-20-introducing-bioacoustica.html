@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Introducing BioAcoustica"
+date: 2014-12-20 14:25:00
+source: pblog
+tags: ["bioacoustica", "wildlife sound database", "bioacoustics"]
+redirect_from:
+  - "/2014/12/introducing-bioacoustica.html"
+---
+
+In a recent blog post I explained some of the work that had been done on the <a href="http://pblog.ebaker.me.uk/2014/11/wildlife-sound-database.html">Wildlife Sound Database</a>. That project has now been developed further to include annotations of audio samples and integrated analysis functions. Given the expansion of the project it has also been renamed <a href="http://bio.acousti.ca/">BioAcoustica</a>.<br />
+<br />
+Recordings of wildlife sound often include sections of spoken introductory metadata detailing where and when the recording was made, the identification of the species being recorded, etc. They often also containing sections of extraneous noise, such as passing cars, mechanical noise caused by the recording equipment, etc. These sections of the recording should be ignored by any analyses performed on the recording.<br />
+<br />
+The aim of the annotation function of BioAcoustica is to allow the usable sections of audio to be clearly marked as in the waveform below.<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="/imgs/blogger/c41fc38f_Screenshot_2014-12-12_15.30.16.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="/imgs/blogger/c41fc38f_Screenshot_2014-12-12_15.30.16.png" height="62" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Call of the cicada <i>Platypleura haglundi</i> annotated to show regions of voice introduction (blue), extraneous noise (red) and the call of the cicada (green, two overlapping regions). (Source: http://bio.acousti.ca/node/11778)</td></tr>
+</tbody></table>
+<br />
+By default BioAcoustica will perform a set of standard analyses on regions annotated as being calls of the organism.<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="/imgs/blogger/ecd8eac2_spectro.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="/imgs/blogger/ecd8eac2_spectro.png" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Spectrogram from the short section of the call of <i>Platypleura haglundi</i> from the above annotation example.</td></tr>
+</tbody></table>
+<br />
+<br />
+Analysis makes use of infrastructure provided by the EU funded BioVeL (Biodiversity Virtual e-Laboratory) project. Requests for analysis are sent to the BioVeL portal which manages the queuing and execution of analysis tasks.<br />
+<br />
+One of the aims of BioAcoustica is to provide an annotated dataset that allows for usable sections of calls to be instantly available to researchers working on bioacoustics, automated identification, or any other project. For this reason we are currently working on a R package that will allow for the querying of annotations, download of the files, and extraction of relevant regions for use in your own analyses. We will also document the API we are using so it can expanded to other analysis and development environments.

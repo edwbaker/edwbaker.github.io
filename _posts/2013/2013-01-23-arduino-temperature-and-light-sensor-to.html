@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Arduino: temperature and light sensor to Twitter"
+date: 2013-01-23 18:17:00
+source: pblog
+tags: ["Arduino"]
+redirect_from:
+  - "/2013/01/arduino-temperature-and-light-sensor-to.html"
+---
+
+Some thoughts after playing around with the <a href="http://arduino.cc/">Arduino</a> micro-controller: <br />
+<br />
+At the moment this device just sends data about the state of <a href="http://twitter.com/BI_Office">our office</a> to Twitter (mainly because it's just slightly more relevant than sending the same information about my house). It does however have potential relevance to more biodiversity themed activities, particularly if combined with long range WiFi technologies (which I have written about before: <a href="http://www.communityknowledgetransfer.org.uk/blog/installing-remote-wifi-jurassic-coast">Installing remote WiFi on the Jurassic Coast</a>). Data collected from a similar device used in conjunction with a <a href="http://en.wikipedia.org/wiki/Malaise_trap">malaise trap</a> might start to give clues about the behaviour of the things you collect, to give one example.<br />
+<br />
+The device shown below omits the Arduino <a href="http://arduino.cc/en/Main/ArduinoEthernetShield">Ethernet shield</a> which is used to attach the device to the internet. The prototyping board used in the actual device is, for reasons of practicality, an Arduino prototyping shield attached on top of the Ethernet shield.<br />
+<br />
+<h3>
+The Device (Schematic)</h3>
+(The schematic was created using <a href="http://fritzing.org/">Fritzing</a>.)<br />
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="/imgs/blogger/50d87774_temp_amp_light_png.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="640" src="/imgs/blogger/b8ece8be_temp_amp_light_png.png" width="640" /></a></div>
+<br />
+The temperature is measured using an LM35 temperature sensor, and the light measured (imprecisely) using a photoresistor (which we could have calibrated but we just use to detect whether the light is on or off).<br />
+<br />
+<h3>
+Arduino code </h3>
+<br />
+<br />
+<script src="https://gist.github.com/4611148.js"></script>
+
+So it might not be the most useful thing at present, but a ruggedised, battery powered, weatherproof version could have a huge number of potential uses for biodiversity sciences, particularly if combined with other sensors (e.g. a humidity sensor). In addition to the tweeting version (which allows for remote data collection) the Ethernet shield also has a micro SD card reader, allowing for storage of data offline for collection at a later date.

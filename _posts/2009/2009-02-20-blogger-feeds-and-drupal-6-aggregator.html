@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Blogger feeds and Drupal 6 Aggregator Issue"
+date: 2009-02-20 10:22:00
+source: pblog
+tags: ["drupal 6", "same link", "same post", "drupal", "aggregator", "same page"]
+redirect_from:
+  - "/2009/02/blogger-feeds-and-drupal-6-aggregator.html"
+---
+
+If you want to import Blogger feeds using the Drupal 6 Aggregator (core module) then you must use the RSS feed (just add "/feeds/posts/default?alt=rss" to the end of your blog's URL). If you don't then the aggregator will list posts correctly, but the links will all be to the same post.

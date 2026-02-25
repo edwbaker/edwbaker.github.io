@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Emptying the trash in Ubuntu"
+date: 2009-04-13 12:24:00
+source: pblog
+tags: ["permission", "deleted items", "ubuntu", "trash"]
+redirect_from:
+  - "/2009/04/emptying-trash-in-ubuntu.html"
+---
+
+A friend asked me how to remove files from the Trash (= 'Deleted Items' or 'Recycling Bin') folder on Ubuntu that they did not have permission to delete.<br /><br />This is trivial task if you know where the Trash is stored, for Ubuntu 8.04 or later just enter this at the terminal:<br /><br />sudo rm -rf ~/.local/share/Trash/ *

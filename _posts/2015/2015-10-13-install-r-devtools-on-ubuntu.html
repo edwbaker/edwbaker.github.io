@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Install R devtools on Ubuntu"
+date: 2015-10-13 12:12:00
+source: pblog
+tags: ["bioacoustica", "R", "github"]
+redirect_from:
+  - "/2015/10/install-r-devtools-on-ubuntu.html"
+---
+
+The <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">devtools</span> package for R allows, amongst other things, for R packages to be downloaded from GitHub: <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">install_github()</span>.<br />
+<br />
+As part of the <a href="http://bio.acousti.ca/">BioAcoustica</a> project an R package to access the BioAcoustica dataset, <a href="https://github.com/BioAcoustica/bioacousticaR">BioAcousticaR</a>, is in development with the code hosted on GitHub.<br />
+<br />
+To install <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">devtools</span> on Ubuntu first requires the <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">libssl-dev</span> package to be installed from the command line:<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;"><br />
+sudo apt-get install libssl-dev
+</span><br />
+<br />
+Then the <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">devtools</span> package can be installed in R as usual:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">install.packages("devtools") </span>

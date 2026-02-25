@@ -1,0 +1,11 @@
+---
+layout: post
+title: "AudioMoth metadata in R"
+date: 2021-05-03 16:00:00
+source: pblog
+tags: ["R", "bioacoustics", "sonicscrewdriver", "audiomoth"]
+redirect_from:
+  - "/2021/05/audiomoth-metadata-in-r.html"
+---
+
+<p>&nbsp;The latest release (0.0.4) of <a href="https://github.com/edwbaker/SonicScrewdriveR" target="_blank">SonicScrewdriveR</a>&nbsp;is now on <a href="https://cran.r-project.org/web/packages/sonicscrewdriver/index.html" target="_blank">CRAN </a>and includes two new functions for reading metadata from <a href="https://www.openacousticdevices.info/audiomoth" target="_blank">AudioMoth </a>devices.&nbsp;</p><p><span style="font-family: courier;">audiomoth_config()</span> parses the CONFIG.TXT written to the microSD card during device operation.</p><p><span style="font-family: courier;">audiomoth_wave()</span> parses the metadata written in the Comments field of the wave file metadata. This allows easy access to time, date, temperature (if supported by firmware) and other metadata as an R list.</p><p>Please raise GitHub requests with any issues (or even requests).</p>

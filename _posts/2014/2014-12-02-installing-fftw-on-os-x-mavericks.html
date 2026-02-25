@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Installing fftw on OS X Yosemite"
+date: 2014-12-02 12:22:00
+source: pblog
+tags: ["fftw", "Mac OS X"]
+redirect_from:
+  - "/2014/12/installing-fftw-on-os-x-mavericks.html"
+---
+
+<a href="http://www.fftw.org/">FFTW</a> is a C library for Discrete Fourier Transforms. The following instructions allow you to install the library on Mac OS X Mavericks. All commands are run from Terminal.<br />
+<br />
+First of all ensure the xCode Command Line Tools are installed:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">xcode-select --install </span><br />
+<br />
+Download the <a href="http://www.fftw.org/download.html">fftw source</a> and change to its directory.<br />
+<br />
+Configure, make and install the library (no need to use <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">sudo</span>).&nbsp; In this example we enable both floating point and threads.<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">./configure --enable-float --enable-threads</span><br />
+<br />
+(If this gives an error that the 'compiler cannot create executables' you will likely need to <a href="http://pblog.ebaker.me.uk/2014/12/mac-os-x-compiler-cannot-create.html">accept Apple's terms and conditions for xCode</a>)<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">make</span><br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">make install</span><br />
+&nbsp; <br />
+<br />

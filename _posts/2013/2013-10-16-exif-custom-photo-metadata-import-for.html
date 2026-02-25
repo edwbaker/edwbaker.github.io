@@ -1,0 +1,56 @@
+---
+layout: post
+title: "EXIF Custom: photo metadata import for Scratchpads and Drupal"
+date: 2013-10-16 16:55:00
+source: pblog
+tags: ["biodiversity informatics", "biodiversity data journal", "drupal-planet", "scratchpads"]
+redirect_from:
+  - "/2013/10/exif-custom-photo-metadata-import-for.html"
+---
+
+In a recent paper I published (<a href="http://biodiversitydatajournal.com/articles.php?journal_id=1&amp;id=973">EXIF Custom: Automatic image metadata extraction for Scratchpads and Drupal</a>) I described a Drupal module I have written that allows for the import of metadata embedded within images to Drupal fields. This, along with bulk image upload tools, allows for rapid publication of images.<br />
+<br />
+The introduction to the paper is reproduced here:<br />
+<blockquote class="tr_bq">
+"The use of embedded image metadata is becoming widespread in the biodiversity informatics community (e.g. Stafford et al. 2010 &amp; Tulig et al. 2012),
+ and is frequently used to describe the subject and licencing of images 
+as well as for recording the 'tombstone metadata' (e.g. <a href="http://nsdl.niscair.res.in/bitstream/123456789/954/1/Introduction+to+Metadata.pdf" target="_blank">Introduction to Metadata</a>) - when the image was created, last edited, who created it, and where and how it was created. </blockquote>
+<blockquote class="tr_bq">
+<div class="P-Article-Preview-Block-Content">
+The eMonocot project (<a href="http://about.e-monocot.org/" target="_blank">http://about.e-monocot.org</a>) makes use of the Scratchpads (Smith et al. 2011) infrastructure as a tool for collecting, curating, and creating content to be harvested by the eMonocot portal (<a href="http://e-monocot.org/" target="_blank">http://e-monocot.org</a>).
+ As part of this project hundreds of images with embedded metadata are 
+being uploaded to a number of different Scratchpads, combined with 
+images directly uploaded by partner communities, and exported en mass to
+ the portal. For this to be technically feasible at scale images from 
+varied, disparate sources need to have their metadata standardised as 
+part of the bulk upload process. </div>
+</blockquote>
+<blockquote class="tr_bq">
+<div class="P-Article-Preview-Block-Content">
+There are three widespread image metadata formats that can be handled by this module. A subset of the EXIF standard (Camera and Imaging Products Association Standardization Committee 2010)
+ specifies a method for tagging of images with metadata. This is widely 
+used by device manufacturers to record both the make and model of the 
+image capture device and also the device's settings when the image was 
+captured (e.g. focal length, flash duration). The eXtensible Metadata 
+Platform (XMP) was originally developed by Adobe Systems Incorporated 
+and later adopted by the International Standards Organisation as ISO 
+16684-1:2012. It uses a data model defined in Adobe 2012
+ which is serialised in XML when embedded into files. The International 
+Press Telecommunications Council defines the IPTC Core and Extension 
+metadata standards (IPTC 2010). </div>
+</blockquote>
+<blockquote class="tr_bq">
+<div class="P-Article-Preview-Block-Content">
+An existing Drupal module, Exif (<a href="https://drupal.org/project/exif" target="_blank">https://drupal.org/project/exif</a>),
+ provides a mechanism for displaying embedded image metadata on Drupal 
+nodes, but does not provide a mechanism for mapping the metadata into 
+fields. The import of embedded metadata into Scratchpads/Drupal fields 
+is a requirement of the eMonocot project and is useful for the wider 
+Scratchpads community as it allows for these data to be easily used by 
+other Drupal modules (e.g. Views - <a href="https://drupal.org/project/views" target="_blank">https://drupal.org/project/views</a>)
+ and in other Scratchpads-specific functions such as our on-going work 
+on implementing the ability to export data via DarwinCore Archives (<a href="http://www.gbif.org/informatics/standards-and-tools/publishing-data/data-standards/darwin-core-archives/" target="_blank">GBIF DarwinCore Archives</a>). There is a comparison of these two modules (and potentially other similar Drupal modules) at <a href="https://drupal.org/node/1842686" target="_blank">https://drupal.org/node/1842686</a>."</div>
+</blockquote>
+<a href="https://drupal.org/project/exif_custom">EXIF Custom on drupal.org</a><br />
+<a href="http://biodiversitydatajournal.com/articles.php?journal_id=1&amp;id=973"><br /></a>
+<a href="http://biodiversitydatajournal.com/articles.php?journal_id=1&amp;id=973">Read the full paper</a> (Biodiversity Data Journal)

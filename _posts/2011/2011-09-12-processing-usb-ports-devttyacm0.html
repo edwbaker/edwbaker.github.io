@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Processing and USB ports /dev/ttyACM0, /dev/ttyACM1, ...."
+date: 2011-09-12 21:39:00
+source: pblog
+tags: ["Serial", "USB", "Arduino", "Processing"]
+redirect_from:
+  - "/2011/09/processing-usb-ports-devttyacm0.html"
+---
+
+Processing doesn't like reading Linux USB devices like /dev/ttyACM0 or /dev/ttyACM1.<br />
+<br />
+The solution is easy, just symlink the devices &nbsp;like this...<br />
+<br />
+ln -s /dev/ttyACM[x] /dev/ttyS8[x]<br />
+<br />
+You can put any number after the ttyS, although it is possible that ttyS0 and other low numbers are defined, numbers in the eighties are (almost) guaranteed to work.

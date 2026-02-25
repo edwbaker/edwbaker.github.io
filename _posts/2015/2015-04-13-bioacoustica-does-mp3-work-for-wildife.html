@@ -1,0 +1,30 @@
+---
+layout: post
+title: "BioAcoustica: Does MP3 work for wildlife sound?"
+date: 2015-04-13 14:39:00
+source: pblog
+tags: ["bioacoustica", "bioacoustics"]
+redirect_from:
+  - "/2015/04/bioacoustica-does-mp3-work-for-wildife.html"
+---
+
+<b>Introduction</b><br />
+MP3 has become the dominant format for sharing digital music, while many researchers in bioacoustics still use the raw waveform (WAV files). MP3 has the advantage of significantly smaller file size, which becomes a concern when creating potentially very large collections of sound like we are doing with <a href="http://bio.acousti.ca/">BioAcoustica</a>. Storing and serving MP3 files would be much less resource-intensive than storing and serving WAV files.<br />
+<br />
+All other things being equal therefore, MP3 has an advantage over WAV. The disadvantages of MP3 are that is a lossy compression format: some of the original data is lost when encoding a sound file as MP3. The general acceptance of the MP3 format for high-fidelity audio is due, in large part, to the MP3 standard discarding data that the ears and/or brain cannot detect or process. Frequencies above the threshold of human hearing (approximately 20kHz in young humans) can safely be discarded. The MP3 format also discards information that the brain does not perceive, using various methods from the field of <a href="https://en.wikipedia.org/wiki/Psychoacoustics">psychoacoustics</a>. <br />
+<br />
+The examples below are comparisons of a WAV recording of the cicada <a href="http://bio.acousti.ca/node/11778"><i>Platypleura haglundi</i> from this recording</a> on BioAcoustica, and a high quality (320kbit/s) MP3 conversion of the same file.<br />
+<br />
+<b>Frequency Response</b><br />
+The frequency vs amplitude charts for the WAV (left) and MP3 (right) files show that as well as removing any frequencies above 20kHz the conversion to MP3 lowers the relative amplitude of the low frequency sounds. On playback it is hard to tell the difference between the two files, showing that the MP3 format is capable of accurately reproducing how humans hear sound, while discarding a lot of information.<b> </b><br />
+<a href="/imgs/blogger/7b841cdc_wav.png"><img border="0" src="/imgs/blogger/7b841cdc_wav.png" width="48%" /></a><a href="/imgs/blogger/420cab19_mp3.png"><img border="0" src="/imgs/blogger/420cab19_mp3.png" style="cursor: move;" width="48%" /></a>
+<br />
+<b><br /></b>
+<b>Spectrogram</b><br />
+&nbsp;The spectrograms showing WAV (top) and MP3 (bottom) demonstrate what the effect of discarding higher frequencies has on visually identifiable features in the call. The WAV file shows clearly repeating sounds in the 17-21kHz range, while this information is lost in the MP3.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="/imgs/blogger/23ac268e_AudacityScreenSnapz002.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="/imgs/blogger/23ac268e_AudacityScreenSnapz002.png" height="410" width="640" /></a></div>
+<b><br /></b>
+<b>Conclusions&nbsp;</b><br />
+While high-quality MP3 files will prove adequate for those wishing to learn to identify acoustic species by ear, for other methods MP3 encoding can discard useful information. This is particularly true where components of the sound are above 20kHz, and in applications where the relative amplitudes of different frequencies may prove useful in identification.

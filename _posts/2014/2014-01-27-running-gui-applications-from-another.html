@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Running GUI applications from another computer on Raspberry Pi (or vice versa)"
+date: 2014-01-27 23:06:00
+source: pblog
+tags: ["raspbian", "x window", "ssh", "raspberry pi"]
+redirect_from:
+  - "/2014/01/running-gui-applications-from-another.html"
+---
+
+The <a href="http://www.raspberrypi.org/">Raspberry Pi</a> is a great piece of kit, however it's not particularly suitable for CPU or memory hungry applications (e.g. Firefox). There may also be times that you want to run an application you have on another computer on your Pi without having to install it.<br />
+<br />
+As long as you are able to SSH onto a computer where that application is installed (and it can run the <a href="http://en.wikipedia.org/wiki/X_Window_System">X Window System</a>&nbsp; - Linux will almost certainly do this out of the box) you can use a feature of the X window system to run the application on the remote computer but route the graphical window to your Pi (where it will behave - pretty much - as a standard graphical program.<br />
+<br />
+To do this you must first be in a graphical environment on your Pi, for Raspbian this is started from the command line by typing <span style="background-color: #cccccc;"><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">startx</span></span>. From here start the Terminal emulator, and log in to the remote computer over SSH using the -X switch:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">ssh&nbsp; -X username@192.168.0.2</span><br />
+<br />
+Replace username with your username (default on Raspbian is pi) and 192.168.0.2 with the IP address of the remote computer.<br />
+<br />
+You should now have what looks like a standard SSH terminal to the remote computer, however if you run a graphical program on the remote system the output will be displayed on the Pi. If you are logging into an Ubuntu/Debian or otherwise Gnome-based computer try running <span style="background-color: #cccccc;"><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">gedit</span></span> as a quick test.<br />
+<br />
+This also works in reverse, so you can run graphical programs on the Pi and have them display on your Linux desktop.<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="/imgs/blogger/e4aa6a3c_Screenshot_from_2014-01-27_23_02_14.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="/imgs/blogger/e4aa6a3c_Screenshot_from_2014-01-27_23_02_14.png" height="300" width="400" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Running the Midori browser on my Raspberry Pi with the output redirected to an Ubuntu desktop using 'ssh -x'</td></tr>
+</tbody></table>
+<div style="text-align: center;">
+<br /></div>

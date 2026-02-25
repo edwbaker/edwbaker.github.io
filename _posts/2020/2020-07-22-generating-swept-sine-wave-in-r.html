@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Generating a swept sine wave in R"
+date: 2020-07-22 11:58:00
+source: pblog
+tags: ["sonicscrewdriver"]
+redirect_from:
+  - "/2020/07/generating-swept-sine-wave-in-r.html"
+---
+
+This uses functionality from the sonicscrewdriveR package:<div><br /></div><div><font face="courier">install.packages("devtools")</font></div><div><font face="courier">library(devtools)</font></div><div><font face="courier">install_github("edwbaker/sonicscrewdriver")</font></div><div><font face="courier">library(sonicscrewdriver)</font></div><div><font face="courier"><br /></font></div><div><font face="inherit">Generate a Wave object with a sine sweep from 0 Hz to 1kHz&nbsp;over two seconds:</font></div><div><font face="courier"><br /></font></div><div><font face="courier">w &lt;-&nbsp;sweptsine(f0=0,f1=1000, sweep.time=2, output="wave")</font></div>

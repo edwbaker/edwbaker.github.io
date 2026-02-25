@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Testing the Arduino Intervalometer"
+date: 2013-10-24 13:39:00
+source: pblog
+tags: ["canon 450d", "intervalometer", "Arduino", "timelapse"]
+redirect_from:
+  - "/2013/10/testing-arduino-intervalometer.html"
+---
+
+So today I finally got around to testing the <a href="http://pblog.ebaker.me.uk/2013/09/intervalometer-for-canon-450d.html">Arduino Intervalometer</a> that I built last month (we might soon be using it in a project unrelated to timelapse work).<br />
+<br />
+So here for your viewing delight are 564 frames of the Natural History Museum's Darwin Centre (plus a few accidental photographs of Lyme Regis that were accidentally left on the memory card).<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<object class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="http://i1.ytimg.com/vi/lQ5Qb5K-980/0.jpg" height="266" width="320"><param name="movie" value="http://www.youtube.com/v/lQ5Qb5K-980?version=3&f=user_uploads&c=google-webdrive-0&app=youtube_gdata" /><param name="bgcolor" value="#FFFFFF" /><param name="allowFullScreen" value="true" /><embed width="320" height="266"  src="http://www.youtube.com/v/lQ5Qb5K-980?version=3&f=user_uploads&c=google-webdrive-0&app=youtube_gdata" type="application/x-shockwave-flash" allowfullscreen="true"></embed></object></div>
+<br />
+<br />
+The images (JPEG) were converted to a video on an Ubuntu virtual machine using the command:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">mencoder "mf://*.JPG" -mf fps=25 -o timelpase.mpg -ovc x264</span><br />
+<br />
+A modified version of this project, the <a href="http://ebaker.me.uk/node/137">Arduino Intervalometer and Camera Trap</a> appears in my book <a href="http://ebaker.me.uk/project-role/arduino-biologists">Arduino for Biologists</a>.

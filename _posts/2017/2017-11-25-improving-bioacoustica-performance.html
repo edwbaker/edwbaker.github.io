@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Improving BioAcoustica performance"
+date: 2017-11-25 15:59:00
+source: pblog
+tags: ["bioacoustica", "BioAcousticaR", "scratchpads"]
+redirect_from:
+  - "/2017/11/improving-bioacoustica-performance.html"
+---
+
+Since it's inception <a href="http://bio.acousti.ca/">BioAcoustica</a> has been built on the <a href="http://scratchpads.eu/">Scratchpads</a> virtual research environment. Sadly the timing of the launch of BioAcoustica was very close to the Scratchpad Lead Developer leaving the Natural History Museum (the <a href="https://ebaker.me.uk/node/148">BioAcoustica Database Paper</a> was their last NHM publication).<br />
+<br />
+Since that time the Scratchpads have had little love (apart from some work I have done to keep them alive) and seem to be slowly decaying. This is set to change soon (I am led to believe, although not for the first time) with new developer attention. This is always a risk of building a project on top of infrastructure maintained and developed elsewhere. (The upside is that BioAcoustica development has leveraged existing infrastructure to manage biological taxonomies, DarwinCore compliant specimens, literature, etc).<br />
+<br />
+Completely separating from the Scratchpads project, at least for now, is still undesirable. Recently the NHM team have started attending to the Scratchpads servers, and replicating the server environment outside the NHM introduces issues for future maintenance once the Scratchpads receive the care they deserve. (Although I have tested getting the infrastructure running on an external cloud hosting provider - it works - to ensure we have all bases covered).<br />
+<br />
+So assuming future development of the Scratchpads will resolve the issues we have been having with occasional downtime and that fixes and that new features/infrastructure should be coming, what can we do to improve the current situation?<br />
+<br />
+Aside from downtime the main issue that people have reported to me is slow file downloads. BioAcoustica is bandwidth heavy - we prefer wave files to MP3 files (for science reasons) for many taxa, and many of the files (particularly soundscapes) are large, often in the gigabyte range.<br />
+<br />
+A quick test of downloading files from the Scratchpad server and the recently launched <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-digitalocean-spaces">Digital &nbsp;Ocean Spaces</a> revealed that we could potentially increase file bandwidth by a factor of 10. Shifting high bandwidth reads from the Scratchpads to the cloud clearly offers benefits to BioAcoustica users (faster load time), particularly if they are using the R interface to work with a large number of files.<br />
+<br />
+Another issue this addresses is file backups. While the Scratchpads databases have a regular backup schedule (daily, weekly, monthly, yearly) the file backups are held only for 30 days, which has led to previous issues when nobody noticed until too late that the files had gone from their site. An automated process of copying files to the cloud as they are uploaded has the potential to allow for a more long-term backup mechanism.<br />
+<br />
+So where are we now? If you visit a recording page on BioAcoustica (e.g. this <a href="http://bio.acousti.ca/content/91gryllotalpa-gryllotalpa">Mole Cricket</a>) then there is a good chance that the file downloaded to display the webform is currently being served from Digital Ocean rather than the Scratchpad directly. Similarly the download link will more likely than now use the same source.<br />
+<br />
+What's coming next? Over the next day or so the R interface will be updated to use Digital Ocean for file transfers. This change will happen silently and will not affect users (besides saving them time). In the near term the R package will be updated so that the metadata services it relies on will also be served from the cloud, allowing the R (read only) interface to function even during times of Scratchpad downtime.

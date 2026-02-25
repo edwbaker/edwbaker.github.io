@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Getting the seewave R package installed on Mac OS X Yosemite"
+date: 2014-12-02 12:58:00
+source: pblog
+tags: ["seewave", "R", "Mac OS X"]
+redirect_from:
+  - "/2014/12/getting-seewave-r-package-installed-on.html"
+---
+
+The seewave package for R first requires you to install the fftw library (on your system, not in R), instructions for this can be found here: <a href="http://pblog.ebaker.me.uk/2014/12/installing-fftw-on-os-x-mavericks.html">Installing fftw on Mac OS X Yosemite</a>.<br />
+<br />
+At present it is not possible to use install.packages() to download seewave on the 3.1 branch of R. To see what version(s) of R you have on your system run the following command from the Terminal:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">ls -l /Library/Frameworks/R.framework/Versions/</span><br />
+<br />
+This will give an output similar to:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">drwxrwxr-x&nbsp; 6 root&nbsp; admin&nbsp; 204&nbsp; 2 Dec 11:31 3.0<br />drwxrwxr-x&nbsp; 6 root&nbsp; admin&nbsp; 204&nbsp; 3 Nov 16:50 3.1<br />lrwxr-xr-x&nbsp; 1 root&nbsp; admin&nbsp;&nbsp;&nbsp; 3&nbsp; 2 Dec 11:31 Current -&gt; 3.0</span><br />
+<br />
+This shows that my system has two versions of R, 3.0 and 3.1, installed and the current default version is 3.0. If you do not have 3.0 installed you can <a href="http://r.research.att.com/">download R version 3.0 branch from here</a>.<br />
+<br />
+To set the current version of R to 3.0 if you have it already installed you just need to change the symbolic link 'Current' to the correct version:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">cd /Library/Frameworks/R.framework/Versions&nbsp;</span><br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">ln -sfn 3.0 Current</span><br />
+<br />
+You can then use install.packages() in R to install the seewave package:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">install.packages(c("fftw","tuneR","rgl","rpanel"), repos="http://cran.at.r-project.org/")</span><br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">install.packages("seewave", repos="http://cran.at.r-project.org/") </span>

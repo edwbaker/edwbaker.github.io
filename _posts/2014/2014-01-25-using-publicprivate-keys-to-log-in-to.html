@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Using public/private keys to log in to Raspbian"
+date: 2014-01-25 16:19:00
+source: pblog
+tags: ["raspberry pi"]
+redirect_from:
+  - "/2014/01/using-publicprivate-keys-to-log-in-to.html"
+---
+
+This assumes working from a *nix environment, and that you haven’t previously created a public/private key pair (e.g. for using Github). If you are unsure type <span style="background-color: #cccccc;"><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">cat ~/.ssh/id_rsa</span></span> into the terminal - if you get a load of characters ending in "-----END RSA PRIVATE KEY-----" you already have a key that you can use - go straight to Step 2.<br />
+<br />
+<b>Step 1: Generating a public/private key pair</b><br />
+This is as easy as:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">ssh-keygen -t rsa -C "name@email.com</span><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">"&nbsp;</span><br />
+<br />
+(Obviously replace name@email.com with your own email address).<br />
+<br />
+The system may ask you whether you want to create a passphrase for this key, if you do you will be asked to enter this passphrase the first time you use the key in any given session. If you do not want to set a passphrase just hit enter. <br />
+<br />
+<b>Step 2: Getting your key to the Raspberry Pi</b><br />
+This is again a simple one line command that logs into Raspbian using a password and adds your key to the list of authorised keys on the system.<br />
+<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">cat ~/.ssh/id_rsa.pub | ssh pi@10.0.2.2 "mkdir .ssh; touch .ssh/authorized_keys; cat &gt;&gt; .ssh/authorized_keys"</span><br />
+<br />
+You will need to change 10.0.2.2 to the IP address used by your Raspberry Pi. You will be prompted for the password of the 'pi' user on your Raspberry Pi. If you then use the <span style="background-color: #cccccc;"><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">exit</span></span> command to leave the pi and return to your *nix system you hsould now be able to log on simply by typing:<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;"><br /></span>
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">ssh pi@10.0.2.2</span><br />
+<br />
+If you used a passphrase to protect your keys you will be prompted to enter this the first time you use the key in any session.

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Deleting all nodes of a content type using drush and devel"
+date: 2013-09-02 08:50:00
+source: pblog
+tags: ["drupal 6", "drupal 7", "drush", "drupal"]
+redirect_from:
+  - "/2013/09/deleting-all-nodes-of-content-type.html"
+---
+
+While developing the open source data logger (started <a href="http://pblog.ebaker.me.uk/2013/01/arduino-temperature-and-light-sensor-to.html">here</a> but expanded to <a href="http://drupal.org/project/arduino">post from Arduino to Drupal</a>) the need to regularly delete all content of a given type arises fairly regularly. This can be done through the user interface with the <a href="http://drupal.org/project/devel">Devel</a> module but it is much quicker to use <a href="http://drupal.org/project/drush">Drush</a>:<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;"><br /></span>
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">drush genc 0 --kill --types=article</span>

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Modify weight of field programmatically (Drupal 7)"
+date: 2012-08-21 14:50:00
+source: pblog
+tags: ["drupal 7"]
+redirect_from:
+  - "/2012/08/modify-weight-of-field-programmatically.html"
+---
+
+The key to t<span style="font-family: inherit;">his are the two functions&nbsp;</span><span style="font-family: Courier New, Courier, monospace;"><a href="http://api.drupal.org/api/drupal/modules!field!field.crud.inc/function/field_read_instance/7">field_read_instance</a></span> and <span style="font-family: Courier New, Courier, monospace;">&nbsp;<a href="http://api.drupal.org/api/drupal/modules!field!field.crud.inc/function/field_update_instance/7">field_update_instance</a></span>. This can also be used to modify any of the other available properties of the field instance (apart from the entity_type, field_name and bundle).<br />
+<br />
+<br /><script src="https://gist.github.com/3416185.js?file=gistfile1.php"></script>

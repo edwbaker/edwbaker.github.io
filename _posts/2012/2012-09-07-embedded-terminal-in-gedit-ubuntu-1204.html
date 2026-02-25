@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Embedded terminal in gedit (Ubuntu 12.04)"
+date: 2012-09-07 13:38:00
+source: pblog
+tags: ["ubuntu", "gedit"]
+redirect_from:
+  - "/2012/09/embedded-terminal-in-gedit-ubuntu-1204.html"
+---
+
+To get an embedded terminal in gedit eneter the following into a Terminal window:<br />
+<br />
+<br />
+<span style="font-family: Courier New, Courier, monospace;">sudo apt-get install gedit-plugins</span><br />
+<br />
+Open gedit then go:<br />
+<br />
+Edit &gt; Preferences &gt; Plugins<br />
+enable 'Embedded Terminal'<br />
+<br />
+To view the embedded Terminal:<br />
+View &gt; Bottom Panel (or Ctrl + F9)<br />
+<br />
+The present default configuration of the embedded Terminal on Ubuntu 12.04 uses white text on a white background, which is pretty ridiculous. You can either adjust the font colour of your default Terminal or use the following workaround:<br />
+<br />
+<b>Work around to get gEdit embedded Terminal&nbsp;usable&nbsp;on Ubuntu</b><br />
+<br />
+Run the following from the Terminal:<br />
+<span style="font-family: Courier New, Courier, monospace;">sudo apt-get install dconf-tools</span><br />
+<span style="font-family: Courier New, Courier, monospace;">dconf-editor</span><br />
+<br />
+In the Configuration Editor that appears navigate to the required plugin:<br />
+<br />
+org &gt; gnome &gt; gedit &gt; plugins &gt; terminal<br />
+<br />
+uncheck 'use-theme-colors' and then restart gEdit.<br />
+<br />
+<br />
+<b>Added screenshot on&nbsp;recommendation&nbsp;of Ross:</b><br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="/imgs/blogger/9b5aa4a5_gedit.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="466" src="/imgs/blogger/3edd3f94_gedit.jpg" width="640" /></a></div>
+<b><br /></b>

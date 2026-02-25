@@ -1,0 +1,87 @@
+---
+layout: post
+title: "Visualising an archive: Walter Rothschild's correspondence"
+date: 2013-03-19 17:17:00
+source: pblog
+tags: ["youtube", "NHM", "Natural History Museum", "torque", "CartoDB", "walter rothschild", "video"]
+redirect_from:
+  - "/2013/03/visualising-archive-walter-rotschilds.html"
+---
+
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr align="center"><td><a href="http://upload.wikimedia.org/wikipedia/commons/2/2e/WalterRothschildWithZebras.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://upload.wikimedia.org/wikipedia/commons/2/2e/WalterRothschildWithZebras.jpg" height="340" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Rothschild with his famed <a href="http://en.wikipedia.org/wiki/Zebra" title="Zebra">zebra</a> (<i><a class="mw-redirect" href="http://en.wikipedia.org/wiki/Equus_burchelli" title="Equus burchelli">Equus burchelli</a></i>) carriage, which he drove to <a href="http://en.wikipedia.org/wiki/Buckingham_Palace" title="Buckingham Palace">Buckingham Palace</a> to demonstrate the tame character of Zebras to the public</td></tr>
+</tbody></table>
+<br />
+&nbsp;As part of exploring possibilities for the Wikipedian in Residence project (more on this very soon) we were given some example data from the NHM archive catalogue relating to the correspondence of <a href="http://en.wikipedia.org/wiki/Walter_Rothschild,_2nd_Baron_Rothschild">Walter Rothschild</a> to see what potential there might be for digitisation and semantic linking of content. Having data with locality and time information means only one thing: time to dig out <a href="http://cartodb.com/">CartoDB</a> and <a href="https://github.com/CartoDB/torque">Torque</a>!<br />
+<br />
+Some background to the correspondence from the Tring Museum:<br />
+<blockquote class="tr_bq">
+<div class="MsoNormal">
+<span style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 10.0pt;">Tring Museum was a natural history museum owned by Walter, later 2<sup>nd</sup> Baron Rothschild, and which was donated to the Natural History museum 
+in 1936.&nbsp;
+ It had been open to public since 1892. A large amount of papers, 
+particularly letters from Walter were destroyed, so this correspondence 
+is largely all that remains of the history of that museum. </span></div>
+<div class="MsoNormal">
+<br /></div>
+<div class="MsoNormal" style="text-autospace: none;">
+<span style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 10.0pt;">This
+ series is mostly letters to Walter and / or his curators Ernst Hartert 
+and Karl Jordan, and is a fascinating collection with a
+ wealth of information.</span><span style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 10.0pt;"> Not only scientifically and historically</span></div>
+<span style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; font-size: 10.0pt;">from
+ the ornithologists and entomologists who wrote to Tring, but 
+historically from the various institutions
+ around the world, and also the economic history of the business of 
+natural history, from the dealers, publishers and booksellers. There is 
+also important social history to be studied about Tring Museum's 
+relationship with local people and businesses, who visited,
+ and were employed by the Museum.&nbsp; The largest part relates to 
+collectors, writing from all over the world about the expeditions 
+they’re on and the specimens they are collecting for the museum – 
+writing sometimes from war zones, during revolutions and uprisings,
+ and from jungles and deserts.</span></blockquote>
+<blockquote class="tr_bq">
+<div style="text-align: right;">
+<i><span style="font-size: x-small;">Daisy Cunynghame - NHM Library and Archives</span></i> </div>
+</blockquote>
+Example data:<br />
+<br />
+<table>
+<thead>
+<tr><td width="25%"><b>Date</b></td><td width="25%"><b>Title</b></td><td><b>Description</b></td>
+</tr>
+</thead>
+<tbody>
+<tr><td>18 Feb - 25 Jun 1903</td><td>The Acetylene Supply Co</td><td>"6 letters from The Acetylene Supply Co., 48 Cranbourne Street and 1 Bear Street, Leicester Square, London, England, United Kingdom. 3 of the letters addressed to Karl Jordan, 3 addressed to Ernst Hartert_x000D_
+_x000D_
+[Was previously reference number TM/1/69/1]"</td>
+
+</tr>
+<tr><td>1 Apr - 17 Dec 1903</td><td>André &amp; Sleigh Limited</td><td>"2 letters to Ernst Hartert, 9 letters to Karl Jordan from André &amp; Sleigh Limited, Photo-Engravers, Bushey, Hertfordshire, England, United Kingdom_x000D_
+_x000D_
+[Was previously reference number TM/1/69/5]"</td>
+</tr>
+</tbody></table>
+<br />
+<br />
+The problem with this data, from a visualisation point of view, is that the addresses are not geolocated. Manually geolocating a large number of addresses would be a substantial task, perhaps best undertaken via a crowd-sourcing approach. Making a quick demonstrator to see what is potentially possible precludes the use of such an approach in this case.<br />
+<br />
+Instead the online <a href="http://www.gpsvisualizer.com/geocoder/">GeoCoder</a> tool from <a href="http://gpsvisualizer.com/">gpsvisualizer.com</a> was used to process the first 1,000 records of this dataset. This failed for a large number of the locations provided, but again, as this is only a demonstrator I just ignored the rows that failed.<br />
+<br />
+The following map shows the results after the geocoding.<br />
+<br />
+<iframe height="400px" src="http://ebaker.me.uk/other/wir/archives-demo-1.html" width="100%"></iframe>
+
+The geocoding of a few points (many of those shown as being in North America) is clearly wrong, however the vast majority have been correctly placed, as far as is possible.<br />
+<br />
+Of course geolocating just gives us a way of visualising the archive in spatial dimensions, however we also have temporal data available, so this seemed like an obvious use for Torque on top of CartoDB. The video below (best viewed at 720px and fullscreen)&nbsp; shows both the spatial and temporal extent of communication.<br />
+<br />
+<div style="text-align: center;">
+<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/Z-9T_cOkY8U?rel=0" width="480"></iframe><br /></div>
+<br />
+&nbsp;Obviously to be a truly useful and accurate tool the data would need more rigorous processing, which would take considerably longer than creating this demonstration (which took less than a couple of hours). It does however show that visualisation tools can be useful in developing a deeper understanding or archive catalogue data.<br />
+<br />
+<b>On a (slightly) related note...</b><br />
+Daisy (who provided the summary of Tring Museum and Walter Rothschild above) has also written a piece about a namesake of mine that used to work for the museum as a collector: <a href="http://www.nhm.ac.uk/natureplus/community/library/blog/2012/08/01/edward-baker--one-of-tring-museums-daring-explorers">Item of the Month (July 2012) Edward Baker - One of Tring Museum's Daring Explorers</a>.<b>&nbsp;</b>

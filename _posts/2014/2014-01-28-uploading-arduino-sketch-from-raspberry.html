@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Uploading Arduino sketch from Raspberry Pi (command line)"
+date: 2014-01-28 20:35:00
+source: pblog
+tags: ["arduino-mk", "Arduino", "raspberry pi"]
+redirect_from:
+  - "/2014/01/uploading-arduino-sketch-from-raspberry.html"
+---
+
+First of all we will need to download some packages (instructions assume the use of Raspbian) to allow us to compile Arduino compatible code (<a href="http://ed.am/dev/make/arduino-mk">arduino-mk</a>) and upload it (avrdude) to the Arduino.<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;"><br /></span>
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">sudo apt-get install arduino-core arduino-mk</span><br />
+<br />
+Then add yourself to the dialout group to allow you to upload code to the Arduino board<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">sudo usermod -a -G dialout pi</span>  (Change pi to be your username if different)<br />
+<br />
+Logout and then log back in again to ensure you are recognised as a member of the dialout group.<br />
+<br />
+To compile an Arduino program it is neccessary to create a file called Makefile that is used to specify parameters for the compilation.<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">touch Makefile</span><br />
+<br />
+Open the file for editing:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">nano Makefile</span><br />
+<br />
+And paste in the following text:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">ARDUINO_DIR = /usr/share/arduino<br />BOARD_TAG&nbsp;&nbsp;&nbsp; = uno<br />ARDUINO_PORT = /dev/ttyACM*<br />ARDUINO_LIBS =<br />include /usr/share/arduino/Arduino.mk</span><br />
+<br />
+You may need to change the BOARD_TAG to reflect the version of the Arduino you are using<br />
+<br />
+You can test that your sketch compiles by running <span style="font-family: &quot;Courier New&quot;,Courier,monospace;"><span style="background-color: #cccccc;">make</span></span> and ensuring that there are no errors.<br />
+<br />
+To upload your compiled sketch to the Arduino:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">make upload</span><br />
+<br />
+This process allows for programming the Arduino without using a graphical user interface, and also allows updates to Arduino code to be propagated to devices using scripts (assuming the Arduino is connected to the Pi via USB).<br />
+<br />

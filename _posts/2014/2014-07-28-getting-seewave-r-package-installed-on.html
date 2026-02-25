@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Getting the seewave R package installed on Ubuntu"
+date: 2014-07-28 11:34:00
+source: pblog
+tags: ["seewave", "R", "bioacoustics", "statistics"]
+redirect_from:
+  - "/2014/07/getting-seewave-r-package-installed-on.html"
+---
+
+On Linux installing <a href="http://rug.mnhn.fr/seewave/">seewave</a> requires the installation of a few additional libraries. Assuming you already have R installed you will need to run the following from the system Terminal:<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;"><br /></span>
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;"><span style="font-size: small;"><code>sudo apt-get install libfftw3-3 libfftw3-dev libsndfile1 libsndfile1-dev r-cran-rgl bwidget</code></span></span><br />
+<br />
+The current installation instructions for seewave do not include the installation of the BWidget package which causes issues when you try to load the package in R: <code><span class="pln">[tcl] can't find package BWidget.</span></code>
+
+You may then proceed to install the seewave package within R:<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;"><br /></span>
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">install.packages("tuneR, "seewave");</span>

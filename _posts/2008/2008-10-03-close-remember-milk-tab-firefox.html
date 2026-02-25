@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Close Remember The Milk Tab Firefox"
+date: 2008-10-03 19:41:00
+source: pblog
+tags: ["gmail", "tab mix plus", "empty tab", "firefox", "empty window", "remember the milk", "rememberthemilk"]
+redirect_from:
+  - "/2008/10/close-remember-milk-tab-firefox.html"
+---
+
+When logging in to <a href="http://rmilk.com">Remember The Milk</a> for GMail (at least in Firefox with TabMix Plus) a rather annoying empty tab is left open, with no content. This page actually has a JavaScript close instruction, but by default a JavaScript is not allowed to close windows that it didn't open.<br /><br />This can be overcome by entering about:config into the Firefox address bar, and double clicking the dom.allow_scripts_to_close_windows to set it to 'true'. A warning is in order: now JavaScripts can close windows (tabs) that they didn't open (I haven't had any problems with this however).

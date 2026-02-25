@@ -9,10 +9,10 @@ import os
 import re
 import html
 
-FEED_PATH = r"C:\Users\edwab\Downloads\takeout-20260225T115701Z-3-001\Takeout\Blogger\Blogs\Invertebrate Diaries\feed.atom"
+FEED_PATH = r"C:\Users\edwab\Downloads\takeout-20260225T115701Z-3-001\Takeout\Blogger\Blogs\Ed_s Blog\feed.atom"
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_posts")
-BLOGGER_DOMAIN = "invertdiary.ebaker.me.uk"
-SOURCE_NAME = "invertdiary"  # Identifies which blog these posts came from
+BLOGGER_DOMAIN = "pblog.ebaker.me.uk"
+SOURCE_NAME = "pblog"  # Identifies which blog these posts came from
 
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',

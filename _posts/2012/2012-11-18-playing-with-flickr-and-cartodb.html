@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Playing with Flickr and CartoDB"
+date: 2012-11-18 17:09:00
+source: pblog
+tags: ["Vizzuality", "drupal", "scratchpads", "flickr", "PostGIS", "ViBRANT", "CartoDB"]
+redirect_from:
+  - "/2012/11/playing-with-flickr-and-cartodb.html"
+---
+
+Last Friday we had a <a href="http://vbrant.eu/">ViBRANT</a> sponsored workshop about <a href="http://cartodb.com/">CartoDB</a>, the open source mapping and visualisation product from Madrid/New York based <a href="http://vizzuality.com/">Vizzuality</a>. The context of the workshop was possible integration of CartoDB with the <a href="http://scratchpads.eu/">Scratchpads</a> and <a href="https://oboe.oerc.ox.ac.uk/">OBOE</a> projects in the context of visualising biological datasets. The notes for the workshop demonstrations are <a href="https://github.com/Vizzuality/CartoDB-Tutorials/tree/master/vibrant">here</a> and are what the work done here is based on.<br />
+<br />
+Not having a suitable dataset to hand I have been playing with making maps of the <a href="http://www.flickr.com/photos/edwbaker">photos I have shared on Flickr</a>. Flickr does provide a map view of a user's photographs (<a href="http://www.flickr.com/photos/edwbaker/map/">here's mine</a>) although it is very limited in functionality - and unless you only have a handful of photographs you can't get a map view of all of your photographs.<br />
+<br />
+I have previously visualised my Flickr stream by hacking the Drupal <a href="http://drupal.org/project/flickrsync">flickrsync</a> module to save geolocation data with the <a href="http://drupal.org/project/location">Location</a> module. Even with clustering the map points for 7,000+ images the results are slow to load: <a href="http://iwild.ebaker.me.uk/flickr_map">Drupal Flickr map of my photographs</a>. The plus side of this work was that with just modifying the output of the view I could get a <a href="http://iwild.ebaker.me.uk/flickr.csv">CSV file of my Flickr stream</a> which I easily imported into CartoDB.<br />
+<br />
+The basic map produced by CartoDB from this file is below:<br />
+<iframe height="500px" width="100%" src='https://edwbaker.cartodb.com/tables/flickr/embed_map'></iframe>
+
+<br />
+Next I wanted to make a map of countries that are represented in my Flickr stream (perhaps I really wanted to play with PostGIS and polygons). This required downloading a <a href="http://thematicmapping.org/downloads/world_borders.php">shape file of all the countries</a> from <a href="http://thematicmapping.org/">thematicmapping</a> and uploading the file to a new table in CartoDB (CartoDB will accept the <a href="http://thematicmapping.org/downloads/TM_WORLD_BORDERS-0.3.zip">URL to the zip file</a> so you can do it without downloading the file if you choose). The following SQL was applied to the world countries table:<br />
+<script src="https://gist.github.com/4106201.js?file=gistfile1.sql"></script>
+
+<br />
+This results in the following map:<br />
+<iframe height="500px" src="https://edwbaker.cartodb.com/tables/tm_world_borders_0_3/embed_map?sql=SELECT%20the_geom_webmercator%20FROM%20tm_world_borders_0_3%0A%20%20%20WHERE%20ST_Intersects(the_geom_webmercator%2C%20(%0A%20%20%20%20%20%20SELECT%20ST_Collect(the_geom_webmercator)%20FROM%20flickr)%20%0A%20%20%20)" width="100%"></iframe>
+
+<br />
+<br />
+Finally using some PostGIS I was able to make this map a little more accurate by splitting the countries into separate polygons (e.g. separating Hawaii from the continental United States, Northern Ireland from Great Britain).<br />
+<br />
+<script src="https://gist.github.com/4106263.js?file=gistfile1.sql"></script>
+
+<br />
+Here's the new map:<br />
+&nbsp;<iframe height="500px" src="https://edwbaker.cartodb.com/tables/tm_world_borders_0_3/embed_map?sql=WITH%20results_1%20AS%20%0A%20%20%20(SELECT%20(ST_Dump(the_geom_webmercator)).geom%20as%20the_geom_webmercator%20FROM%20%0Atm_world_borders_0_3%20%20%0A%20%20%20WHERE%20ST_Intersects(the_geom%2C%20(%0A%20%20%20%20%20%20SELECT%20ST_Collect(the_geom)%20FROM%20flickr)%0A%20%20%20)%0A%20%20%20)%0ASELECT%20the_geom_webmercator%20FROM%20results_1%20%0A%20%20%20WHERE%20ST_Intersects(the_geom_webmercator%2C%20(%0A%20%20%20%20%20%20SELECT%20ST_Collect(the_geom_webmercator)%20FROM%20flickr)%0A%20%20%20)" width="100%"></iframe>

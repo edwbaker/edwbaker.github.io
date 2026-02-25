@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Wifi Client Bridge (for Aruino project)"
+date: 2013-02-09 17:52:00
+source: pblog
+tags: ["client bridge", "ethernet", "wifi", "Arduino"]
+redirect_from:
+  - "/2013/02/wifi-client-bridge-for-aruino-project.html"
+---
+
+<i>(aka how to get Ethernet devices attached to a wireless network without awkward cable runs)</i><br />
+<br />
+Previously I wrote about an <a href="http://pblog.ebaker.me.uk/2013/01/arduino-temperature-and-light-sensor-to.html">Arduino based temperature and light sensor</a> that could send it's reading to the web over Twitter. This made use of the Ethernet shield that is available for the Arduino. This post describes how to connect this wired Ethernet device to a wireless network using a wireless router.<br />
+<br />
+<b>WiFi Client Bridge</b><br />
+A WiFi Client Bridge allows a secondary wireless router to share a wireless network it receives via it's WiFi interface (from a&nbsp; primary wireless router) to devices attached to it via Ethernet. In this set-up the Ethernet connected devices behave as if they are directly attached to the primary wireless router.<br />
+<br />
+Most routers designed for home use are capable of acting as a client bridge, although the software inside the router (the firmware) often prevents you from using the device in this fashion. This problem can be overcome by replacing the firmware that ships with the router by one of several alternatives, I used <a href="http://www.dd-wrt.com/">DD-WRT</a> for this project but <a href="https://openwrt.org/">OpenWRT</a> and <a href="http://en.wikipedia.org/wiki/List_of_wireless_router_firmware_projects">others</a> have the same functionality.<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="/imgs/blogger/23542aa2_dd-wrt.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="233" src="/imgs/blogger/7c068024_dd-wrt.jpg" width="400" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Wireless configuration page on router running DD-WRT firmware</td></tr>
+</tbody></table>
+<br />
+<br />
+The individual router firmware project websites have lists of compatible routers (I got a second-hand Buffalo WHR-G125 from eBay for £6) and instructions for replacing (flashing) the firmware.<br />
+<br />
+Both DD-WRT and OpenWRT have instructions for setting up a client bridged network:<br />
+<ul>
+<li><a href="http://www.dd-wrt.com/wiki/index.php/Client_Bridged">Client bridge network on DD-WRT</a></li>
+<li><a href="http://wiki.openwrt.org/doc/recipes/bridgedclient">Client bridge network on OpenWRT</a></li>
+</ul>
+Assuming that the primary router has a correctly configured DHCP server connecting Ethernet devices to the internet is as simple as plugging them into the secondary router. This is a useful way of placing Ethernet devices in places where running Ethernet cables would be awkward.<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="/imgs/blogger/4e742d88_2013-02-09_17.48.19.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="400" src="/imgs/blogger/6d3f7ff2_2013-02-09_17.48.19.jpg" width="300" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Arduino with Ethernet shield attached to a wireless network through a router in client bridge mode</td></tr>
+</tbody></table>
+<br />

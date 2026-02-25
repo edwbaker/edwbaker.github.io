@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Battle hardening Raspberry Pi 1: the 'Fork Bomb'"
+date: 2014-01-23 14:51:00
+source: pblog
+tags: ["security", "fork bomb", "battle hardening raspberry pi", "raspberry pi", "linux"]
+redirect_from:
+  - "/2014/01/battle-hardening-raspberry-pi-1-fork.html"
+---
+
+I have been thinking recently of using a number of <a href="http://www.raspberrypi.org/">Raspberry Pi</a>s as a platform for doing a number of biodiversity science projects. This would (possibly) require allowing people external to the project running code on the devices, so I have been looking into what needs to be done to 'battle harden' the standard <a href="http://www.raspbian.org/">Raspbian</a> distribution for use in this, or similar projects.<br />
+<br />
+Let's just say that the Pis may well end up in a number of inaccessible locations, and it might end up being very difficult to hard reset them. In my mind the first thing I think of when letting people access such a system is the 'Fork bomb' - creating an ever increasing number of processes (accidentally or otherwise) until the system runs out of resources.<br />
+<br />
+Perhaps the best known *NIX fork bomb is the following:<br />
+<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">:(){ :|: &amp; };:</span><br />
+<br />
+This innocuous looking code defines a function with no parameters <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">:</span> that calls itself and pipes the output from calling itself into a new background process <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">{ :|: &amp;};</span>. The final <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">:</span> runs the function for the first time.<br />
+<br />
+The solution to this is to specify a maximum number of processes in the file /etc/security/limits.conf - adding the following line sets a limit for all users apart from root:<br />
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;"><br /></span>
+<span style="font-family: &quot;Courier New&quot;,Courier,monospace;">*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hard&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nproc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1024</span><br />
+<br />
+On my 512MB Raspberry Pi this easily prevents the fork bomb from causing havoc - although for most circumstances I will need a lower limit (e.g. 512) is likely to be sufficiently adequate.

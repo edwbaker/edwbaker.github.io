@@ -1,0 +1,80 @@
+---
+layout: post
+title: "Measuring the Impact of Wikipedia for organisations (Part 3)"
+date: 2013-03-19 15:23:00
+source: pblog
+tags: ["wikipedia", "dinosaur", "Natural History Museum"]
+redirect_from:
+  - "/2013/03/measuring-impact-of-wikipedia-for_19.html"
+---
+
+Previous posts in this series:<br />
+<ul>
+<li><a href="http://pblog.ebaker.me.uk/2012/12/measuring-impact-of-wikipedia-for.html">Part 1</a></li>
+<li><a href="http://pblog.ebaker.me.uk/2013/03/measuring-impact-of-wikipedia-for.html">Part 2</a></li>
+</ul>
+As mentioned in a previous post in this series I have downloaded all of the <a href="http://wikipedia.org/">Wikipedia</a> pages that make a direct link to the <a href="http://www.nhm.ac.uk/">Natural History Museum</a> website. While this is useful in attempting to measure the impact of the NHM and Wikipedia on each other this post is a little bit more for fun at this stage (although the data was collected for an upcoming project).<br />
+<br />
+An obvious thing to do with these downloaded pages is scan for them links - then build a graph of the interconnections between them. The script I set about this task is taking a while - so I decided to see what I could summarise about a topic (Wikipedia page) based on the articles that page links to. In all of these examples the numbers are the number of links from the 'subject' page to the other page.<br />
+<br />
+First up is the iconic Dippy (<a href="http://en.wikipedia.org/wiki/Diplodocus"><i>Diplodocus</i></a>):<br />
+<br />
+<pre>4 | Othniel_Charles_Marsh
+3 | Carnegie_Museum_of_Natural_History
+3 | Sauropod
+3 | Walking_with_Dinosaurs
+2 | Jurassic
+2 | Diplodocidae
+2 | Type_species
+2 | John_Bell_Hatcher
+2 | William_Jacob_Holland
+2 | Diplodocid
+2 | Fossil</pre>
+<br />
+These as a set seem to be a reasonable, high-level, summary of the <i>Diplodocus</i>.&nbsp; There is a mixture of information that is technical (type species, Diplodocid), cultural (Walking with Dinosaurs) and about the discovery, description and display of the fossil (Marsh, Hatcher, etc).<br />
+<br />
+Let's go for another species, the <a href="http://en.wikipedia.org/wiki/Holly_Blue">Holly Blue</a><br />
+<pre>&nbsp;</pre>
+<pre>3 | Lycaenidae
+2 | Eurasia
+2 | North_America
+2 | India
+2 | http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&amp;search_value=188523
+2 | Holly_Blue
+2 | Main_Page
+2 | Wikipedia:About
+1 | Biological_classification
+1 | Animal
+1 | Arthropod</pre>
+<pre>&nbsp;</pre>
+This time the information is more about the biogeography  and higher taxonomy, but nevertheless can be seen as a reasonable, if subjectively limited, summary of the species.<br />
+<br />
+<br />
+Time for something different: first up a member of NHM staff, <a href="http://en.wikipedia.org/wiki/Chris_Stringer">Chris Stringer</a><br />
+<br />
+<pre>2 | Archaeology
+2 | Biological_anthropology
+2 | Social_anthropology
+2 | Cultural_anthropology
+2 | Feminist_anthropology
+2 | Fellow_of_the_Royal_Society
+2 | http://www.ahobproject.org/
+2 | http://books.google.com.au/books?id=wTnWJGnBwgUC&amp;printsec=frontcover&amp;dq=Giacobini+Hominidae&amp;hl=en&amp;ei=jRvcS6rVJZLg7AO9_sC_Bg&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=1&amp;ved=0CDMQ6AEwAA#v=onepage&amp;q&amp;f=false
+2 | http://books.google.com.au/books?id=Ke7_cl6tQ1EC&amp;printsec=frontcover&amp;dq=%22Chris+Stringer%22&amp;hl=en&amp;ei=JhDcS4WCF43u7APBsoiuBg&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=5&amp;ved=0CEUQ6AEwBA#v=onepage&amp;q&amp;f=false
+2 | http://www.nhm.ac.uk/business-centre/publishing/det_humevol.html
+2 | http://www.nhm.ac.uk/about-us/news/2008/march/stringer-wins-kistler-book-award.html</pre>
+<br />
+In short, a Fellow of the Royal Society who is an anthropologist and has written a number of books. In a purely professional sense: pretty much spot on.<br />
+<br />
+So what does this kind of summary allow us to do? In a limited sense it allows us to make brief summaries of people, species and institutions that have a Wikipedia presence. But the real use comes when a large number of these analyses can be aggregated, queried and visualised. More of this another time, however here is a quick visualisation made from hacking the demos that come with <a href="http://arborjs.org/">arbor.js</a>.<br />
+<br />
+<br />
+<iframe height="400px" src="http://ebaker.me.uk/other/arbor/demos/dippy/index.html" width="100%"></iframe><br />
+<br />
+<a href="http://ebaker.me.uk/other/arbor/demos/dippy/index.html"><span style="font-size: x-small;">Full Screen Version</span></a><br />
+<br />
+<br />
+<span style="font-size: x-small;">&nbsp;</span>
+<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB" rel="license"><img alt="Creative Commons Licence" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" style="border-width: 0;" /></a><br />
+<span property="dct:title" xmlns:dct="http://purl.org/dc/terms/">Measuring the Impact of Wikipedia for organisations (Part 3)</span> by <a href="http://ebaker.me.uk/" property="cc:attributionName" rel="cc:attributionURL" xmlns:cc="http://creativecommons.org/ns#">Edward Baker</a> is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB" rel="license">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br />
+Based on a work at <a href="http://pblog.ebaker.me.uk/2013/03/measuring-impact-of-wikipedia-for_19.html" rel="dct:source" xmlns:dct="http://purl.org/dc/terms/">http://pblog.ebaker.me.uk/2013/03/measuring-impact-of-wikipedia-for_19.html</a>.

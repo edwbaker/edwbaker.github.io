@@ -1,0 +1,21 @@
+---
+layout: post
+title: "How to read any type of audio in R"
+date: 2025-05-26 13:40:00
+source: pblog
+tags: ["sonicscrewdriver", "R", "audio", "bioacoustics", "ecoacoustics"]
+redirect_from:
+  - "/2025/05/how-to-read-any-type-of-audio-in-r.html"
+---
+
+<p>Reading any type of audio file is a task made easy using the <a href="https://sonicscrewdriver.ebaker.me.uk/" target="_blank">sonicscrewdriver </a>package, the <a href="https://sonicscrewdriver.ebaker.me.uk/reference/readAudio.html">readAudio()</a> function can identify the file type automatically, make use of appropriate third-party packages to read the audio, and return a tuneR Wave object.&nbsp;</p><table class="highlight tab-size js-file-line-container" data-hpc="" data-paste-markdown-skip="" data-tab-size="8" data-tagsearch-path="reading_any_audio_file_in_R.R"><tbody><tr><td class="blob-code blob-code-inner js-file-line" id="file-reading_any_audio_file_in_r-r-LC4"><span style="font-family: courier;">library(<span class="pl-smi">sonicscrewdriver</span>)</span></td>
+        </tr>
+        <tr>
+          </tr></tbody></table><table class="highlight tab-size js-file-line-container" data-hpc="" data-paste-markdown-skip="" data-tab-size="8" data-tagsearch-path="reading_any_audio_file_in_R.R"><tbody><tr><td class="blob-code blob-code-inner js-file-line" id="file-reading_any_audio_file_in_r-r-LC5">
+<span style="font-family: courier;"><br /></span></td>
+        </tr>
+        <tr>
+          </tr></tbody></table><table class="highlight tab-size js-file-line-container" data-hpc="" data-paste-markdown-skip="" data-tab-size="8" data-tagsearch-path="reading_any_audio_file_in_R.R"><tbody><tr><td class="blob-code blob-code-inner js-file-line" id="file-reading_any_audio_file_in_r-r-LC6"><span class="pl-smi" style="font-family: courier;">filename</span><span style="font-family: courier;"> <span class="pl-k">&lt;-</span> <span class="pl-s"><span class="pl-pds">"</span>/path/to/audio/audio.flac<span class="pl-pds">"</span></span></span></td>
+        </tr>
+        <tr>
+          </tr></tbody></table><span class="pl-smi" style="font-family: courier;">audio</span><span style="font-family: courier;"> <span class="pl-k">&lt;-</span> readAudio(<span class="pl-smi">filename</span>)</span><p><br /></p>

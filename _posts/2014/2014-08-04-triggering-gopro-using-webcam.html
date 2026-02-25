@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Triggering GoPro using a webcam"
+date: 2014-08-04 17:16:00
+source: pblog
+tags: ["GoPro", "camera trapping", "raspberry pi", "GoProPHP"]
+redirect_from:
+  - "/2014/08/triggering-gopro-using-webcam.html"
+---
+
+This project makes use of a <a href="http://www.amazon.co.uk/gp/product/B002UAV8LS/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B002UAV8LS&amp;linkCode=as2&amp;tag=edbaker-21">cheap webcam</a><img alt="" border="0" src="http://ir-uk.amazon-adsystem.com/e/ir?t=edbaker-21&amp;l=as2&amp;o=2&amp;a=B002UAV8LS" height="1" style="border: none !important; margin: 0px !important;" width="1" />
+ and a <a href="http://www.raspberrypi.org/">Raspberry Pi</a> (<a href="http://www.amazon.co.uk/gp/product/B00ALW7WWQ/ref=as_li_tf_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B00ALW7WWQ&amp;linkCode=as2&amp;tag=edbaker-21">purchase</a><img alt="" border="0" src="http://ir-uk.amazon-adsystem.com/e/ir?t=edbaker-21&amp;l=as2&amp;o=2&amp;a=B00ALW7WWQ" height="1" style="border: none !important; margin: 0px !important;" width="1" />) to provide a motion detection unit capable of triggering a <a href="http://gopro.com/cameras/hd-hero3-black-edition">GoPro Hero 3+ Black Edition</a> (<a href="http://www.amazon.co.uk/gp/product/B00F3F0GLU/ref=as_li_tf_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B00F3F0GLU&amp;linkCode=as2&amp;tag=edbaker-21">purchase</a><img alt="" border="0" src="http://ir-uk.amazon-adsystem.com/e/ir?t=edbaker-21&amp;l=as2&amp;o=2&amp;a=B00F3F0GLU" height="1" style="border: none !important; margin: 0px !important;" width="1" />) camera connected to the Raspberry Pi using WiFi (using a <a href="http://www.amazon.co.uk/gp/product/B003MTTJOY/ref=as_li_tf_tl?ie=UTF8&amp;camp=1634&amp;creative=6738&amp;creativeASIN=B003MTTJOY&amp;linkCode=as2&amp;tag=edbaker-21">small WiFi adaptor</a><img alt="" border="0" src="http://ir-uk.amazon-adsystem.com/e/ir?t=edbaker-21&amp;l=as2&amp;o=2&amp;a=B003MTTJOY" height="1" style="border: none !important; margin: 0px !important;" width="1" />).<br />
+<br />
+Using this setup it is possible to achieve a number of things that cannot be achieved by using a motion detection system based solely on the webcam.<br />
+<ol>
+<li>The GoPro camera has much better resolution and clarity than the cheap webcam used here.</li>
+<li>Burst mode on the GoPro has rates of up to 30 frames per second, great for photographing wildlife.</li>
+<li>The motion detection area can be different to the area where the photograph is taken. The arrangement below used during testing shows a system that is triggered by the cat (Phoenix) coming up the stairs, but the GoPro is situated in a slightly different location. Imagine the webcam being used to detect motion in the area around a bird feeder, with the GoPro focussed entirely on the bird feeder.</li>
+</ol>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="/imgs/blogger/8dca9c69_IMG_3646.JPG" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="/imgs/blogger/8dca9c69_IMG_3646.JPG" height="412" width="640" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">Test setup, the Raspberry Pi and cheap webcam (left) detect the cat as it reaches the top of the stairs. The Raspberry Pi then triggers the GoPro (set in burst mode) to take a quick succession of photographs as the cat walks past.</td></tr>
+</tbody></table>
+<br />
+For this project I used the Raspbian Linux distribution on the Raspberry Pi but similar instructions will apply on other distributions. For setting up the project connect the Pi to a wired network as both USB ports are used (one for webcam, the other for the WiFi adaptor).<br />
+<br />
+<b>Instructions</b><br />
+These assume you are running a *nix system.<br />
+<ol>
+<li>Turn on the GoPro and enable its WiFi functionality (GOPRO APP).</li>
+<li>Connect the WiFi adaptor to the Raspberry Pi. Connect to the Raspberry Pi from your computer (<span style="font-family: &quot;Courier New&quot;, Courier, monospace;">ssh -X pi@xx.xx.xx.xx</span>) and configure the Pi to connect to the GoPro's WiFi network (easiest way is to run <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">wpa_gui</span>).</li>
+<li>Install the motion application and php: <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">sudo apt-get install motion php5-cli</span></li>
+<li>Make it so motion can run without errors: <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">chmod +r /etc/motion/motion.conf</span></li>
+<li>In the /etc/motion/motion.conf file change the following lines:<br /><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">target_dir&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /home/pi/motion<br /> on_start_event&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; php /home/pi/goprophp.php SHOOT</span></li>
+<li>Download and extract the <a href="https://github.com/edwbaker/GoProPHP">GoProPHP</a> tool into your home directory (or clone the project using git).</li>
+<li>You can test that everything is setup correctly by putting the GoPro into burst mode:<br /><span style="font-family: &quot;Courier New&quot;,Courier,monospace;">php /home/pi/GoProPHP/goprophp.php BURST</span></li>
+<li>To launch motion when the Pi is powered on add motion after the comments in /etc/rc.local</li>
+<li>Plug in the webcam and restart the Raspberry Pi. If all goes well you have your motion-detecting camera working.</li>
+</ol>
+The /etc/motion/motion.conf has numerous options you can use to customise the behaviour of the system. Video can be recorded using the START and STOP commands of GoProPHP and the on_event_start and on_event_stop lines in motion.conf.<br />
+<br />
+Here is the first photo of Phoenix taken using the setup illustrated above, obviously potential for better lighting but it illustrates how the two-camera solution may be useful.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="/imgs/blogger/8b4c6f15_G0171083.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="/imgs/blogger/8b4c6f15_G0171083.JPG" height="480" width="640" /></a></div>
+<br />

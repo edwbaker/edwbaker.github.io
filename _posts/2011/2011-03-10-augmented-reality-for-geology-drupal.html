@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Augmented Reality for Geology (a Drupal approach)"
+date: 2011-03-10 21:21:00
+source: pblog
+tags: ["drupal-planet", "drupal", "flickr", "augmented reality", "Layar", "Lyme Regis", "geology"]
+redirect_from:
+  - "/2011/03/augmented-reality-for-geology-drupal.html"
+---
+
+Yesterday in a discussion with <a href="http://www.nhm.ac.uk/research-curation/staff-directory/palaeontology/j-young/index.html">Jeremy Young</a> we thought about the concept of having an augmented reality app that would point out a few major points of interest in Lyme Regis (we'll be down for the <a href="http://www.fossilfestival.com/">Fossil Festival</a> again this year). The discussion came from playing with the <a href="http://www.layar.com/">Layar</a> app, for which it is possible to provide custom data layers.<br />
+<br />
+As there will be a few of us around at the festival this year (many of us living in an iPhone augmented world) I thought the idea was worth investigating a little bit more. The first challenge was to provide some kind of editing environment where we could collaboratively provide the relevant co-ordinates, altitude, text and image. Thanks to the <a href="http://drupal.org/project/layar">Layar module</a> for <a href="http://drupal.org/">Drupal</a> this was achieved pretty easily - adding items to the augmented reality layer becomes just as simple as filling out a form.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;"><a href="/imgs/blogger/94e9f049_Screenshot.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="/imgs/blogger/a5e7fe46_Screenshot.png" width="75%" /></a></div><div class="separator" style="clear: both; text-align: center;"><br />
+</div><div class="separator" style="clear: both; text-align: left;">I created a handful of Points of Interest (including The Whole Hog - perhaps the world's best sandwich shop) and then submitted the necessary details to the Layar team (the layer is currently still awaiting approval).</div><div class="separator" style="clear: both; text-align: left;"><br />
+</div><div class="separator" style="clear: both; text-align: left;">The next issue was how we could add points (including photographs) while roaming around the town and seashore. The obvious answer was the ubiquitous iPhone (other smartphones are available), but mobile Safari doesn't allow uploads to websites.</div><div class="separator" style="clear: both; text-align: left;"><br />
+</div><div class="separator" style="clear: both; text-align: left;">The solution was Flickr (I use it to manage almost all <a href="http://www.flickr.com/photos/edwbaker/">my photographs</a>). The Flickr app is easy to use and can upload photographs complete with titles, descriptions, location data and tags. Importing data from Flickr was achieved using a version of the <a href="http://drupal.org/project/flickrsync">FlickrSync</a> module I had previously hacked to import geolocation data. The system can be set to only import photographs with specific tags - an easy way to only get the data I want. Individual users of the site will be able to associate their Flickr account and specify what tags they want to use to label items for inclusion in the layer.</div><div class="separator" style="clear: both; text-align: left;"><br />
+</div><div class="separator" style="clear: both; text-align: left;">I have also made an overview map that shows the <a href="http://layar.ebaker.me.uk/lyme/map">points of geological interest around Lyme Regis</a> that have been collected so far.</div><div class="separator" style="clear: both; text-align: left;"><br />
+</div><div class="separator" style="clear: both; text-align: left;">All in an evening (and a half)'s work.....</div>

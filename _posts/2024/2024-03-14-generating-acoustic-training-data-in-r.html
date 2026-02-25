@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Generating acoustic training data in R with sonicscrewdriver"
+date: 2024-03-14 13:24:00
+source: pblog
+tags: ["R", "sonicscrewdriver"]
+redirect_from:
+  - "/2024/03/generating-acoustic-training-data-in-r.html"
+---
+
+<p>Augmenting data is a common practice in machine learning. It is the process of creating new data from existing data (e.g. by adding noise). This is done to increase the size of the training data and to make the model more robust.</p>
+
+<p>Recent work has created tools for performing data augmentation using the <a href="https://sonicscrewdriver.ebaker.me.uk">sonicscrewdriver</a> package for R. A guide to using these tools can be found here: <a href="https://medium.com/bioacoustica/generating-acoustic-training-data-in-r-with-sonicscrewdriver-774a440f5c6e">Generating acoustic training data in R with sonicscrewdriver</a>, and on the package's website: <a href="https://sonicscrewdriver.ebaker.me.uk/articles/augment-audio-data.html">Augmenting audio data in R with SonicScrewdriveR</a>. The later will be updated to reflect any future changes to the package.</p><p>The updated package is already on CRAN: <a href="https://cran.r-project.org/package=sonicscrewdriver">sonicscrewdriver R package</a>.</p>
+
+<p>All of the generateX() functions (<a href="https://sonicscrewdriver.ebaker.me.uk/reference/generateNoise.html">generateNoise()</a>, <a href="https://sonicscrewdriver.ebaker.me.uk/reference/generateTimeMask.html">generateTimeMask()</a>, <a href="https://sonicscrewdriver.ebaker.me.uk/reference/generateTimeShift.html">generateTimeShift()</a>, more to come) in sonicscrewdriver are designed to operate on Wave-like objects (Wave or WaveMC from tuneR of their Tagged equivalents) or a list of Wave-like objects. Similarly, all of these functions return a list of Wave-like objects. This means you can combine these functions to create complex data augmentation pipelines.</p>

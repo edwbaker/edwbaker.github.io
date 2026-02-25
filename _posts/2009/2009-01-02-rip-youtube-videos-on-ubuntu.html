@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Rip YouTube videos on Ubuntu"
+date: 2009-01-02 15:37:00
+source: pblog
+tags: ["youtube", "ubuntu", "linux", "rip", "ffmpeg", "video", "youtube-dl"]
+redirect_from:
+  - "/2009/01/rip-youtube-videos-on-ubuntu.html"
+---
+
+Ripping videos from YouTube using Ubuntu is a pretty easy process. First of all download youtube-dl from the Universe repository.<br /><blockquote>sudo apt-get install youtube-dl</blockquote>Next get the URL of the video you wish to download.<br /><blockquote>youtube-dl http://</blockquote>This will download the video you require in Flash Video (*.flv) format. If you want to convert this to MPEG then you will first need to install ffmpeg.<br /><blockquote>sudo apt-get install ffmpeg</blockquote>Then get ffmpeg to do the conversion.<br /><blockquote>ffmpeg -i input.flv output.mpg</blockquote>Incidentally I quite like using Tilda to manage consoles - I'd reccomend you take a look too.<br /><blockquote>sudo apt-get install tilda.</blockquote>

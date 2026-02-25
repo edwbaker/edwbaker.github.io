@@ -1,0 +1,64 @@
+---
+layout: post
+title: "Intervalometer for Canon 450D"
+date: 2013-09-01 15:46:00
+source: pblog
+tags: ["450d-remote-diy", "hacking", "intervalometer", "diy", "canon 450d", "Arduino", "photography", "hardware"]
+redirect_from:
+  - "/2013/09/intervalometer-for-canon-450d.html"
+---
+
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://farm3.staticflickr.com/2819/9647141000_d86c123b8b_b.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://farm3.staticflickr.com/2819/9647141000_d86c123b8b_b.jpg" height="480" width="640" /></a></div>
+<br />
+This is a project to create an intervalometer for a Canon 450D (aka Digital Rebel XSi) camera using Arduino. An intervalometer triggers a camera to take a photograph every time a certain time interval has elapsed, and is therefor a useful tool for creating time-lapse videos using a DSLR.<br />
+<br />
+The Canon 450D uses a 2.5mm stereo connection for off-camera control of automatic focus and the shutter (as well as infra-red, although this project only uses the 2.5mm connection). The thee rings of the 2.5mm jack are as follows:<br />
+<br />
+<table align="center">
+<tbody>
+<tr>
+<td>sleeve (base) &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+</td>
+<td>ground
+</td>
+</tr>
+<tr>
+<td>ring
+</td>
+<td>focus
+</td>
+</tr>
+<tr>
+<td>tip
+</td>
+<td>shutter
+</td>
+</tr>
+</tbody></table>
+<br />
+The focus and shutter connections have a positive voltage in relation to ground in the normal state. They can be triggered by connecting them to ground. The focus is equivalent to half-pressing the shutter button on the camera, the shutter is equivalent to fully depressing the shutter button.<br />
+<br />
+While it would be possible to directly connect these connections to Arduino pins I prefer to keep the Camera and Arduino electrically isolated - this allows for experimental Arduino code to be run without any risk of damaging the camera's on board circuitry. This is achieved by using a relay to make the connections between ground and both focus and shutter.<br />
+<br />
+I have used Arduino pins 11 and 12 for the shutter and focus respectively. The first code I used to test the device was from Scott Kirkwood (<a href="http://code.google.com/p/scott-arduino/source/browse/CanonSlrIntervalometer/CanonSlrIntervalometer.pde">CanonSlrIntervalometer</a>) which works fine, but causes some unusual results on starting the device as pin 13 is also used for the status indicator LED by the Arduino. I have made the code I am using available on GitHub (<a href="https://github.com/edwbaker/Canon_Intervalometer">Canon Intervalometer</a>) and will update it as this project develops.<br />
+<br />
+This first attempt is quite limited, and requires the Arduino to be reprogrammed when the interval time needs changing - but the code works and triggers the camera as expected. I have packaged the device in an enclosure, with just the USB connector of the Arduino (for power and/or reprogramming) and a&nbsp; stereo 2.5mm panel mounted connector exposed.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://farm6.staticflickr.com/5489/9643906519_0948510940_b.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://farm6.staticflickr.com/5489/9643906519_0948510940_b.jpg" height="480" width="640" /></a></div>
+<br />
+<br />
+<b>Parts List</b><br />
+Arduino Uno (Rev 3)<br />
+2x Relay<br />
+2.5mm stereo connector (panel mount)<br />
+Connecting wires<br />
+Enclosure<br />
+<br />
+<b>Total Cost</b><br />
+Around £20 if you shop around and already have connecting wires and tool.<br />
+<br />
+<b>Update:</b> A modified version of this project, the <a href="http://ebaker.me.uk/node/137">Arduino Intervalometer and Camera Trap</a> appears in my book <a href="http://ebaker.me.uk/project-role/arduino-biologists">Arduino for Biologists</a>.<br />
+<br />
+<br />

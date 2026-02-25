@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Create Drupal 7 biblio nodes programatically"
+date: 2012-05-30 17:47:00
+source: pblog
+tags: ["node", "drupal 7", "drupal-planet", "drupal", "biblio", "php"]
+redirect_from:
+  - "/2012/05/create-drupal-7-biblio-nodes.html"
+---
+
+The biblio module for Drupal is almost certainly essential for anyone trying to use Drupal as a platform for doing science. It is a large module with lots of functionality but parts of it are pretty badly documented (that is: you can read through the code but just Googling might not throw up what you need).<br />
+<br />
+&nbsp;The first issue - how to create a biblio node programatically (that is: in code).<br />
+<br />
+<script src="https://gist.github.com/2836346.js?file=gistfile1.aw"></script><br />
+Some things to note:<br />
+<br />
+<blockquote class="tr_bq">1) You must set the type of the biblio you wish to make (Journal Article, Book chapter, etc) before the call to node_object_prepare().<br />
+<br />
+2) To set the authors you must set $node-&gt;contributors as an array (like that above) and also call biblio_insert_contributors($node).</blockquote><br />
+The above example sets only a fairly minimal&nbsp; number of the biblio fields, but any of the biblio fields may be set using this method.<br />
+<br />
+The field 'start page' in biblio entries is for some reason stored in the field biblio_section (that's not an error in the code above)l.

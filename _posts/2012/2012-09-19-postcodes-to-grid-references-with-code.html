@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Postcodes to grid references with Code-Point Open"
+date: 2012-09-19 20:13:00
+source: pblog
+tags: ["mysql", "open data", "code-point open", "ordnance survey"]
+redirect_from:
+  - "/2012/09/postcodes-to-grid-references-with-code.html"
+---
+
+I've recently been playing around with using the <a href="http://data.nbn.org.uk/Documentation/Web_Services/Web_Services-SOAP/">NBN Gateway webservice</a> to implement something along the lines of <a href="http://zipcodezoo.com/">ZipCodeZoo </a>or the <a href="http://www.nhm.ac.uk/nature-online/life/plants-fungi/postcode-plants/">Postcode plants database</a>. This project will involve using NBN Gateway data to provide a list of species for a given taxonomic group within a few kilometres of your location (more later).<br />
+<br />
+Smartphones and modern browsers are able to report their current location for use in such services, bit what if you want to check what species are found near your home while you're at work? Being able to use post codes would be an additional&nbsp; nice to have feature.<br />
+<br />
+As part of the UK Government's <a href="http://data.gov.uk/">Open Data</a> initiatives the <a href="http://www.ordnancesurvey.co.uk/">Ordnance Survey</a> have released <a href="http://data.gov.uk/dataset/os-code-point-open">Code-Point Open</a> - which is essentially a series of CSV files with data that allows you to move from a postcode to an OS Grid Reference.<br />
+<br />
+<blockquote class="tr_bq">
+<span style="font-family: Georgia,&quot;Times New Roman&quot;,serif;"><i>An Aside.... </i></span></blockquote>
+<blockquote class="tr_bq">
+The OS Grid Reference can be converted to OSGB36 latitude and longitude coordinates, which can then be converted to WGS84 coordinates (e.g. to map postcodes on Google Maps). This involves some pretty in depth mathematics, but thankfully people have made a number of libraries available for doing this, such as this <a href="http://www.movable-type.co.uk/scripts/latlong-gridref.html">JavaScript library</a> and this <a href="http://www.jstott.me.uk/phpcoord/">PHP library</a>.</blockquote>
+The download of this data package contains in the Data folder 120 CSV files, named after the first text portion of the postcode (some information of the <a href="http://en.wikipedia.org/wiki/UK_postcodes">structure of UK postcodes</a>).<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="/imgs/blogger/04bfbcb3_cpo_files.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="/imgs/blogger/86413580_cpo_files.png" width="272" /></a></div>
+<br />
+<br />
+This isn't really ideal (I want to get these into a MySQL database) so first of all I had to merge all of these files into a single CSV file. On a Mac or Linux machine this is as simple as navigating to the Data folder in the Terminal and executing the following command:<br />
+<blockquote class="tr_bq">
+<span style="font-family: &quot;Courier New&quot;, Courier, monospace;">cat *.csv &gt; aall.csv</span></blockquote>
+The resulting all.csv file is pretty large (156MB-ish). Calling it <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">aall.csv</span> instead of <span style="font-family: &quot;Courier New&quot;,Courier,monospace;">all.csv</span> just puts it at the top of the list which appeals to my aesthetic sense.<br />
+<br />
+The next step is to create a new table in MySQL:<br />
+<br />
+<script src="https://gist.github.com/3749773.js?file=gistfile1.sql"></script><br/> Then we import our<span style="font-family: &quot;Courier New&quot;,Courier,monospace;"> aall.csv</span> into MySQ:<br />
+<br />
+<script src="https://gist.github.com/3749817.js?file=gistfile1.sql"></script><br/>
+
+This imports all of the data correctly into MySQL - however some of the fields are enclosed by quotation marks ("). All that remains for us to do is to trim these from the appropriate columns:<br />
+<br />
+<script src="https://gist.github.com/3749874.js?file=gistfile1.sql"></script><br/>
+
+Now that the data is all in MySQL we can get the OS Grid Reference (i.e. the northings and eastings columns for a postcode) using the following query:<br />
+<br />
+<script src="https://gist.github.com/3749895.js?file=gistfile1.sql"></script><br/>
