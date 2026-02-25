@@ -12,6 +12,7 @@ import html
 FEED_PATH = r"C:\Users\edwab\Downloads\takeout-20260225T115701Z-3-001\Takeout\Blogger\Blogs\Invertebrate Diaries\feed.atom"
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "_posts")
 BLOGGER_DOMAIN = "invertdiary.ebaker.me.uk"
+SOURCE_NAME = "invertdiary"  # Identifies which blog these posts came from
 
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',
@@ -123,7 +124,7 @@ def create_post(post_data, output_dir):
     front_matter += 'layout: post\n'
     front_matter += f'title: "{safe_title}"\n'
     front_matter += f'date: {date_str} {time}\n'
-    front_matter += f'source: blogger\n'
+    front_matter += f'source: {SOURCE_NAME}\n'
 
     if post_data['tags']:
         tag_list = ', '.join(f'"{t}"' for t in post_data['tags'])
