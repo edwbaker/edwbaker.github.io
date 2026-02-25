@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Installing BioAcousticaR R package"
 date: 2015-10-13 12:29:00
@@ -12,7 +12,7 @@ The <a href="https://github.com/BioAcoustica/bioacousticaR">BioAcousticaR</a> R 
 <br />
 The BioAcousticaR package, and one if its dependencies (<a href="https://github.com/edwbaker/DrupalR">DrupalR</a>) are currently in active development on GitHub and the process for installing these packages may be different to what you are used to. <br />
 <ol>
-<li>Install the <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">devtools</span> package:<br /><br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">install.packages("devtools");<span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><br />library(devtools);</span></span></span><br /><br />If devtools installation fails on Ubuntu see: <a href="http://pblog.ebaker.me.uk/2015/10/install-r-devtools-on-ubuntu.html">Install R devtools on Ubuntu</a></li>
+<li>Install the <span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">devtools</span> package:<br /><br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">install.packages("devtools");<span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><br />library(devtools);</span></span></span><br /><br />If devtools installation fails on Ubuntu see: <a href="https://pblog.ebaker.me.uk/2015/10/install-r-devtools-on-ubuntu.html">Install R devtools on Ubuntu</a></li>
 <li>Install the DrupalR package (requires you to have the httr package installed).<br /><br />The Virtual Research Environment that BioAcoustica is built on, the Scratchpads project, is in turn built on the Drupal content management system. The DrupalR package provides the basic functionality of authenticating to and getting data from Drupal based websites (more functionality can be expected in the future). BioAcousticaR makes use of DrupalR to perform basic behind-the-scenes tasks.<br /><br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">install_github("edwbaker/DrupalR");</span></li>
 <li>Install the BioAcousticaR package:<br /><span style="font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"><br />install_github("BioAcoustica/BioAcousticaR");</span><br />  </li>
 </ol>

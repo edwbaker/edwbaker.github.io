@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Playing with Flickr and CartoDB"
 date: 2012-11-18 17:09:00
@@ -10,9 +10,9 @@ redirect_from:
 
 Last Friday we had a <a href="http://vbrant.eu/">ViBRANT</a> sponsored workshop about <a href="http://cartodb.com/">CartoDB</a>, the open source mapping and visualisation product from Madrid/New York based <a href="http://vizzuality.com/">Vizzuality</a>. The context of the workshop was possible integration of CartoDB with the <a href="http://scratchpads.eu/">Scratchpads</a> and <a href="https://oboe.oerc.ox.ac.uk/">OBOE</a> projects in the context of visualising biological datasets. The notes for the workshop demonstrations are <a href="https://github.com/Vizzuality/CartoDB-Tutorials/tree/master/vibrant">here</a> and are what the work done here is based on.<br />
 <br />
-Not having a suitable dataset to hand I have been playing with making maps of the <a href="http://www.flickr.com/photos/edwbaker">photos I have shared on Flickr</a>. Flickr does provide a map view of a user's photographs (<a href="http://www.flickr.com/photos/edwbaker/map/">here's mine</a>) although it is very limited in functionality - and unless you only have a handful of photographs you can't get a map view of all of your photographs.<br />
+Not having a suitable dataset to hand I have been playing with making maps of the <a href="https://www.flickr.com/photos/edwbaker">photos I have shared on Flickr</a>. Flickr does provide a map view of a user's photographs (<a href="https://www.flickr.com/photos/edwbaker/map/">here's mine</a>) although it is very limited in functionality - and unless you only have a handful of photographs you can't get a map view of all of your photographs.<br />
 <br />
-I have previously visualised my Flickr stream by hacking the Drupal <a href="http://drupal.org/project/flickrsync">flickrsync</a> module to save geolocation data with the <a href="http://drupal.org/project/location">Location</a> module. Even with clustering the map points for 7,000+ images the results are slow to load: <a href="http://iwild.ebaker.me.uk/flickr_map">Drupal Flickr map of my photographs</a>. The plus side of this work was that with just modifying the output of the view I could get a <a href="http://iwild.ebaker.me.uk/flickr.csv">CSV file of my Flickr stream</a> which I easily imported into CartoDB.<br />
+I have previously visualised my Flickr stream by hacking the Drupal <a href="https://drupal.org/project/flickrsync">flickrsync</a> module to save geolocation data with the <a href="https://drupal.org/project/location">Location</a> module. Even with clustering the map points for 7,000+ images the results are slow to load: <a href="http://iwild.ebaker.me.uk/flickr_map">Drupal Flickr map of my photographs</a>. The plus side of this work was that with just modifying the output of the view I could get a <a href="http://iwild.ebaker.me.uk/flickr.csv">CSV file of my Flickr stream</a> which I easily imported into CartoDB.<br />
 <br />
 The basic map produced by CartoDB from this file is below:<br />
 <iframe height="500px" width="100%" src='https://edwbaker.cartodb.com/tables/flickr/embed_map'></iframe>
