@@ -39,9 +39,9 @@ jobs:
         run: bundle install
       - name: Generate video thumbnails
         run: |
-          for video in videos/*.mp4; do
+          for video in videos/*.mp4 videos/*.mov videos/*.webm; do
             [ -f "$video" ] || continue
-            thumb="${video%.mp4}.jpg"
+            thumb="${video%.*}.jpg"
             if [ ! -f "$thumb" ]; then
               ffmpeg -i "$video" -ss 00:00:01 -vframes 1 -q:v 2 "$thumb" -y 2>/dev/null || true
             fi
