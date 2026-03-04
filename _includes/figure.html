@@ -1,5 +1,5 @@
 <figure class="image">
-    <a href="{{ include.img }}" class="image-link" title="{{ include.description }}" target="_blank">
+    <a href="{{ include.img }}" class="image-link" title="{{ include.description }}" aria-label="{{ include.description }}" target="_blank">
         <img src="{{ include.img }}" alt="{{ include.description }}" loading="lazy">
     </a>
     {% if include.caption and include.caption != "" and include.caption != nil %}
