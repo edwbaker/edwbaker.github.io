@@ -7,8 +7,10 @@
     width: 1100px;
 }
 
-section {
+section, main {
     width: 700px;
+    float: right;
+    padding-bottom: 50px;
 }
 
 a {
