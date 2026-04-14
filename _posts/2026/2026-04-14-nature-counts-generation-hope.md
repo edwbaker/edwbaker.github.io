@@ -14,4 +14,4 @@ On this walk you'll learn how urban nature is studied in real time in our Nature
 
 You'll also get the chance to use your smartphone to record what you see on the [City Nature Challenge](https://www.nhm.ac.uk/take-part/monitor-and-encourage-nature/city-nature-challenge.html), a global community science initiative documenting urban biodiversity. Every bird, insect and plant you log becomes part of real evidence helping to monitor and protect wildlife worldwide.
 
-The event is free but booking is required. [Book your tickets here](https://ticketing.nhm.ac.uk/events/VISEV-NCF/20260425).
+The event is free but booking is required. [Book your tickets here](https://www.nhm.ac.uk/events/nature-counts-from-observation-to-action.html).
