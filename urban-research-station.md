@@ -79,6 +79,10 @@ More-than-human appraoches to biodiversity research are looking at how we can ma
 
 - [South Ken Green Trail](/2021/07/20/south-ken-green-trail) - a walking trail through South Kensington, London, that highlights green spaces and biodiversity.
 
+### City of Westminster
+
+[Cool Neighbourhoods Strategy](/pubs/Cool%20Neighbourhoods%20Strategy.pdf)
+
 ## Urban Nature at other institutions
 
 - [Urban Nature at the Museum of Edinburgh](/notes/museum-of-edinburgh-urban-nature) - Courtyard Gallery and an exhibition showcasing the relationship between children’s literature and nature.
