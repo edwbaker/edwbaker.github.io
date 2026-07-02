@@ -24,6 +24,8 @@ Calling song of [_Horatosphaga raggei_](https://🦗.fm/hr.htm) (Heller & Baker,
 
 - [FlyTunes](/flytunes): Crowd-sourcing training sets of audio clips for machine learning.
 
+[Student Projects](/student-projects)
+
 [WildlifeSystems](https://wildlife.systems): devices for monitoring biodiversity as part of large, dense sensor networks
 
 [BioAcoustica](https://bio.acousti.ca): repository for bioacoustic data
