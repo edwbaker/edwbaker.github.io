@@ -16,4 +16,14 @@ layout: default
 {% endfor %}
 </ul>
 
+{% if page.notes.size > 0 %}
+<h2>Notes</h2>
+
+<ul>
+{% for note in page.notes %}
+  <li><a href="{{ note.url }}">{{ note.title }}</a> <small>({{ note.date | date: "%Y-%m-%d" }})</small></li>
+{% endfor %}
+</ul>
+{% endif %}
+
 <p><a href="/keywords">All keywords</a></p>
