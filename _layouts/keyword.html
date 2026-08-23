@@ -20,7 +20,8 @@ layout: default
 <h2>Notes</h2>
 
 <ul>
-{% for note in page.notes %}
+{% assign sorted_notes = page.notes | sort: "date" | reverse %}
+{% for note in sorted_notes %}
   <li><a href="{{ note.url }}">{{ note.title }}</a> <small>({{ note.date | date: "%Y-%m-%d" }})</small></li>
 {% endfor %}
 </ul>
