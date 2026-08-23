@@ -1,6 +1,15 @@
 # Publications - based on ORCID and Google Scholar
 # Key publications shown in sidebar (first 4), all shown on /publications page
 
+- title: "The Urban Research Station at the Natural History Museum: A New Era of Biological and Environmental Recording"
+  authors: "Baker, E., Barclay, M.V.L., Harbord, M., Lees, D., Patman, S., Silver, D., Stevens, L., Town, B., Tweddle, J. & Villabraham, J."
+  year: In Press
+  journal: "The London Naturalist"
+  topics:
+    - urban-research-station
+    - urban-nature
+  abstract: "This paper adds to the long-running series of updates covering changes to the flora and fauna of the Natural History Museum's garden at South Kensington. Whilst previous updates have focused on the 1-acre Wildlife Garden, this paper spans the entirety of the Museum's 5-acres of outdoor space. It summarises recent changes to the landscape design, spatial extent and composition of habitats, and discusses how the gardens are now being monitored and studied as an Urban Research Station living laboratory. It includes updates on species recorded over the period 2023-2025."
+
 - title: "A Gateway to Nature: The Urban Research Station at London's Natural History Museum"
   url: https://ebaker.me.uk/pubs/2025-Linnean-Baker.pdf
   pdf_url: https://ebaker.me.uk/pubs/2025-Linnean-Baker.pdf
@@ -11,17 +20,7 @@
     - urban-nature
     - urban-nature-project
     - urban-research-station
-  abstract: "It is forecast that 68% of the world’s population will live in cities by the year 2050
-    (United Nations 2018). Natural history museums can play a pivotal role in publicly
-    addressing the interconnected biodiversity and climate crises (Baker et al. 2025).
-    Here, Ed Baker FLS looks into how the green public spaces of these institutions can
-    serve not only as places for public education and engagement, but also as vital
-    research centres for understanding biodiversity and ecology in urban environments.
-    The recent redevelopment of the gardens at the Natural History Museum's site in South Kensington
-    (Baker et al. 2025) has enabled the London-based Museum to use new technologies alongside
-    existing techniques to begin collecting datasets that can be used for generating effective urban policy.
-    In short, we aim to address the question 'how can we make urban environments better for people
-    and for nature?"
+  abstract: "It is forecast that 68% of the world’s population will live in cities by the year 2050 (United Nations 2018). Natural history museums can play a pivotal role in publicly addressing the interconnected biodiversity and climate crises (Baker et al. 2025). Here, Ed Baker FLS looks into how the green public spaces of these institutions can serve not only as places for public education and engagement, but also as vital research centres for understanding biodiversity and ecology in urban environments. The recent redevelopment of the gardens at the Natural History Museum's site in South Kensington (Baker et al. 2025) has enabled the London-based Museum to use new technologies alongside existing techniques to begin collecting datasets that can be used for generating effective urban policy. In short, we aim to address the question 'how can we make urban environments better for people and for nature?"
 
 - title: "Catalysts for change: Museum gardens in a planetary emergency"
   url: https://doi.org/10.1002/ppp3.70100
