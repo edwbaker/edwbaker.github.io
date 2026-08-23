@@ -12,6 +12,8 @@ description: Complete list of publications by Ed Baker
 {% assign authors_highlighted = pub.authors | replace: "Baker, E.", "<u>Baker, E.</u>" %}
 {% if pub.authors %}**{{ authors_highlighted }}**{% endif %}{% if pub.year %} ({{ pub.year }}){% endif %}{% if pub.pdf_url %} [[PDF]({{ pub.pdf_url }})]{% endif %}
 
+{% if pub.topics %}Keywords: {% for topic in pub.topics %}{% assign keyword_url = topic | prepend: "/keywords/" | append: "/" %}[{{ topic | replace: "-", " " | capitalize }}]({{ keyword_url }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+
 {% if pub.abstract %}{{ pub.abstract }}{% endif %}
 
 <script type="application/ld+json">
