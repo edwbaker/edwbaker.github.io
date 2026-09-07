@@ -25,7 +25,7 @@ module Jekyll
       self.data['publications'] = site.data['publications'].select do |publication|
         (publication['topics'] || []).include?(keyword)
       end
-      self.data['notes'] = site.posts.select do |post|
+      self.data['notes'] = site.posts.docs.select do |post|
         (post.data['tags'] || []).include?(keyword)
       end
     end
