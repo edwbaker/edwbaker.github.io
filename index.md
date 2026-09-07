@@ -16,13 +16,13 @@ Calling song of [_Horatosphaga raggei_](https://🦗.fm/hr.htm) (Heller & Baker,
 
 ## Current projects
 
-[Urban Nature Project](/urban-nature-project): monitoring and understanding urban biodiversity in the UK
+[NHM Living Labs](/nhm-living-labs)
 
 - [Urban Research Station](/urban-research-station): A sensor network and hub for researching urban biodiversity.
 
 - [Nature Overheard](https://ebaker.me.uk/nature-overheard): Community Science project including acoustic monitoring.
 
-- [FlyTunes](/flytunes): Crowd-sourcing training sets of audio clips for machine learning.
+  - [FlyTunes](/flytunes): Crowd-sourcing training sets of audio clips for machine learning.
 
 [Student Projects](/student-projects)
 
