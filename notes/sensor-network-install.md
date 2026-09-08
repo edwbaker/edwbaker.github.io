@@ -10,7 +10,7 @@ This page documents the installation of the sensor network part of the [Urban Re
 
 ## First-fix
 
-The first-fix phase of the sensor network installation involved installing the infrastructure to support the sensor devices. This included running rigid ducting, installing waterproof Ethernet sockets, and installing groundscrews to support the devices. This work was mostly completed by the building contractors during the construction phase of the Urban Nature Project. The ground screws were installed by the Urban Research Team.
+The first-fix phase of the sensor network installation involved installing the infrastructure to support the sensor devices. This included running rigid ducting, installing waterproof Ethernet sockets, and installing groundscrews to support the devices. This work was mostly completed by the building contractors during the construction phase of the Urban Nature Project. The groundscrews were installed by the Urban Research Team.
 
 {% include figure.html img="/imgs/sensor-network-install/ducting.jpg" alt="Ducting in inspection chamber." caption="Ducting in inspection chamber." %}
 ToDo: illustration of ducts, conduit, devices.
@@ -21,7 +21,7 @@ Waterproof Ethernet sockets were installed in the inspection chambers during the
 
 Rigid ducting was run from the inspection chambers into the garden beds. The ducting emerges in a garden bed and needs to be cut below ground level.
 
-{% include figure.html img="/imgs/sensor-network-install/duct-uncut.jpg" alt="Uncut rigiduct." caption="Uncut rigiduct." %}
+{% include figure.html img="/imgs/sensor-network-install/duct-uncut.jpg" alt="Uncut rigid duct." caption="Uncut rigid duct." %}
 
 The ducting is cut and a cover placed over to prevent soil ingress. Conduit is run from the duct end to the sensors to protect the cables from damage during landscaping work.
 
@@ -35,7 +35,7 @@ Groundscrews were installed in the garden to securely support the sensor devices
  
 ## Second-fix
 
-The second-fix phase involved installing the sensor nodes themselves. The sensor nodes are [Raspberry Pi](/raspberrypi) based devices inside plastic enclosures. The enclosures are mounted on the groundscrews and connected to the Ethernet sockets in the inspection chambers. Some sensors (e.g. microphones) are mounted within the enclosures and are isntalled at this stage.
+The second-fix phase involved installing the sensor nodes themselves. The sensor nodes are [Raspberry Pi](/raspberrypi)-based devices inside plastic enclosures. The enclosures are mounted on the groundscrews and connected to the Ethernet sockets in the inspection chambers. Some sensors (e.g. microphones) are mounted within the enclosures and are installed at this stage.
 
 Ethernet cables between sensor nodes and Ethernet sockets are installed in steel-reinforced flexible conduit to protect them from later landscaping work. The conduit is buried below ground level to protect it from damage.
 
