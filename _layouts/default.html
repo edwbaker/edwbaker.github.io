@@ -12,9 +12,67 @@
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      "name": "{{ site.author }}",
-      "url": "{{ site.url }}",
-      "sameAs": [{% for link in site.social.links %}"{{ link }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+      "@id": "https://ebaker.me.uk/#me",
+      "name": "Ed Baker",
+      "givenName": "Ed",
+      "familyName": "Baker",
+      "honorificSuffix": "FLS ARCS",
+      "url": "https://ebaker.me.uk/",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": "0000-0002-5887-9543"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://ebaker.me.uk/"
+      },
+      "description": "Interdisciplinary researcher using sensor networks and acoustics to monitor biodiversity and environments.",
+      "jobTitle": "Acoustic Biology Researcher",
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Acoustic Biology Researcher",
+        "occupationalCategory": "Researcher"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Natural History Museum",
+        "url": "https://www.nhm.ac.uk/"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Imperial College London",
+        "url": "https://www.imperial.ac.uk/"
+      },
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Royal Entomological Society"
+        },
+        {
+          "@type": "Organization",
+          "name": "Linnean Society of London"
+        },
+        {
+          "@type": "Organization",
+          "name": "Phasmid Study Group"
+        }
+      ],
+      "knowsAbout": [
+        "Bioacoustics",
+        "Ecoacoustics",
+        "Biodiversity monitoring",
+        "Sensor networks",
+        "Orthoptera",
+        "Phasmida"
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-5887-9543",
+        "https://www.wikidata.org/wiki/Q30513172",
+        "https://pure.york.ac.uk/portal/en/persons/ed-baker/",
+        "https://github.com/edwbaker",
+        "https://scholar.google.com/citations?user=44XAtwYAAAAJ",
+        "https://medium.ebaker.me.uk/"
+      ]
     }
     </script>
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
