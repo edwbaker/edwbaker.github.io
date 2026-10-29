@@ -13,6 +13,15 @@ note_category: "Bioacoustics"
 
 - [Bioacoustic and Ecoacoustic Data in Audiovisual Core](https://ebaker.me.uk/talks/2024-09-tdwg) Talk at SPNHC-TDWG 2024 Conference (Okinawa, Japan)
 
+## Annotations in wavesurfer.js
+
+- [wavesurfer-annotations](https://wavesurfer-annotations.acousti.cloud/) Displays annotations as time regions on the waveform and, when frequency bounds are available, as boxes on the spectrogram. It accepts Audiovisual Core terms or plain annotation objects.
+
+### Related work
+
+- [Making wavesurfer.js faster for long, heavily annotated recordings]({% post_url 2026-10-12-faster-wavesurfer-js %}) Covers performance changes to wavesurfer.js and the annotations plugin, including a layout optimization that skips boxes that have not moved (about 2.2–2.4 times faster).
+
+
 ## Tools for handling annotations in R
 
 These functions define a new object class `Annotations` and associated functions that can be used to store, manipulate, edit and save annotations.
