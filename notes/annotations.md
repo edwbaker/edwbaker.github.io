@@ -7,7 +7,7 @@ note_category: "Bioacoustics"
 
 ## Data standards
 
-- [TDDWG Audiovisal Core Regions of Interest Vocabulary](https://ac.tdwg.org/termlist/#711-region-of-interest-vocabulary)
+- [TDWG Audiovisual Core Regions of Interest Vocabulary](https://ac.tdwg.org/termlist/#712-region-of-interest-vocabulary)
 
 - [TDWG Audiovisual Core Regions of Interest Recipes](https://github.com/tdwg/ac/blob/master/roi-recipes.md)
 
@@ -24,23 +24,35 @@ note_category: "Bioacoustics"
 
 ## Tools for handling annotations in R
 
-These functions define a new object class `Annotations` and associated functions that can be used to store, manipulate, edit and save annotations.
+These functions define a new object class `Annotation` and associated functions that can be used to store, manipulate, edit and save annotations.
 
 - [`Annotation` class in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/Annotation-class.html) Defines the `Annotation` class.
 
-- `merge_annotations()` in `sonicscrewdriver` Used to merge overlapping or adjacent `Annotation` objects.
+- [`annotation()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/annotation.html) Creates an `Annotation` object.
 
-- `sort_annotations()` in `sonicscrewdriver` Used to sort a list of `Annotation` objects.
+- [`merge_annotations()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/merge_annotations.html) Used to merge overlapping or adjacent `Annotation` objects.
+
+- [`sort_annotations()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/sort_annotations.html) Used to sort a list of `Annotation` objects.
+
+- [`AnnotationList2DataFrame()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/AnnotationList2DataFrame.html) Converts a list of `Annotation` objects to a data frame, with a column for each metadata field.
 
 ### Sources of annotations
 
-- [`birdNetAnalyse()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/birdNetAnalyse.html) Can optionally output identifications as `Annotation` objects.
+- [`birdNetAnalyse()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/birdNetAnalyse.html) Outputs identifications as `Annotation` objects, or optionally as a data frame.
+
+- [`readAudacityLabels()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/readAudacityLabels.html) Reads an Audacity label file, including any frequency limits, as `Annotation` objects.
+
+- [`audioblast()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/audioblast.html) Fetches annotations from the audioBlast annomate module as `Annotation` objects, with `output="Annotations"`.
+
+- [`wavCues()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/wavCues.html) Reads the cue points and labelled regions that audio editors save in a wave file as `Annotation` objects.
 
 - `flytunes_annotations()` in `NHMDE` Outputs `Annotation` objects from Zooniverse exports of the FlyTunes project.
 
 ### Saving annotations
 
-- [`writeAudacityLabels` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/writeAudacityLabels.html) Writes a list of `Annotation` objects as a label file for the audio editor Audacity.
+- [`writeAudacityLabels()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/writeAudacityLabels.html) Writes a list of `Annotation` objects as a label file for the audio editor Audacity.
+
+- [`writeAnnotationWave()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/writeAnnotationWave.html) Saves the time region of each `Annotation` object as a wave file.
 
 ### Miscellany
 
