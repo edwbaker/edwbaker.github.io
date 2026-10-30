@@ -42,7 +42,7 @@ These functions define a new object class `Annotation` and associated functions 
 
 - [`readAudacityLabels()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/readAudacityLabels.html) Reads an Audacity label file, including any frequency limits, as `Annotation` objects.
 
-- [`audioblast()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/audioblast.html) Fetches annotations from the audioBlast annomate module as `Annotation` objects, with `output="Annotations"`.
+- [`audioblast()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/audioblast.html) Fetches annotations from the audioBlast annomate module as `Annotation` objects, with `output="Annotation"`.
 
 - [`wavCues()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/wavCues.html) Reads the cue points and labelled regions that audio editors save in a wave file as `Annotation` objects.
 
