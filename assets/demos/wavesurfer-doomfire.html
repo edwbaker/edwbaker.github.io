@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DoomFire: Prophalangopsis obscura reconstructed song</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 16px;
+      background: #070707;
+      color: #ece5d9;
+      font: 14px/1.5 system-ui, sans-serif;
+      color-scheme: dark;
+    }
+    #waveform { height: 180px; }
+    audio { display: block; width: 100%; margin-top: 12px; }
+    #status { margin: 8px 0 0; }
+  </style>
+</head>
+<body>
+  <div id="waveform" aria-hidden="true"></div>
+  <audio controls preload="metadata" src="../../sounds/20222_Prophalangopsis.wav" aria-label="Prophalangopsis obscura reconstructed song"></audio>
+  <p id="status" role="status">Loading waveform...</p>
+  <noscript>The waveform needs JavaScript. You can still listen using the audio controls.</noscript>
+  <script src="https://cdn.audioblast.org/wavesurfer/8.0.3/wavesurfer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/edwbaker/wavesurfer-doomfire@4cc21ebe15e85e6c5d61943311e581a10a99ae8a/dist/doomfire.min.js"></script>
+  <script>
+    const status = document.getElementById('status');
+    const audio = document.querySelector('audio');
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    function showError(error) {
+      console.error('DoomFire player:', error);
+      status.textContent = 'The waveform could not be loaded. Try the audio controls or the recording link in the post.';
+    }
+
+    audio.addEventListener('error', () => showError(audio.error));
+
+    try {
+      if (!window.WaveSurfer || !WaveSurfer.DoomFire) {
+        throw new Error('The WaveSurfer or DoomFire script could not be loaded.');
+      }
+
+      const ws = WaveSurfer.create({
+        container: '#waveform',
+        media: audio,
+        url: audio.src,
+        height: 180,
+        barHeight: 0.6,
+        waveColor: '#9a9187',
+        progressColor: '#f6c56b',
+        cursorColor: '#ffffff'
+      });
+      let fire;
+
+      function updateMotion() {
+        if (reducedMotion.matches) {
+          if (fire) {
+            fire.destroy();
+            fire = undefined;
+          }
+          status.textContent = 'Fire animation off: reduced motion requested.';
+        } else {
+          if (!fire) {
+            fire = ws.registerPlugin(WaveSurfer.DoomFire.create({
+              source: 'progress',
+              burning: !audio.paused
+            }));
+          }
+          status.textContent = 'Press play to light the waveform.';
+        }
+      }
+
+      ws.on('error', showError);
+      ws.on('ready', updateMotion);
+      ws.on('play', () => { if (fire) fire.ignite(); });
+      ws.on('pause', () => { if (fire) fire.extinguish(); });
+      ws.on('finish', () => { if (fire) fire.extinguish(); });
+      reducedMotion.addEventListener('change', updateMotion);
+    } catch (error) {
+      showError(error);
+    }
+  </script>
+</body>
+</html>
