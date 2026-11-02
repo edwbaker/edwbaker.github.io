@@ -10,11 +10,11 @@ After working on [making wavesurfer.js faster]({% post_url 2026-10-12-faster-wav
 
 It brings the fire effect from the PlayStation version of DOOM to wavesurfer.js. The waveform becomes the fuel: louder passages burn hotter, and the flames climb off the bars. During playback the sound stokes the fire, with sparks thrown from the playhead.
 
-Press play below to try it with the reconstructed song of [*Prophalangopsis obscura*]({{ '/notes/prophalangopsis' | relative_url }}) from Woodrow et al. (2022). Nothing plays automatically.
+Press play below to try it with the reconstructed song of [*Prophalangopsis obscura*]({{ '/notes/prophalangopsis' | relative_url }}) from Woodrow et al. (2022).
 
 <iframe src="{{ '/assets/demos/wavesurfer-doomfire.html' | relative_url }}" title="DoomFire waveform player: Prophalangopsis obscura reconstructed song" width="100%" height="340" loading="lazy" style="border: 0; border-radius: 6px;"></iframe>
 
-[Open the player separately]({{ '/assets/demos/wavesurfer-doomfire.html' | relative_url }}) or [listen to the reconstructed song directly]({{ '/sounds/20222_Prophalangopsis.wav' | relative_url }}). The embedded player leaves the fire off if your browser requests reduced motion.
+[Open the player separately]({{ '/assets/demos/wavesurfer-doomfire.html' | relative_url }}) or [listen to the reconstructed song directly]({{ '/sounds/20222_Prophalangopsis.wav' | relative_url }}).
 
 The effect uses a small grid of heat values. Heat spreads upwards from the fuel, cooling and drifting as it goes, then a palette turns those values into pixels from dark embers to white-hot flames. It builds on Filipe Deschamps' [doom-fire-algorithm](https://github.com/filipedeschamps/doom-fire-algorithm).
 
