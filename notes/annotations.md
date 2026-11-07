@@ -30,11 +30,13 @@ These functions define a new object class `Annotation` and associated functions 
 
 - [`annotation()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/annotation.html) Creates an `Annotation` object.
 
-- [`merge_annotations()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/merge_annotations.html) Used to merge overlapping or adjacent `Annotation` objects.
+- [`merge_annotations()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/merge_annotations.html) Used to merge overlapping or adjacent `Annotation` objects. By default it merges only annotations made by the same person or software, so that each merged annotation is credited to the right one.
 
 - [`sort_annotations()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/sort_annotations.html) Used to sort a list of `Annotation` objects.
 
 - [`AnnotationList2DataFrame()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/AnnotationList2DataFrame.html) Converts a list of `Annotation` objects to a data frame, with a column for each metadata field.
+
+An `Annotation` records [who made it and when](https://sonicscrewdriver.ebaker.me.uk/dev/reference/Annotation-class.html) as `identifiedBy` and `dateIdentified`, the Audiovisual Core terms `dwc:identifiedBy` and `dwc:dateIdentified` for a region of interest. Its `source` says where it came from, such as the software or the collection. The functions below that read annotations fill these in where the source records them: the annotator in audioBlast, the user in AOEF, the volunteer in FlyTunes, and the model and its version in BirdNET.
 
 ### Sources of annotations
 
@@ -46,6 +48,8 @@ These functions define a new object class `Annotation` and associated functions 
 
 - [`wavCues()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/wavCues.html) Reads the cue points and labelled regions that audio editors save in a wave file as `Annotation` objects.
 
+- [`readAOEF()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/readAOEF.html) Reads a file in the Acoustic Objects Exchange Format (AOEF), the JSON format of the soundevent Python package and of projects exported from the Whombat annotation tool, as `Annotation` objects.
+
 - `flytunes_annotations()` in `NHMDE` Outputs `Annotation` objects from Zooniverse exports of the FlyTunes project.
 
 ### Saving annotations
@@ -53,6 +57,8 @@ These functions define a new object class `Annotation` and associated functions 
 - [`writeAudacityLabels()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/reference/writeAudacityLabels.html) Writes a list of `Annotation` objects as a label file for the audio editor Audacity.
 
 - [`writeAnnotationWave()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/writeAnnotationWave.html) Saves the time region of each `Annotation` object as a wave file.
+
+- [`writeAOEF()` in `sonicscrewdriver`](https://sonicscrewdriver.ebaker.me.uk/dev/reference/writeAOEF.html) Writes a list of `Annotation` objects as an AOEF file, which soundevent reads and Whombat imports as an annotation project.
 
 ### Miscellany
 
